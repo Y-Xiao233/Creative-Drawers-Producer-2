@@ -1,0 +1,343 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "infinitytitle"
+	group: ""
+	icon: {
+		id: "kubejs:infinity_essence"
+	}
+	id: "75589DF8F9F58D49"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["53761E40BCFD1767"]
+			icon: {
+				id: "kubejs:infinity_essence"
+			}
+			id: "3A6B4DA76A600D3C"
+			rewards: [{
+				id: "7F11C2F3D8F5EC37"
+				item: {
+					count: 1
+					id: "kubejs:infinity_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "545B3384A4ADA308"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["08FCFEC073FADAE4"]
+			icon: {
+				id: "ae2:certus_quartz_wrench"
+			}
+			id: "24489B3F47CD982C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54F14AF0EACBCA22"
+				table_id: 3692510757787853366L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "0145D9E7C8AF9ED5"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["08FCFEC073FADAE4"]
+			icon: {
+				components: {
+					"akashictome:tool_content": [
+						{
+							components: {
+								"akashictome:defined_mod": "cookingforblockheads"
+							}
+							count: 1
+							id: "cookingforblockheads:recipe_book"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "cookingforblockheads_0"
+							}
+							count: 1
+							id: "cookingforblockheads:crafting_book"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "ae2"
+							}
+							count: 1
+							id: "ae2:guide"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "packagedauto"
+								"patchouli:book": "packagedauto:guide"
+							}
+							count: 1
+							id: "patchouli:guide_book"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "justdirethings"
+								"patchouli:book": "justdirethings:justdirethingsbook"
+							}
+							count: 1
+							id: "patchouli:guide_book"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "industrialforegoing"
+								"patchouli:book": "industrialforegoing:industrial_foregoing"
+							}
+							count: 1
+							id: "patchouli:guide_book"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "buildinggadgets2"
+								"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+							}
+							count: 1
+							id: "patchouli:guide_book"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "mysticalagriculture"
+								"patchouli:book": "mysticalagriculture:guide"
+							}
+							count: 1
+							id: "patchouli:guide_book"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "naturesaura"
+								"patchouli:book": "naturesaura:book"
+							}
+							count: 1
+							id: "patchouli:guide_book"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "modularrouters"
+								"patchouli:book": "modularrouters:book"
+							}
+							count: 1
+							id: "patchouli:guide_book"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "laserio"
+								"patchouli:book": "laserio:laseriobook"
+							}
+							count: 1
+							id: "patchouli:guide_book"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "extendedcrafting"
+								"patchouli:book": "extendedcrafting:guide"
+							}
+							count: 1
+							id: "patchouli:guide_book"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "ftbquests"
+							}
+							count: 1
+							id: "ftbquests:book"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "ars_nouveau"
+							}
+							count: 1
+							id: "ars_nouveau:worn_notebook"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "actuallyadditions"
+							}
+							count: 1
+							id: "actuallyadditions:booklet"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "occultism"
+							}
+							count: 1
+							id: "occultism:dictionary_of_spirits"
+						}
+						{
+							components: {
+								"akashictome:defined_mod": "powah"
+							}
+							count: 1
+							id: "powah:book"
+						}
+					]
+				}
+				id: "akashictome:tome"
+			}
+			id: "1799BCC4AD713A3A"
+			rewards: [{
+				id: "64989D03027B8151"
+				item: {
+					components: {
+						"akashictome:tool_content": [
+							{
+								components: {
+									"akashictome:defined_mod": "cookingforblockheads"
+								}
+								count: 1
+								id: "cookingforblockheads:recipe_book"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "cookingforblockheads_0"
+								}
+								count: 1
+								id: "cookingforblockheads:crafting_book"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "ae2"
+								}
+								count: 1
+								id: "ae2:guide"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "packagedauto"
+									"patchouli:book": "packagedauto:guide"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "justdirethings"
+									"patchouli:book": "justdirethings:justdirethingsbook"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "industrialforegoing"
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "buildinggadgets2"
+									"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "mysticalagriculture"
+									"patchouli:book": "mysticalagriculture:guide"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "naturesaura"
+									"patchouli:book": "naturesaura:book"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "modularrouters"
+									"patchouli:book": "modularrouters:book"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "laserio"
+									"patchouli:book": "laserio:laseriobook"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "extendedcrafting"
+									"patchouli:book": "extendedcrafting:guide"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "ftbquests"
+								}
+								count: 1
+								id: "ftbquests:book"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "ars_nouveau"
+								}
+								count: 1
+								id: "ars_nouveau:worn_notebook"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "actuallyadditions"
+								}
+								count: 1
+								id: "actuallyadditions:booklet"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "occultism"
+								}
+								count: 1
+								id: "occultism:dictionary_of_spirits"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "powah"
+								}
+								count: 1
+								id: "powah:book"
+							}
+						]
+					}
+					count: 1
+					id: "akashictome:tome"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F92E67E7DCE2F79"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+}

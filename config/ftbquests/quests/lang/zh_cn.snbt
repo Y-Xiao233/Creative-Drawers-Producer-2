@@ -1,0 +1,76 @@
+{
+	chapter.08FCFEC073FADAE4.title: "{welcome.title}"
+	chapter.32013AE21D255BBB.title: "{2.4.title}"
+	chapter.3ECFE7AAFA60BD02.title: "{2.2.title}"
+	chapter.523B62095ADC3A52.title: "{2.3.title}"
+	chapter.56CC6D20818D693E.title: "{1.5.title}"
+	chapter.5C09CB686C0AD8AE.title: "{2.1.title}"
+	chapter.5DE9749E9E947246.title: "{3.1.title}"
+	chapter.688DFEEFCB6064C7.title: "{1.1.title}"
+	chapter.6DBEA54738D91E4C.title: "{1.2.title}"
+	chapter.75589DF8F9F58D49.title: "{infinity.title}"
+	chapter.7795E4B414C16CBC.title: "{1.4.title}"
+	chapter.7EC734EE6A514042.title: "{1.3.title}"
+	chapter_group.1C2A470856957F12.title: "{3.title}"
+	chapter_group.2C760B56348CCBEA.title: "{1.title}"
+	chapter_group.6C04C75DA6198D20.title: "{2.title}"
+	file.0000000000000001.title: "{title}"
+	quest.11C13E5E021F9296.quest_desc: ["{1.1.1.desc0}"]
+	quest.16839FE4EAD3429A.quest_desc: ["{welcome.3.desc0}"]
+	quest.1799BCC4AD713A3A.title: "{reward.tome}"
+	quest.216E7546751CB69E.quest_desc: ["{1.4.1.desc0}"]
+	quest.23AB7A022EE88549.quest_desc: [
+		"{1.4.0.desc0}"
+		""
+		"{1.4.0.desc1}"
+		"{image:kubejs:textures/ftbquests/soul.png width:100 height:115 align:center fit:true}"
+	]
+	quest.24489B3F47CD982C.title: "{reward.wrench}"
+	quest.2D115A134B66F55D.title: "{1.1.0.title}"
+	quest.358D3F61E4227462.quest_desc: ["{1.1.2.desc0}"]
+	quest.381170C2E05A9994.quest_desc: [
+		"{welcome.0.desc0}"
+		"{welcome.0.desc1}"
+	]
+	quest.38E1C70D7C57A874.quest_desc: ["{2.2.1.desc0}"]
+	quest.3A6B4DA76A600D3C.title: "{infinity.0.title}"
+	quest.480AD429A335B272.quest_desc: [
+		"{welcome.4.desc0}"
+		"{welcome.4.desc1}"
+		"{welcome.4.desc2}"
+		"{welcome.4.desc3}"
+		"{welcome.4.desc4}"
+		""
+		"{welcome.4.desc5}"
+		"{welcome.4.desc6}"
+		"{welcome.4.desc7}"
+		""
+		"{welcome.4.desc8}"
+		"{welcome.4.desc9}"
+		"{welcome.4.desc10}"
+		"{welcome.4.desc11}"
+	]
+	quest.48FEAD6C354166C8.quest_desc: [
+		"{welcome.2.desc0}"
+		"{welcome.2.desc1}"
+		"{welcome.2.desc2}"
+		"{welcome.2.desc3}"
+	]
+	quest.4F11D50B1DB2EFC8.quest_desc: [
+		"{welcome.1.desc0}"
+		"{welcome.1.desc1}"
+		"{welcome.1.desc2}"
+	]
+	quest.4F11D50B1DB2EFC8.quest_subtitle: "{welcome.1.subtitle}"
+	quest.53761E40BCFD1767.title: "{1.2.0.title}"
+	quest.5E48F37AC51237CA.quest_desc: ["{image:kubejs:textures/ftbquests/light.png width:160 height:100 align:center fit:true}"]
+	quest.7C5FE655D7F9E2D7.quest_desc: ["{2.2.1.desc0}"]
+	reward_table.025ADA68F12A1930.title: "{reward.common}"
+	reward_table.333E6EF86F40E236.title: "{reward.wrench}"
+	task.14F02AE0782620D1.title: "{welcome.2.title}"
+	task.3A2F0DAF42B8E78D.title: "{welcome.0.title}"
+	task.6BA7D5A1935EE818.title: "{welcome.1.title}"
+	task.6C32B854BAC74BA2.title: "{1.2.0.task0.title}"
+	task.7E4CAB1B73136BDE.title: "{welcome.3.title}"
+	task.7F2019EBC0A476DD.title: "{welcome.4.title}"
+}

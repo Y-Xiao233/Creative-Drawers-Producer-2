@@ -1,0 +1,12 @@
+{
+    "biome_tags":[
+       "cdp2:naquadah_ore"
+    ],
+    "entries":[
+        {
+            "ore":"mekanism_extras:naquadah_ore",
+            "weight":1
+        }
+    ],
+    "replace":true
+}

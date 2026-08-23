@@ -1,0 +1,41 @@
+{
+    "tip.cdp2.gamerule_false": "Game rule %d has been set to: false",
+    "tip.cdp2.gamerule_true": "Game rule %d has been set to: true",
+    "tip.cdp2.command_disabled": "This command has been disabled",
+    "tip.cdp2.disabled_sapling": "Planting saplings is disabled",
+    "tip.cdp2.disabled": "§cThis item is disabled",
+    "tip.cdp2.nether_star": "§cCannot be obtained by killing the Wither",
+    "tip.cdp2.charged_snowball": "§cCharged snowballs are prohibited from summoning lightning",
+
+    "debug.cdp2.success": "Execution successful",
+    "debug.cdp2.not_found": "Corresponding function not found",
+    "debug.cdp2.extra_parameter": "Function requires additional parameters",
+    "debug.cdp2.no_extra_parameter": "Function does not require additional parameters",
+
+    "chemical.kubejs.void": "Void",
+    "chemical.kubejs.flux": "Flux",
+    "chemical.kubejs.crystal": "Crystal",
+    "chemical.kubejs.whirlwind": "Whirlwind",
+    "chemical.kubejs.sea": "Sea",
+    "chemical.kubejs.nature": "Nature",
+    "chemical.kubejs.quantum": "Quantum",
+    "chemical.kubejs.rubber": "Rubber",
+
+    "infinities_cell.kubejs.essence": "Essence",
+    "infinities_cell.kubejs.lightning": "Lightning",
+    
+    "item.kubejs.blank_prism": "Blank Prism",
+    "item.kubejs.arcanus_print_press": "Arcanus Print Press",
+    "item.kubejs.arcanus_processor": "Arcanus Processor",
+    "item.kubejs.printed_arcanus_processor": "Printed Arcanus Circuit Board",
+    "item.ae2cs.amethyst_seed": "Amethyst Seed",
+    "item.kubejs.nature_prism": "Nature Prism",
+    "item.kubejs.quantum_prism": "Quantum Prism",
+    "item.kubejs.enchanted_time_crystal": "Enchanted Time Crystal",
+    "item.kubejs.colorful_star": "Colorful Star",
+    "item.kubejs.ultra4_hyperdimensional_topological_lattice": "UltraUltraUltraUltra Hyperdimensional Topological Lattice",
+    "item.kubejs.cosmic_origin_topological_lattice": "Cosmic Origin Topological Lattice",
+
+    "item.cdp2.cozy_home": "Cozy Home",
+    "cdp2.ritual_desc.cozy_home": "§bWelcome back to your cozy home"
+}

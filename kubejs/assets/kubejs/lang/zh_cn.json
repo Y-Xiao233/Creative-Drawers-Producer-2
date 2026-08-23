@@ -1,0 +1,41 @@
+{
+    "tip.cdp2.gamerule_false":"游戏规则%d已被设为: false",
+    "tip.cdp2.gamerule_true":"游戏规则%d已被设为: true",
+    "tip.cdp2.command_disabled":"该命令已被禁用",
+    "tip.cdp2.disabled_sapling":"禁止种植树苗",
+    "tip.cdp2.disabled":"§c此物品被禁用",
+    "tip.cdp2.nether_star":"§c无法通过击杀凋零获得",
+    "tip.cdp2.charged_snowball":"§c带电雪球已被禁止召唤闪电",
+
+    "debug.cdp2.success":"执行成功",
+    "debug.cdp2.not_found":"未找到对应函数",
+    "debug.cdp2.extra_parameter":"函数需要额外参数",
+    "debug.cdp2.no_extra_parameter":"函数不需要额外参数",
+
+    "chemical.kubejs.void":"虚空",
+    "chemical.kubejs.flux":"通量",
+    "chemical.kubejs.crystal":"水晶",
+    "chemical.kubejs.whirlwind":"旋风",
+    "chemical.kubejs.sea":"海洋",
+    "chemical.kubejs.nature":"自然",
+    "chemical.kubejs.quantum":"量子",
+    "chemical.kubejs.rubber":"橡胶",
+
+    "infinities_cell.kubejs.essence":"精华",
+    "infinities_cell.kubejs.lightning":"闪电",
+    
+    "item.kubejs.blank_prism":"空白棱晶",
+    "item.kubejs.arcanus_print_press":"奥秘压印模板",
+    "item.kubejs.arcanus_processor":"奥秘处理器",
+    "item.kubejs.printed_arcanus_processor":"奥秘电路板",
+    "item.ae2cs.amethyst_seed":"紫水晶种子",
+    "item.kubejs.nature_prism":"自然棱晶",
+    "item.kubejs.quantum_prism":"量子棱晶",
+    "item.kubejs.enchanted_time_crystal":"附魔时间水晶",
+    "item.kubejs.colorful_star":"七彩之星",
+    "item.kubejs.ultra4_hyperdimensional_topological_lattice":"超超超超超维度拓扑晶格",
+    "item.kubejs.cosmic_origin_topological_lattice":"宇宙本源拓扑晶格",
+
+    "item.cdp2.cozy_home":"温馨的家",
+    "cdp2.ritual_desc.cozy_home":"§b欢迎回到温馨的家"
+}

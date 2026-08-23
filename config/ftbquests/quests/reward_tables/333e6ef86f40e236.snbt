@@ -1,0 +1,32 @@
+{
+	id: "333E6EF86F40E236"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "2CA180353069590D", item: { count: 1, id: "entangled:item" } }
+		{ id: "1C21CB92FBB5D543", item: { count: 1, id: "logisticsnetworks:wrench" } }
+		{ id: "176E9ACF78248FBD", item: { count: 1, id: "modularrouters:override_card" } }
+		{ id: "2CB7260C2DC66DA4", item: { count: 1, id: "botanypotconfigurationcard:configuration_card" } }
+		{ id: "5D4B1A21BABF6A29", item: { count: 1, id: "ae2:memory_card" } }
+		{ id: "0273D4DB7D4349A9", item: { count: 1, id: "industrialforegoing:machine_settings_copier" } }
+		{ id: "7332B2B793D063D2", item: { count: 1, id: "fluxnetworks:flux_configurator" } }
+		{ id: "08035D5D73FD8CDE", item: { count: 1, id: "justdirethings:ferricore_wrench" } }
+		{ id: "2A09C81271266F1B", item: { count: 1, id: "powah:wrench" } }
+		{ id: "10C44169C49F6E12", item: { count: 1, id: "pipez:wrench" } }
+		{ id: "7D0B10EB6D4631D0", item: { count: 1, id: "mekanism:configurator" } }
+		{ id: "51C530E976F5CC2F", item: { count: 1, id: "justdirethings:machinesettingscopier" } }
+		{ id: "0D16CB07D0B9D713", item: { count: 1, id: "fluxnetworks:admin_configurator" } }
+		{ id: "66B90A9FCE713D8B", item: { count: 1, id: "create:wrench" } }
+		{ id: "4A02F6D13B244881", item: { count: 1, id: "ae2:nether_quartz_wrench" } }
+		{ id: "5270851AB80026DB", item: { count: 1, id: "ifeu:wrench" } }
+		{ id: "720309460587AD97", item: { count: 1, id: "laserio:laser_wrench" } }
+		{ id: "6373CE38F85B758D", item: { count: 1, id: "ars_nouveau:dominion_wand" } }
+		{ id: "1671FD87F452CE64", item: { count: 1, id: "advanced_ae:throughput_monitor_configurator" } }
+		{ id: "1133A4CEA9E0549B", item: { count: 1, id: "actuallyadditions:laser_wrench" } }
+		{ id: "28E1149751B5AD40", item: { count: 1, id: "ae2:certus_quartz_wrench" } }
+		{ id: "63B1C579EF5DE4E9", item: { count: 1, id: "mekanism:configuration_card" } }
+		{ id: "0E53A31D16EA308A", item: { count: 1, id: "avaritia:side_config_card" } }
+		{ id: "2DB4E1D49D3381C7", item: { count: 1, id: "functionalstorage:configuration_tool" } }
+		{ id: "242EF19AC118E247", item: { count: 1, id: "functionalstorage:linking_tool" } }
+	]
+}

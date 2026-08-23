@@ -1,0 +1,9 @@
+CDPRegistryEvents.block(event =>{
+    event.createCreativeDrawer("crystal_matrix_creative_drawer","avaritia:crystal_matrix_ingot")
+    event.createCreativeDrawer("gold_leaf_creative_drawer",'naturesaura:gold_leaf')
+    event.createCreativeDrawer("shattered_singularity_creative_drawer",'advanced_ae:shattered_singularity')
+    event.createCreativeDrawer("black_iron_ingot_creative_drawer",'extendedcrafting:black_iron_ingot')
+    event.createCreativeDrawer("reprocessed_fissile_fragment_creative_drawer",'mekanism:reprocessed_fissile_fragment')
+    event.createCreativeDrawer("the_ultimate_ingot_creative_drawer",'extendedcrafting:the_ultimate_ingot')
+    event.createCreativeDrawer("infinity_catalyst_creative_drawer",'avaritia:infinity_catalyst')
+})

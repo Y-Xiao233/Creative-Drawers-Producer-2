@@ -1,0 +1,579 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "21title"
+	group: "6C04C75DA6198D20"
+	icon: {
+		id: "mekanism_extras:absolute_control_circuit"
+	}
+	id: "5C09CB686C0AD8AE"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3F9794A53990D9BC"]
+			id: "0239E1B8A5A6C9CE"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2042F60D717BA76F"
+				item: { count: 1, id: "cdp2:black_iron_ingot_creative_drawer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0239E1B8A5A6C9CE"]
+			id: "1EBA371C771A154A"
+			tasks: [{
+				id: "300CC20C3C03BC87"
+				item: { count: 1, id: "extendedcrafting:black_iron_slate" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EBA371C771A154A"]
+			id: "32A28FADA804236B"
+			tasks: [{
+				id: "40D1C899695C9EF9"
+				item: { count: 1, id: "extendedcrafting:compressor" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32A28FADA804236B"]
+			id: "69057C46EC4A7833"
+			tasks: [{
+				id: "102496617102B70A"
+				item: { count: 1, id: "mysticalagradditions:insanium_essence" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69057C46EC4A7833"]
+			id: "0EA911A52400886E"
+			tasks: [{
+				id: "6E7CC4ED2FECFAC5"
+				item: { count: 1, id: "forbidden_arcanus:aurum_sapling" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0EA911A52400886E"]
+			id: "0A498447079156C1"
+			tasks: [{
+				id: "1D6A654D3CBD5B33"
+				item: { count: 1, id: "forbidden_arcanus:aurum_leaves" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69057C46EC4A7833"]
+			id: "6E8C8D8728D20635"
+			tasks: [{
+				id: "62CD5119442D5AAE"
+				item: { components: { "mekanism:energy": { energy_containers: [L;16800L] } }, count: 1, id: "mekmm:ambient_gas_collector" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A498447079156C1"]
+			id: "699D06752BC4D57B"
+			tasks: [{
+				id: "3DC5027F035C8FFB"
+				item: { count: 1, id: "mekmm:scrap" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"699D06752BC4D57B"
+				"6E8C8D8728D20635"
+			]
+			id: "29820FEB8F2078B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C47CDBD949C252C"
+				table_id: 169688080237336880L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32E91587F5EE1DB5"
+				item: { count: 1, id: "mekmm:scrap_box" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29820FEB8F2078B2"]
+			id: "75B897D7EEB55B1F"
+			tasks: [{
+				id: "49638983522F9FB5"
+				item: { count: 1, id: "mekanism_extras:dust_radiance" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75B897D7EEB55B1F"]
+			id: "3F7BB1F0CBF35E5A"
+			tasks: [{
+				id: "4907931058587D23"
+				item: { count: 1, id: "mekanism_extras:alloy_radiance" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75B897D7EEB55B1F"]
+			id: "44B73AE4D500BCF1"
+			tasks: [{
+				id: "40AB47BD8F1BBD70"
+				item: { count: 1, id: "jdte:time_fluid_catalyst" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44B73AE4D500BCF1"]
+			id: "2ED9F0260030B48F"
+			tasks: [{
+				id: "7ED66F19DA02769D"
+				item: { count: 1, id: "justdynathings:creative_goo" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2ED9F0260030B48F"]
+			id: "04AC1CD5C96A6A5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E05292F66D90F13"
+				table_id: 169688080237336880L
+				type: "random"
+			}]
+			tasks: [{
+				id: "138A3882AD3A2914"
+				item: { count: 1, id: "avaritia:nether_crafting_table" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04AC1CD5C96A6A5C"]
+			id: "5085149DB1D84837"
+			tasks: [{
+				id: "10A32C8377091DBA"
+				item: { count: 1, id: "avaritia:blaze_cube" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5085149DB1D84837"]
+			id: "2B948986F2FAA43E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3250774309D4AECC"
+				table_id: 169688080237336880L
+				type: "random"
+			}]
+			tasks: [{
+				id: "78BAC62D8554EFC2"
+				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2B948986F2FAA43E"
+				"26704E2E504B26D6"
+			]
+			id: "653EF155818984D1"
+			tasks: [{
+				id: "232788E63CCD0C09"
+				item: { count: 1, id: "cdp2:flux_infusion_enchantment_factory" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32A28FADA804236B"]
+			id: "26704E2E504B26D6"
+			tasks: [{
+				id: "486FE5FD902C5BFE"
+				item: { count: 1, id: "apothicenchantingaddition:flux_enchanting_table" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2B948986F2FAA43E"
+				"5E1FE68C169B1527"
+			]
+			id: "58671B7EB154B169"
+			tasks: [{
+				id: "7DBF36536A993D56"
+				item: { count: 1, id: "occultism:dimensional_mineshaft" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3F7BB1F0CBF35E5A"
+				"44B73AE4D500BCF1"
+			]
+			id: "5E1FE68C169B1527"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22FACCF2D4D456C4"
+				table_id: 169688080237336880L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6200E598D19981BA"
+				item: { count: 1, id: "createmoremachines:beyond_alloy" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E1FE68C169B1527"]
+			id: "54E41EB31847FF6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "766DB578BF92B05B"
+				table_id: 169688080237336880L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2E08397FE6A4E4AD"
+					item: { count: 1, id: "createmoremachines:beyond_deployer" }
+					type: "item"
+				}
+				{
+					id: "426603ABFF9C9C7B"
+					item: { count: 1, id: "createmoremachines:beyond_basin" }
+					type: "item"
+				}
+				{
+					id: "2E9AF47C631142CA"
+					item: { count: 1, id: "createmoremachines:beyond_mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "3486753C76C8D734"
+					item: { count: 1, id: "createmoremachines:beyond_spout" }
+					type: "item"
+				}
+				{
+					id: "37DAA6874DEDAC53"
+					item: { count: 1, id: "createmoremachines:beyond_depot" }
+					type: "item"
+				}
+				{
+					id: "72A820EB53F7106F"
+					item: { count: 1, id: "createmoremachines:beyond_mechanical_press" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5E1FE68C169B1527"]
+			id: "32DA864003CFB6F9"
+			tasks: [{
+				id: "567D266F660E1143"
+				item: { count: 1, id: "justdynathings:reforger" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["32DA864003CFB6F9"]
+			id: "287431121F60E26D"
+			tasks: [{
+				id: "0842B502C72CCC03"
+				item: { count: 1, id: "occultism:silver_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["287431121F60E26D"]
+			id: "3EFC853ACAB0D8F6"
+			tasks: [{
+				id: "29C194DEE533AE7F"
+				item: { components: { "occultism:max_mining_time": 400, "occultism:rolls_per_operation": 1 }, count: 1, id: "occultism:miner_foliot_unspecialized" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3EFC853ACAB0D8F6"
+				"58671B7EB154B169"
+			]
+			id: "73FF1D513D4648CF"
+			tasks: [{
+				id: "330E112B0714B01A"
+				item: { count: 1, id: "forbidden_arcanus:eternal_stella" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["73FF1D513D4648CF"]
+			id: "5BE8D3E3F3F5E196"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AC91D11571BF5F0"
+				table_id: 169688080237336880L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.8d
+			tasks: [{
+				id: "3A29EA7FB32283DD"
+				item: { count: 1, id: "ae2:creative_energy_cell" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["73FF1D513D4648CF"]
+			id: "4046076B8D67D92D"
+			tasks: [{
+				id: "1D663BE2C72BDCCA"
+				item: { count: 1, id: "cdp2:ritual_uphyxes" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["653EF155818984D1"]
+			id: "740B833F4B09E858"
+			tasks: [{
+				id: "54466D2F3ED86C71"
+				item: { count: 1, id: "occultism:storage_stabilizer_tier1" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["740B833F4B09E858"]
+			id: "6A4944B9DF9D4988"
+			tasks: [{
+				id: "403C141494A1EA36"
+				item: { count: 1, id: "occultism:storage_stabilizer_tier2" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A4944B9DF9D4988"]
+			id: "486819CDAD6A0CAC"
+			tasks: [{
+				id: "056198A769F94694"
+				item: { count: 1, id: "occultism:storage_stabilizer_tier3" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"486819CDAD6A0CAC"
+				"4046076B8D67D92D"
+			]
+			id: "3607B273686261B6"
+			tasks: [{
+				id: "51607ED8A0DF2F8D"
+				item: { count: 1, id: "occultism:storage_stabilizer_tier4" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3607B273686261B6"]
+			id: "6B94BAFD8B45A43B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B41B393A50FA22A"
+					table_id: 169688080237336880L
+					type: "random"
+				}
+				{
+					count: 6
+					id: "7DFD8F38970DC497"
+					item: {
+						count: 1
+						id: "extendedae_plus:infinity_core"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CF6594611653A06"
+				item: { count: 1, id: "extendedae_plus:infinity_core" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6B94BAFD8B45A43B"]
+			id: "6C050A339A911739"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7212F92B6DFE8113"
+				table_id: 169688080237336880L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D68E1E8B33472C8"
+				item: { count: 1, id: "extendedae_plus:infinity_biginteger_cell" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6B94BAFD8B45A43B"]
+			id: "7BFCEB604A22D146"
+			tasks: [{
+				id: "3520B8B44F29C92A"
+				item: { count: 1, id: "cdp2:absolute_essence" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7BFCEB604A22D146"]
+			id: "131A5871D9E96C3B"
+			rewards: [
+				{
+					id: "7F95E1936CAA71A7"
+					item: {
+						count: 1
+						id: "cdp2:reprocessed_fissile_fragment_creative_drawer"
+					}
+					only_one: true
+					team_reward: true
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18B29B275E59FFC3"
+					table_id: 169688080237336880L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4E6BD5251C7C349E"
+				item: { count: 1, id: "mysticalagriculture:insanium_seeds" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E1FE68C169B1527"]
+			id: "290401A9C8ED6C90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "171A937F368983F8"
+				table_id: 169688080237336880L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "13FE76DDDFB4C526"
+					item: { count: 1, id: "cdp2:absolute_hopper_botany_pot" }
+					type: "item"
+				}
+				{
+					id: "01B7F11A461E3AB1"
+					item: { count: 1, id: "cdp2:absolute_botany_pot" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73FF1D513D4648CF"]
+			id: "60367F87AA1F7D64"
+			tasks: [{
+				id: "6409D3A5519E2B32"
+				item: { count: 1, id: "extendedcompressor:extended_compressor" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"290401A9C8ED6C90"
+				"2B948986F2FAA43E"
+			]
+			id: "29358DEDEA1D9963"
+			tasks: [{
+				id: "0AC485179E5107D4"
+				item: { count: 1, id: "jdte:greenhouse" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"output": "cdp2:cozy_home",
+	"pattern": [
+		"AAA",
+		"ABA",
+		"AAA"
+	],
+	"key": {
+		"A": "kubejs:cosmic_origin_topological_lattice",
+		"B": "createmoremachines:creative_casing"
+	},
+	"id": "cozy_home"
+}

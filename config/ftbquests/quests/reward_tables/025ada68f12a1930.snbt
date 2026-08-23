@@ -1,0 +1,268 @@
+{
+	id: "025ADA68F12A1930"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "7FF0FE5C5AF484C1", item: { count: 1, id: "appflux:induction_card" } }
+		{ id: "40C8EC323C381932", item: { count: 1, id: "appliedsoul:range_card" } }
+		{ id: "40A2127BB07D976E", item: { count: 1, id: "ae2wtlib:magnet_card" } }
+		{ id: "23E2C8D0F081D6D1", item: { count: 1, id: "extendedae_plus:virtual_crafting_card" } }
+		{ id: "489778DDE72FDF7E", item: { count: 1, id: "ae2cs:crystal_growth_card" } }
+		{
+			id: "40CC5B3192A69523"
+			item: {
+				count: 1
+				id: "ae2wtlib:quantum_bridge_card"
+			}
+			weight: 0.2f
+		}
+		{ id: "5DCAD4B0D9A9662F", item: { count: 1, id: "ae2importexportcard:import_card" } }
+		{ id: "58E11DD30856A8CB", item: { count: 1, id: "ae2importexportcard:export_card" } }
+		{ id: "66B37917103BFF1A", item: { count: 1, id: "ae2:redstone_card" } }
+		{ id: "718F16B81B17209F", item: { count: 1, id: "ae2:capacity_card" } }
+		{ id: "3AFBB6F68EBD178B", item: { count: 1, id: "ae2:void_card" } }
+		{ id: "1F8D5C16109E35FF", item: { count: 1, id: "ae2:annihilation_plane" } }
+		{ id: "224FE80A366C80FB", item: { count: 1, id: "ae2:formation_plane" } }
+		{ id: "11D0F376F131BAAC", item: { count: 1, id: "ae2:storage_bus" } }
+		{ id: "4799D10E38D743CB", item: { count: 1, id: "ae2:import_bus" } }
+		{ id: "4288F542CEB50887", item: { count: 1, id: "ae2:export_bus" } }
+		{
+			count: 16
+			id: "450D081D091309BB"
+			item: {
+				count: 1
+				id: "ae2:blank_pattern"
+			}
+			weight: 2.0f
+		}
+		{ id: "5C2B3D65B80D4241", item: { count: 1, id: "ae2:fuzzy_card" } }
+		{ id: "37570D6CF134EAD6", item: { count: 1, id: "ae2:inverter_card" } }
+		{ id: "48566A1080BB7F1B", item: { count: 1, id: "ae2:crafting_card" } }
+		{
+			count: 8
+			id: "7064909C9A3B513B"
+			item: {
+				count: 1
+				id: "ae2:quantum_ring"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "73D923BFB097FF34"
+			item: {
+				count: 1
+				id: "ae2:quantum_link"
+			}
+			weight: 0.3f
+		}
+		{
+			count: 64
+			id: "04F6897AD241188C"
+			item: {
+				count: 1
+				id: "ae2:fluix_smart_cable"
+			}
+			weight: 1.8f
+		}
+		{ id: "4DB531A18B228383", item: { count: 1, id: "ae2:equal_distribution_card" } }
+		{ id: "40B8B7A81A9EC372", item: { count: 1, id: "ae2:energy_card" } }
+		{ id: "0D428803D27704AD", item: { count: 1, id: "ae2:speed_card" } }
+		{ id: "4B10CBC825C1668B", item: { count: 1, id: "ae2:4k_crafting_storage" } }
+		{ id: "434063893077C098", item: { count: 1, id: "ae2:interface" } }
+		{ id: "6E624BABC6918FF2", item: { count: 1, id: "ae2:pattern_provider" } }
+		{ id: "7BDB0D74CE564BB8", item: { count: 1, id: "appflux:flux_accessor" } }
+		{ id: "767A8DA49F73FCE6", item: { count: 1, id: "appliedcreate:andesite_pattern_provider" } }
+		{ id: "7F44562FA9B50A5C", item: { count: 1, id: "ae2:molecular_assembler" } }
+		{
+			count: 8
+			id: "493D97C576CBDC15"
+			item: {
+				count: 1
+				id: "forbidden_arcanus:mundabitur_dust"
+			}
+			weight: 0.2f
+		}
+		{
+			count: 8
+			id: "6C27A2999563BDB7"
+			item: {
+				count: 1
+				id: "minecraft:blaze_powder"
+			}
+			weight: 0.8f
+		}
+		{
+			count: 16
+			id: "4ACBD3B7F5DB6DF3"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			weight: 0.8f
+		}
+		{
+			count: 4
+			id: "47A9B6E34D7F350B"
+			item: {
+				count: 1
+				id: "forbidden_arcanus:deorum_ingot"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "2C8FB6DBC6D24AA9"
+			item: {
+				count: 1
+				id: "ae2:cell_component_4k"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "7FBC4B3F340EF6E6"
+			item: {
+				count: 1
+				id: "kubejs:blank_prism"
+			}
+			weight: 0.3f
+		}
+		{
+			count: 16
+			id: "53C5254112F0991E"
+			item: {
+				count: 1
+				id: "ae2cs:purified_meteor_crystal"
+			}
+			weight: 0.8f
+		}
+		{
+			count: 8
+			id: "30F5DFEBE2161EDC"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 1.2f
+		}
+		{
+			count: 8
+			id: "4342F2A7CD6D07A0"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 1.2f
+		}
+		{
+			count: 8
+			id: "2E444D72D2E7E275"
+			item: {
+				count: 1
+				id: "fluxnetworks:flux_dust"
+			}
+			weight: 1.2f
+		}
+		{
+			count: 8
+			id: "0055CC045ECB6F4B"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+			weight: 1.2f
+		}
+		{
+			id: "2F01952D680AF169"
+			item: {
+				count: 1
+				id: "mysticalagriculture:prudentium_essence"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 8
+			id: "35573E34D6AA757B"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			weight: 1.2f
+		}
+		{
+			count: 8
+			id: "359949F7BF09DAF6"
+			item: {
+				count: 1
+				id: "mekanism:ingot_osmium"
+			}
+			weight: 1.2f
+		}
+		{
+			count: 8
+			id: "6996A268A2820A5A"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+		}
+		{
+			count: 4
+			id: "74D0898B27A43301"
+			item: {
+				count: 1
+				id: "mysticalagriculture:inferium_essence"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "7F52EF650AF54A43"
+			item: {
+				components: {
+					"ftbquests:missing_item": "mesoulcard:soul_card"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "17DF97A4A390493A"
+			item: {
+				count: 1
+				id: "ae2lt:advanced_wireless_overloaded_controller"
+			}
+			weight: 0.06f
+		}
+		{
+			id: "24810DBB2CFB7FCF"
+			item: {
+				count: 1
+				id: "ae2lt:overloaded_interface"
+			}
+			weight: 0.08f
+		}
+		{
+			id: "4671679630760E89"
+			item: {
+				count: 1
+				id: "ae2lt:extended_overloaded_pattern_provider"
+			}
+			weight: 0.07f
+		}
+		{
+			id: "6CF985C26EB1C5B7"
+			item: {
+				count: 1
+				id: "ae2lt:overloaded_pattern_provider"
+			}
+			weight: 0.08f
+		}
+		{
+			id: "4528E5B9E2E68F8B"
+			item: {
+				count: 1
+				id: "extendedae_plus:infinity_core"
+			}
+			weight: 0.01f
+		}
+	]
+}

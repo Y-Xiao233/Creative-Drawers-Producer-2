@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "31title"
+	group: "1C2A470856957F12"
+	icon: {
+		id: "ae2:creative_storage_cell"
+	}
+	id: "5DE9749E9E947246"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["62FFAAF2E000627D"]
+		icon: {
+			id: "ae2:creative_storage_cell"
+		}
+		id: "65D7DA1F9544CDED"
+		shape: "gear"
+		size: 8.0d
+		tasks: [{
+			id: "2357988FEC708DF6"
+			item: { count: 1, id: "cdp2:cozy_home" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

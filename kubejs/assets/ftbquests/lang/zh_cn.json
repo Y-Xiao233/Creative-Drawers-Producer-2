@@ -1,0 +1,82 @@
+{
+    "title":"Creative Drawers Producer 2",
+
+    "reward.common":"普通奖励",
+    "reward.wrench":"扳手/配置器 自选",
+    "reward.tome":"阿卡什宝典",
+
+    "welcome.title":"欢迎!",
+
+    "welcome.0.title":"欢迎!",
+    "welcome.0.desc0":"欢迎来到Creative Drawers Producer 2",
+    "welcome.0.desc1":"&a请认真查看本章内容!!!",
+
+    "welcome.1.title":"关于作者",
+    "welcome.1.subtitle":"&d&l&o作者:Y_Xiao233",
+    "welcome.1.desc0":"&l&o&n&d作者:Y_Xiao233",
+    "welcome.1.desc1":"&a特别感谢:",
+    "welcome.1.desc2":"Red_Tea_co",
+
+    "welcome.2.title":"关于整合包",
+    "welcome.2.desc0":"&c1.仅为测试版本，并不代表最终品质",
+    "welcome.2.desc1":"&c2.未来可能添加更多魔改，更多内容",
+    "welcome.2.desc2":"&a若有建议及bug,欢迎加群",
+    "welcome.2.desc3":"&a群号:814125336",
+
+    "welcome.3.title":"关于难度",
+    "welcome.3.desc0":"&a它属于半专家包(&c也许",
+
+    "welcome.4.title":"关于游戏",
+    "welcome.4.desc0":"&a我强制将许多规则设置为false,具体如下:",
+    "welcome.4.desc1":"1.doTraderSpawning(禁止流浪商人生成)",
+    "welcome.4.desc2":"2.doMobSpawning(禁止生物自然生成)",
+    "welcome.4.desc3":"3.mobGriefing(防爆)",
+    "welcome.4.desc4":"4.doWeatherCycle(禁止天气变化)",
+    "welcome.4.desc5":"&a我强制将许多规则设置为true,具体如下:",
+    "welcome.4.desc6":"1.keepInventory(死亡不掉落)",
+    "welcome.4.desc7":"2.doMobLoot(生物掉落物)",
+    "welcome.4.desc8":"&a我禁用了一些指令,具体如下:",
+    "welcome.4.desc9":"1./fly",
+    "welcome.4.desc10":"2./ae2 channelmode",
+    "welcome.4.desc11":"3./time",
+
+    "infinity.title":"可以无限领取的物品",
+    "infinity.0.title":"无限精华元件",
+
+    "1.title":"第一章 起始",
+
+    "1.1.title":"虚无",
+    "1.1.0.title":"创造抽屉!",
+    "1.1.1.desc0":"&b虚空物质&f右键&b虚空块&f转换而来",
+    "1.1.2.desc0":"&b时运插件&f可以为其增加产量",
+
+    "1.2.title":"奥秘",
+    "1.2.0.title":"赫菲斯托斯锻炉",
+    "1.2.0.task0.title":"观察赫菲斯托斯锻炉",
+
+    "1.3.title":"海洋",
+
+    "1.4.title":"自然",
+
+    "1.4.0.desc0":"拿着监守者刷怪蛋右键收容罐即可将其收容",
+    "1.4.0.desc1":"正常摆放镭射钻后,只需要按照图示摆放即可正常抽取灵魂[该功能由Industrial Foregoing: Simulation提供]",
+
+    "1.4.1.desc0":"使用生物捕捉工具将村民捕捉后可以放入自动刷怪机刷取",
+
+    "1.5.title":"量子",
+
+    "2.title":"第二章 还未到尽头",
+
+    "2.1.title":"绝对",
+
+    "2.2.title":"至尊",
+    "2.2.1.desc0":"你可以用装有对应化学品的&b化学品储罐&f或者&b滴管&f来完成该类型的任务",
+
+    "2.3.title":"寰宇",
+
+    "2.4.title":"悖论",
+
+    "3.title":"第三章 终于回到这里了",
+
+    "3.1.title":"家"
+}
