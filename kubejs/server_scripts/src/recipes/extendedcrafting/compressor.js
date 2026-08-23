@@ -33,7 +33,7 @@ ServerEvents.recipes(event =>{
         {
             "output":'kubejs:ultra4_hyperdimensional_topological_lattice',
             "input":'ae2lt:hyperdimensional_topological_lattice',
-            "count":1024000,
+            "count":10240,
             "catalyst":'avaritia:infinity_ingot',
             "id":"ultra4_hyperdimensional_topological_lattice"
         }

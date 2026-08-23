@@ -158,6 +158,17 @@ ServerEvents.recipes(event =>{
             ],
             "inputFluid":"kubejs:molten_firmament",
             "id":"hyperdimensional_topological_lattice"
+        },
+        {
+            "output":'32x naturesaura:sky_ingot_block',
+            "cost":1,
+            "mode":1,
+            "inputs":[
+                '16x naturesaura:calling_spirit',
+                '16x naturesaura:tainted_gold_block',
+                '4x kubejs:nature_prism'
+            ],
+            "id":"sky_ingot_block"
         }
     ]
 

@@ -46,6 +46,18 @@ ServerEvents.recipes(event =>{
             ],
             "time":100,
             "id":"infinite_control_circuit"
+        },
+        {
+            "outputs":[
+                '32x ae2lt:firmament_alloy_ingot'
+            ],
+            "inputs":[
+                '64x extendedcrafting:crystaltine_ingot',
+                '8x ae2lt:firmament_mixture',
+                '8x mekanism_extras:supreme_control_circuit'
+            ],
+            "time":20,
+            "id":"firmament_alloy_ingot_2"
         }
     ]
 

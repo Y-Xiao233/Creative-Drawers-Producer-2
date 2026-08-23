@@ -117,11 +117,6 @@ ServerEvents.recipes(event =>{
         'industrialforegoing:mob_imprisonment_tool',
         'naturesaura:nature_altar',
         'extendedae:assembler_matrix_frame',
-        'extendedae:assembler_matrix_wall',
-        'extendedae:assembler_matrix_wall',
-        'extendedae:assembler_matrix_speed',
-        'extendedae:assembler_matrix_pattern',
-        'extendedae:assembler_matrix_crafter',
         'advanced_ae:quantum_multi_threader',
         'advanced_ae:quantum_core',
         'advanced_ae:data_entangler',
@@ -638,7 +633,10 @@ ServerEvents.recipes(event =>{
         "avaritia:mek_creative_fluid_tank",
         "avaritia:mek_creative_energy_cube",
         "avaritia:mek_creative_bin",
-        "avaritia:infinity_chest"
+        "avaritia:infinity_chest",
+        "mekanism_extras:chemical_conversion/spectrum/from_enriched",
+        "mekanism_extras:oxidizing/spectrum/from_enriched",
+        "mekmm:reaction/empty_crystal"
     ]
 
     const by_type = [

@@ -71,6 +71,11 @@ ServerEvents.recipes(event =>{
             "100x mekanism:sulfur_dioxide",
             'minecraft:gunpowder',
             "sulfur_dioxide/from_gunpowder"
+        ],
+        [
+            "1000x mekanism_extras:spectrum",
+            'mekanism_extras:enriched_spectrum',
+            "spectrum/from_enriched_spectrum"
         ]
     ]
 

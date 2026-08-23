@@ -214,17 +214,6 @@
 			weight: 0.6f
 		}
 		{
-			id: "7F52EF650AF54A43"
-			item: {
-				components: {
-					"ftbquests:missing_item": "mesoulcard:soul_card"
-				}
-				count: 1
-				id: "ftbquests:missing_item"
-			}
-			weight: 0.2f
-		}
-		{
 			id: "17DF97A4A390493A"
 			item: {
 				count: 1

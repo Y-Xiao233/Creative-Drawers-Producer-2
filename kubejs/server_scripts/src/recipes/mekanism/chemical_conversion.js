@@ -31,6 +31,11 @@ ServerEvents.recipes(event =>{
             item:'mekanismadditions:white_plastic',
             output:"1000x kubejs:rubber",
             id:"rubber/from_white_plastic"
+        },
+        {
+            output:"1000x mekanism_extras:spectrum",
+            item:'mekanism_extras:enriched_spectrum',
+            id:"spectrum/from_enriched_spectrum"
         }
     ]
 

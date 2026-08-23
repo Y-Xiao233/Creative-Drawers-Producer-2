@@ -68,10 +68,17 @@ ServerEvents.recipes(event =>{
         },
         {
             "output":'64x minecraft:prismarine_shard',
-            "fluid":"1000x mekanism_extras:polonium-208",
-            "chemical":"400x kubejs:sea",
+            "fluid":"100x mekanism_extras:polonium-208",
+            "chemical":"1x kubejs:whirlwind",
             "item":'minecraft:lapis_block',
             "id":"prismarine_shard"
+        },
+        {
+            "output":'64x mekmm:empty_crystal',
+            "fluid":"100x mekanism_extras:polonium-208",
+            "chemical":"100x mekmm:unstable_dimensional_gas",
+            "item":'64x mekmm:scrap_box',
+            "id":"empty_crystal"
         }
     ]
 

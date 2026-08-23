@@ -79,13 +79,13 @@ ServerEvents.recipes(event =>{
             "id":"ec_combination_packaged_core"
         },
         {
-            "output":'avaritia:neutron_compressor',
+            "output":'16x avaritia:neutron_compressor',
             "core_input":'avaritia:tesseract',
             "inputs":[
                 'avaritia:neutron',
                 'ae2lt:matter_warping_matrix_casing',
                 'naturesaura:sky_ingot_block',
-                'ae2lt:hyperdimensional_topological_lattice'
+                'ae2lt:dense_topological_lattice'
             ],
             "power":1000000,
             "id":"neutron_compressor"
@@ -126,7 +126,7 @@ ServerEvents.recipes(event =>{
                 'createmoremachines:end_alloy',
                 'createmoremachines:beyond_alloy'
             ],
-            "power":10000000000,
+            "power":1000000,
             "id":"cosmic_origin_topological_lattice"
         }
     ]
