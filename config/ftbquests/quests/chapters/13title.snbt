@@ -106,6 +106,7 @@
 				{
 					id: "43F29324C4E21EE6"
 					item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_2" }
+					optional_task: true
 					type: "item"
 				}
 				{

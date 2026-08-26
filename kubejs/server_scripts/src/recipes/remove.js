@@ -219,7 +219,12 @@ ServerEvents.recipes(event =>{
         'ae2lt:basic_topological_lattice',
         'ae2lt:hyperdimensional_topological_lattice',
         'mekanism_extras:enriched_spectrum',
-        'mekanism_extras:infinite_control_circuit'
+        'mekanism_extras:infinite_control_circuit',
+        'mob_grinding_utils:rotten_egg',
+        'mob_grinding_utils:golden_egg',
+        'mob_grinding_utils:nutritious_chicken_feed',
+        'mob_grinding_utils:gm_chicken_feed',
+        'mob_grinding_utils:gm_chicken_feed_cursed'
     ]
 
     const by_id = [
@@ -636,7 +641,8 @@ ServerEvents.recipes(event =>{
         "avaritia:infinity_chest",
         "mekanism_extras:chemical_conversion/spectrum/from_enriched",
         "mekanism_extras:oxidizing/spectrum/from_enriched",
-        "mekmm:reaction/empty_crystal"
+        "mekmm:reaction/empty_crystal",
+        "mekanism:sawing/torch"
     ]
 
     const by_type = [

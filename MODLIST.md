@@ -26,7 +26,6 @@
 * [Fusion (Connected Textures) (by SuperMartijn642)](https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures)
 * [Apothic Enchanting (by Shadows_of_Fire)](https://www.curseforge.com/minecraft/mc-mods/apothic-enchanting)
 * [Soulplied Energistics (by Buuz135)](https://www.curseforge.com/minecraft/mc-mods/soulplied-energistics)
-* [Eccentric Tome (by EccentricVamp)](https://www.curseforge.com/minecraft/mc-mods/eccentric-tome)
 * [Applied Mekanistics (by ramidzkh)](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics)
 * [Toast Control (by Shadows_of_Fire)](https://www.curseforge.com/minecraft/mc-mods/toast-control)
 * [KubeJS Nature's Aura (by FalAut)](https://www.curseforge.com/minecraft/mc-mods/kubejs-natures-aura)

@@ -63,6 +63,11 @@ const hides = [
     /mekmm:.*_replicator/,
     /mekmm:.*_replicating_factory/,
     /mekanism_extras:.*_replicating_factory/,
+    'mob_grinding_utils:rotten_egg',
+    'mob_grinding_utils:golden_egg',
+    'mob_grinding_utils:nutritious_chicken_feed',
+    'mob_grinding_utils:gm_chicken_feed',
+    'mob_grinding_utils:gm_chicken_feed_cursed'
 ]
 
 

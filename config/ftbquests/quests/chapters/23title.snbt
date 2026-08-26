@@ -520,6 +520,7 @@
 				{
 					id: "7180301B2C92E683"
 					item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_5" }
+					optional_task: true
 					type: "item"
 				}
 				{
