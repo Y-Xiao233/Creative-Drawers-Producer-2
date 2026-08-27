@@ -79,3 +79,19 @@ Beta v1.2
 6.修复了火把可以锯木为煤炭的bug
 
 7.更新了Creative Drawers Producer 2 Core
+
+
+
+Beta v1.3
+
+1.修复了赫菲斯托斯锻炉无法制作带有经验要求的配方的bug
+
+2.删除了经验瓶的一个配方
+
+3.禁用了大型风力发电机
+
+4.禁用了蒸汽引擎,(大型)水车,风车轴承
+
+5.更新了Creative Drawers Producer 2 Core
+
+6.添加了怪奇宝典并删除了阿卡什宝典

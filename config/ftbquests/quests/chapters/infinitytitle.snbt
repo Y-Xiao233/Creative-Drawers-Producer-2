@@ -55,285 +55,194 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["08FCFEC073FADAE4"]
 			icon: {
 				components: {
-					"akashictome:tool_content": [
-						{
-							components: {
-								"akashictome:defined_mod": "cookingforblockheads"
-							}
-							count: 1
-							id: "cookingforblockheads:recipe_book"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "cookingforblockheads_0"
-							}
-							count: 1
-							id: "cookingforblockheads:crafting_book"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "ae2"
-							}
-							count: 1
-							id: "ae2:guide"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "packagedauto"
-								"patchouli:book": "packagedauto:guide"
-							}
-							count: 1
-							id: "patchouli:guide_book"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "justdirethings"
-								"patchouli:book": "justdirethings:justdirethingsbook"
-							}
-							count: 1
-							id: "patchouli:guide_book"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "industrialforegoing"
-								"patchouli:book": "industrialforegoing:industrial_foregoing"
-							}
-							count: 1
-							id: "patchouli:guide_book"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "buildinggadgets2"
-								"patchouli:book": "buildinggadgets2:buildinggadgets2book"
-							}
-							count: 1
-							id: "patchouli:guide_book"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "mysticalagriculture"
-								"patchouli:book": "mysticalagriculture:guide"
-							}
-							count: 1
-							id: "patchouli:guide_book"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "naturesaura"
-								"patchouli:book": "naturesaura:book"
-							}
-							count: 1
-							id: "patchouli:guide_book"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "modularrouters"
-								"patchouli:book": "modularrouters:book"
-							}
-							count: 1
-							id: "patchouli:guide_book"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "laserio"
-								"patchouli:book": "laserio:laseriobook"
-							}
-							count: 1
-							id: "patchouli:guide_book"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "extendedcrafting"
-								"patchouli:book": "extendedcrafting:guide"
-							}
-							count: 1
-							id: "patchouli:guide_book"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "ftbquests"
-							}
-							count: 1
-							id: "ftbquests:book"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "ars_nouveau"
-							}
-							count: 1
-							id: "ars_nouveau:worn_notebook"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "actuallyadditions"
-							}
-							count: 1
-							id: "actuallyadditions:booklet"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "occultism"
-							}
-							count: 1
-							id: "occultism:dictionary_of_spirits"
-						}
-						{
-							components: {
-								"akashictome:defined_mod": "powah"
-							}
-							count: 1
-							id: "powah:book"
-						}
-					]
-				}
-				id: "akashictome:tome"
-			}
-			id: "1799BCC4AD713A3A"
-			rewards: [{
-				id: "64989D03027B8151"
-				item: {
-					components: {
-						"akashictome:tool_content": [
-							{
-								components: {
-									"akashictome:defined_mod": "cookingforblockheads"
-								}
+					"eccentrictome:tome_data": {
+						books: {
+							actuallyadditions: [{
 								count: 1
-								id: "cookingforblockheads:recipe_book"
-							}
-							{
-								components: {
-									"akashictome:defined_mod": "cookingforblockheads_0"
-								}
-								count: 1
-								id: "cookingforblockheads:crafting_book"
-							}
-							{
-								components: {
-									"akashictome:defined_mod": "ae2"
-								}
+								id: "actuallyadditions:booklet"
+							}]
+							ae2: [{
 								count: 1
 								id: "ae2:guide"
-							}
-							{
-								components: {
-									"akashictome:defined_mod": "packagedauto"
-									"patchouli:book": "packagedauto:guide"
-								}
+							}]
+							ars_nouveau: [{
 								count: 1
-								id: "patchouli:guide_book"
-							}
-							{
+								id: "ars_nouveau:worn_notebook"
+							}]
+							buildinggadgets2: [{
 								components: {
-									"akashictome:defined_mod": "justdirethings"
-									"patchouli:book": "justdirethings:justdirethingsbook"
-								}
-								count: 1
-								id: "patchouli:guide_book"
-							}
-							{
-								components: {
-									"akashictome:defined_mod": "industrialforegoing"
-									"patchouli:book": "industrialforegoing:industrial_foregoing"
-								}
-								count: 1
-								id: "patchouli:guide_book"
-							}
-							{
-								components: {
-									"akashictome:defined_mod": "buildinggadgets2"
 									"patchouli:book": "buildinggadgets2:buildinggadgets2book"
 								}
 								count: 1
 								id: "patchouli:guide_book"
-							}
-							{
-								components: {
-									"akashictome:defined_mod": "mysticalagriculture"
-									"patchouli:book": "mysticalagriculture:guide"
-								}
+							}]
+							cookingforblockheads: [{
 								count: 1
-								id: "patchouli:guide_book"
-							}
-							{
+								id: "cookingforblockheads:no_filter_edition"
+							}]
+							extendedcrafting: [{
 								components: {
-									"akashictome:defined_mod": "naturesaura"
-									"patchouli:book": "naturesaura:book"
-								}
-								count: 1
-								id: "patchouli:guide_book"
-							}
-							{
-								components: {
-									"akashictome:defined_mod": "modularrouters"
-									"patchouli:book": "modularrouters:book"
-								}
-								count: 1
-								id: "patchouli:guide_book"
-							}
-							{
-								components: {
-									"akashictome:defined_mod": "laserio"
-									"patchouli:book": "laserio:laseriobook"
-								}
-								count: 1
-								id: "patchouli:guide_book"
-							}
-							{
-								components: {
-									"akashictome:defined_mod": "extendedcrafting"
 									"patchouli:book": "extendedcrafting:guide"
 								}
 								count: 1
 								id: "patchouli:guide_book"
-							}
-							{
+							}]
+							industrialforegoing: [{
 								components: {
-									"akashictome:defined_mod": "ftbquests"
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
 								}
 								count: 1
-								id: "ftbquests:book"
-							}
-							{
+								id: "patchouli:guide_book"
+							}]
+							justdirethings: [{
 								components: {
-									"akashictome:defined_mod": "ars_nouveau"
+									"patchouli:book": "justdirethings:justdirethingsbook"
 								}
 								count: 1
-								id: "ars_nouveau:worn_notebook"
-							}
-							{
+								id: "patchouli:guide_book"
+							}]
+							laserio: [{
 								components: {
-									"akashictome:defined_mod": "actuallyadditions"
+									"patchouli:book": "laserio:laseriobook"
 								}
 								count: 1
-								id: "actuallyadditions:booklet"
-							}
-							{
+								id: "patchouli:guide_book"
+							}]
+							modularrouters: [{
 								components: {
-									"akashictome:defined_mod": "occultism"
+									"patchouli:book": "modularrouters:book"
 								}
+								count: 1
+								id: "patchouli:guide_book"
+							}]
+							naturesaura: [{
+								components: {
+									"patchouli:book": "naturesaura:book"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}]
+							occultism: [{
 								count: 1
 								id: "occultism:dictionary_of_spirits"
-							}
-							{
+							}]
+							packagedauto: [{
 								components: {
-									"akashictome:defined_mod": "powah"
+									"patchouli:book": "packagedauto:guide"
 								}
 								count: 1
+								id: "patchouli:guide_book"
+							}]
+							powah: [{
+								count: 1
 								id: "powah:book"
+							}]
+						}
+						tome_id: "2346e8de-f2d5-45e9-b69d-60ab4f69a6c9"
+					}
+				}
+				id: "eccentrictome:tome"
+			}
+			id: "78E1EBCD743D68CC"
+			rewards: [{
+				id: "1B21245E22C42CB7"
+				item: {
+					components: {
+						"eccentrictome:tome_data": {
+							books: {
+								actuallyadditions: [{
+									count: 1
+									id: "actuallyadditions:booklet"
+								}]
+								ae2: [{
+									count: 1
+									id: "ae2:guide"
+								}]
+								ars_nouveau: [{
+									count: 1
+									id: "ars_nouveau:worn_notebook"
+								}]
+								buildinggadgets2: [{
+									components: {
+										"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}]
+								cookingforblockheads: [{
+									count: 1
+									id: "cookingforblockheads:no_filter_edition"
+								}]
+								extendedcrafting: [{
+									components: {
+										"patchouli:book": "extendedcrafting:guide"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}]
+								industrialforegoing: [{
+									components: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}]
+								justdirethings: [{
+									components: {
+										"patchouli:book": "justdirethings:justdirethingsbook"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}]
+								laserio: [{
+									components: {
+										"patchouli:book": "laserio:laseriobook"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}]
+								modularrouters: [{
+									components: {
+										"patchouli:book": "modularrouters:book"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}]
+								naturesaura: [{
+									components: {
+										"patchouli:book": "naturesaura:book"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}]
+								occultism: [{
+									count: 1
+									id: "occultism:dictionary_of_spirits"
+								}]
+								packagedauto: [{
+									components: {
+										"patchouli:book": "packagedauto:guide"
+									}
+									count: 1
+									id: "patchouli:guide_book"
+								}]
+								powah: [{
+									count: 1
+									id: "powah:book"
+								}]
 							}
-						]
+							tome_id: "2346e8de-f2d5-45e9-b69d-60ab4f69a6c9"
+						}
 					}
 					count: 1
-					id: "akashictome:tome"
+					id: "eccentrictome:tome"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "1F92E67E7DCE2F79"
+				id: "42AE32E53E522423"
 				type: "checkmark"
 			}]
 			x: 3.0d

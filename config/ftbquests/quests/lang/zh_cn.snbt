@@ -17,7 +17,6 @@
 	file.0000000000000001.title: "{title}"
 	quest.11C13E5E021F9296.quest_desc: ["{1.1.1.desc0}"]
 	quest.16839FE4EAD3429A.quest_desc: ["{welcome.3.desc0}"]
-	quest.1799BCC4AD713A3A.title: "{reward.tome}"
 	quest.216E7546751CB69E.quest_desc: ["{1.4.1.desc0}"]
 	quest.23AB7A022EE88549.quest_desc: [
 		"{1.4.0.desc0}"
@@ -64,11 +63,13 @@
 	quest.4F11D50B1DB2EFC8.quest_subtitle: "{welcome.1.subtitle}"
 	quest.53761E40BCFD1767.title: "{1.2.0.title}"
 	quest.5E48F37AC51237CA.quest_desc: ["{image:kubejs:textures/ftbquests/light.png width:160 height:100 align:center fit:true}"]
+	quest.78E1EBCD743D68CC.title: "{reward.tome}"
 	quest.7C5FE655D7F9E2D7.quest_desc: ["{2.2.1.desc0}"]
 	reward_table.025ADA68F12A1930.title: "{reward.common}"
 	reward_table.333E6EF86F40E236.title: "{reward.wrench}"
 	task.14F02AE0782620D1.title: "{welcome.2.title}"
 	task.3A2F0DAF42B8E78D.title: "{welcome.0.title}"
+	task.42AE32E53E522423.title: "{reward.tome}"
 	task.6BA7D5A1935EE818.title: "{welcome.1.title}"
 	task.6C32B854BAC74BA2.title: "{1.2.0.task0.title}"
 	task.7E4CAB1B73136BDE.title: "{welcome.3.title}"

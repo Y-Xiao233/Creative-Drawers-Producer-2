@@ -43,7 +43,7 @@
 * [PakcagedFaa (by XianYuFish001)](https://www.curseforge.com/minecraft/mc-mods/pakcagedfaa)
 * [AE2-Ftbquest-Detector-Neo (by q1hua)](https://www.curseforge.com/minecraft/mc-mods/ae2-ftbquest-detector-neo)
 * [FTB Teams (NeoForge) (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge)
-* [Akashic Tome (by Vazkii)](https://www.curseforge.com/minecraft/mc-mods/akashic-tome)
+* [Eccentric tome (by EccentricVamp)](https://www.curseforge.com/minecraft/mc-mods/eccentric-tome)
 * [MmmMmmMmmMmm (Target Dummy) (by MehVahdJukaar)](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm)
 * [ConnectedTexturesMod (by tterrag1098)](https://www.curseforge.com/minecraft/mc-mods/ctm)
 * [Titanium (by Buuz135)](https://www.curseforge.com/minecraft/mc-mods/titanium)

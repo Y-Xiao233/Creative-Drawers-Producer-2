@@ -224,7 +224,12 @@ ServerEvents.recipes(event =>{
         'mob_grinding_utils:golden_egg',
         'mob_grinding_utils:nutritious_chicken_feed',
         'mob_grinding_utils:gm_chicken_feed',
-        'mob_grinding_utils:gm_chicken_feed_cursed'
+        'mob_grinding_utils:gm_chicken_feed_cursed',
+        'mekmm:large_wind_generator',
+        'create:steam_engine',
+        'create:water_wheel',
+        'create:large_water_wheel',
+        'create:windmill_bearing'
     ]
 
     const by_id = [
@@ -642,7 +647,8 @@ ServerEvents.recipes(event =>{
         "mekanism_extras:chemical_conversion/spectrum/from_enriched",
         "mekanism_extras:oxidizing/spectrum/from_enriched",
         "mekmm:reaction/empty_crystal",
-        "mekanism:sawing/torch"
+        "mekanism:sawing/torch",
+        "industrialforegoing:dissolution_chamber/xp_bottles"
     ]
 
     const by_type = [
