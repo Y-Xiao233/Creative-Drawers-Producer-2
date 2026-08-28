@@ -225,11 +225,8 @@ ServerEvents.recipes(event =>{
         'mob_grinding_utils:nutritious_chicken_feed',
         'mob_grinding_utils:gm_chicken_feed',
         'mob_grinding_utils:gm_chicken_feed_cursed',
-        'mekmm:large_wind_generator',
-        'create:steam_engine',
-        'create:water_wheel',
-        'create:large_water_wheel',
-        'create:windmill_bearing'
+        'industrialforegoing:item_transporter_type',
+        "rechiseled:chisel"
     ]
 
     const by_id = [

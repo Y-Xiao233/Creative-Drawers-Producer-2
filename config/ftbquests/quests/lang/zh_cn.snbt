@@ -15,6 +15,7 @@
 	chapter_group.2C760B56348CCBEA.title: "{1.title}"
 	chapter_group.6C04C75DA6198D20.title: "{2.title}"
 	file.0000000000000001.title: "{title}"
+	quest.0974A221BDE512B8.title: "{reward.floor}"
 	quest.11C13E5E021F9296.quest_desc: ["{1.1.1.desc0}"]
 	quest.16839FE4EAD3429A.quest_desc: ["{welcome.3.desc0}"]
 	quest.216E7546751CB69E.quest_desc: ["{1.4.1.desc0}"]

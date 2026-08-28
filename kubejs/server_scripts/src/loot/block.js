@@ -6,7 +6,9 @@ LootJS.lootTables(event =>{
         "cdp2:black_iron_ingot_creative_drawer",
         "cdp2:reprocessed_fissile_fragment_creative_drawer",
         "cdp2:the_ultimate_ingot_creative_drawer",
-        "cdp2:infinity_catalyst_creative_drawer"
+        "cdp2:infinity_catalyst_creative_drawer",
+        "cdp2:amethyst_block_shiny_connecting_creative_drawer",
+        "cdp2:iron_block_pipes_connecting_creative_drawer"
     ]
     creative_drawers.forEach(drawer =>{
         let args = drawer.split(":")

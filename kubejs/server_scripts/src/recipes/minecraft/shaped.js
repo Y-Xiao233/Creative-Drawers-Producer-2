@@ -1561,6 +1561,19 @@ ServerEvents.recipes(event =>{
                 "B": "createmoremachines:creative_casing"
             },
             "id": "cozy_home"
+        },
+        {
+            "output": "rechiseled:chisel",
+            "pattern": [
+                " A ",
+                "B  ",
+                "   "
+            ],
+            "key": {
+                "A": "create:brass_ingot",
+                "B": "minecraft:stick"
+            },
+            "id": "chisel"
         }
     ]
     

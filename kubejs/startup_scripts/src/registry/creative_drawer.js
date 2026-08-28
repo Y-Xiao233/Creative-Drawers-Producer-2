@@ -6,4 +6,6 @@ CDPRegistryEvents.block(event =>{
     event.createCreativeDrawer("reprocessed_fissile_fragment_creative_drawer",'mekanism:reprocessed_fissile_fragment')
     event.createCreativeDrawer("the_ultimate_ingot_creative_drawer",'extendedcrafting:the_ultimate_ingot')
     event.createCreativeDrawer("infinity_catalyst_creative_drawer",'avaritia:infinity_catalyst')
+    event.createCreativeDrawer("amethyst_block_shiny_connecting_creative_drawer",'rechiseled:amethyst_block_shiny_connecting')
+    event.createCreativeDrawer("iron_block_pipes_connecting_creative_drawer",'rechiseled:iron_block_pipes_connecting')
 })

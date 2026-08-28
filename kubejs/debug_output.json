@@ -1,13 +1,13 @@
 {
-	"output": "cdp2:cozy_home",
+	"output": "rechiseled:chisel",
 	"pattern": [
-		"AAA",
-		"ABA",
-		"AAA"
+		" A ",
+		"B  ",
+		"   "
 	],
 	"key": {
-		"A": "kubejs:cosmic_origin_topological_lattice",
-		"B": "createmoremachines:creative_casing"
+		"A": "create:brass_ingot",
+		"B": "minecraft:stick"
 	},
-	"id": "cozy_home"
+	"id": "chisel"
 }

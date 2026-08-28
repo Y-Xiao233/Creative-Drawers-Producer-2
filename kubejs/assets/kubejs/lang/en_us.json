@@ -37,5 +37,8 @@
     "item.kubejs.cosmic_origin_topological_lattice": "Cosmic Origin Topological Lattice",
 
     "item.cdp2.cozy_home": "Cozy Home",
-    "cdp2.ritual_desc.cozy_home": "§bWelcome back to your cozy home"
+    "cdp2.ritual_desc.cozy_home": "§bWelcome back to your cozy home",
+
+
+    "dimension.cdp2.disabled":"This dimension is disabled"
 }

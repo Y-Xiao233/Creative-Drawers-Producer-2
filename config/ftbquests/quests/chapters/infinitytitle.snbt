@@ -55,6 +55,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["08FCFEC073FADAE4"]
 			icon: {
 				components: {
 					"eccentrictome:tome_data": {
@@ -247,6 +248,38 @@
 			}]
 			x: 3.0d
 			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["08FCFEC073FADAE4"]
+			icon: {
+				id: "rechiseled:iron_block_pipes"
+			}
+			id: "0974A221BDE512B8"
+			rewards: [
+				{
+					id: "3E96D085D535F072"
+					item: {
+						count: 1
+						id: "cdp2:amethyst_block_shiny_connecting_creative_drawer"
+					}
+					type: "item"
+				}
+				{
+					id: "3C4C9FEB35A2F358"
+					item: {
+						count: 1
+						id: "cdp2:iron_block_pipes_connecting_creative_drawer"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CEBAE5D6702D31B"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
 		}
 	]
 }

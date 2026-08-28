@@ -37,5 +37,8 @@
     "item.kubejs.cosmic_origin_topological_lattice":"宇宙本源拓扑晶格",
 
     "item.cdp2.cozy_home":"温馨的家",
-    "cdp2.ritual_desc.cozy_home":"§b欢迎回到温馨的家"
+    "cdp2.ritual_desc.cozy_home":"§b欢迎回到温馨的家",
+
+
+    "dimension.cdp2.disabled":"该维度已被禁用"
 }
