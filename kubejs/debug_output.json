@@ -1,13 +1,8 @@
-{
-	"output": "rechiseled:chisel",
-	"pattern": [
-		" A ",
-		"B  ",
-		"   "
+[
+	"ae2lt:inactive_firmament_spirit_core",
+	[
+		"ae2cs:blank_print_press",
+		"ae2lt:firmament_alloy_ingot"
 	],
-	"key": {
-		"A": "create:brass_ingot",
-		"B": "minecraft:stick"
-	},
-	"id": "chisel"
-}
+	"inactive_firmament_spirit_core"
+]

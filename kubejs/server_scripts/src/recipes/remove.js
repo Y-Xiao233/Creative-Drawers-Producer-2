@@ -645,7 +645,8 @@ ServerEvents.recipes(event =>{
         "mekanism_extras:oxidizing/spectrum/from_enriched",
         "mekmm:reaction/empty_crystal",
         "mekanism:sawing/torch",
-        "industrialforegoing:dissolution_chamber/xp_bottles"
+        "industrialforegoing:dissolution_chamber/xp_bottles",
+        "extendedae_plus:assembler/ex_pattern_provider"
     ]
 
     const by_type = [

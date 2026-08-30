@@ -26,4 +26,11 @@ ServerEvents.recipes(event =>{
     event.replaceInput({output:'jdte:mineral_extractor'},'minecraft:nether_star','ae2lt:matter_warping_matrix_casing')
 
     event.replaceInput({output:'mekmm:large_antiprotonic_nucleosynthesizer'},'mekanism:robit','mekanism:antiprotonic_nucleosynthesizer')
+
+    event.replaceInput({output:'extendedcrafting:ultimate_auto_table'},'extendedcrafting:crystaltine_component','extendedcrafting:ender_component')
+    event.replaceInput({output:'packagedexcrafting:ultimate_crafter'},'extendedcrafting:crystaltine_component','extendedcrafting:ender_component')
+
+    event.replaceInput({output:'extendedae:crystal_assembler'},'ae2:logic_processor','kubejs:arcanus_processor')
+    event.replaceInput({output:'extendedae:crystal_assembler'},'extendedae:machine_frame','cdp2:frame')
+    event.replaceInput({output:'ae2:io_port'},'ae2:logic_processor','kubejs:arcanus_processor')
 })

@@ -12,3 +12,23 @@ ItemEvents.rightClicked('ae2:crafting_accelerator', event =>{
         event.cancel()
     }
 })
+
+BlockEvents.rightClicked('ae2:crafting_accelerator', event =>{
+    const {player, hand, item, entity, block} = event
+    const isPlayerHandEmpty = false
+    const isFakePlayer = false
+    if(entity.isFakePlayer()){
+        isPlayerHandEmpty = entity.getMainHandItem().isEmpty() || entity.getOffHandItem().isEmpty()
+        isFakePlayer = true
+    }else{
+        isPlayerHandEmpty = player.getMainHandItem().isEmpty() || player.getOffHandItem().isEmpty()
+    }
+
+    if(!isPlayerHandEmpty){
+        if(!isFakePlayer){
+            $ItemHandlerHelper.giveItemToPlayer(player,Item.of('kubejs:arcanus_processor'))
+        }
+        block.set('ae2:crafting_unit')
+        event.cancel()
+    }
+})

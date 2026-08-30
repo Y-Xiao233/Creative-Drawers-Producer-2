@@ -4,10 +4,7 @@
 	order_index: 0
 	rewards: [
 		{ id: "7FF0FE5C5AF484C1", item: { count: 1, id: "appflux:induction_card" } }
-		{ id: "40C8EC323C381932", item: { count: 1, id: "appliedsoul:range_card" } }
 		{ id: "40A2127BB07D976E", item: { count: 1, id: "ae2wtlib:magnet_card" } }
-		{ id: "23E2C8D0F081D6D1", item: { count: 1, id: "extendedae_plus:virtual_crafting_card" } }
-		{ id: "489778DDE72FDF7E", item: { count: 1, id: "ae2cs:crystal_growth_card" } }
 		{
 			id: "40CC5B3192A69523"
 			item: {
@@ -16,16 +13,8 @@
 			}
 			weight: 0.2f
 		}
-		{ id: "5DCAD4B0D9A9662F", item: { count: 1, id: "ae2importexportcard:import_card" } }
-		{ id: "58E11DD30856A8CB", item: { count: 1, id: "ae2importexportcard:export_card" } }
-		{ id: "66B37917103BFF1A", item: { count: 1, id: "ae2:redstone_card" } }
 		{ id: "718F16B81B17209F", item: { count: 1, id: "ae2:capacity_card" } }
-		{ id: "3AFBB6F68EBD178B", item: { count: 1, id: "ae2:void_card" } }
-		{ id: "1F8D5C16109E35FF", item: { count: 1, id: "ae2:annihilation_plane" } }
-		{ id: "224FE80A366C80FB", item: { count: 1, id: "ae2:formation_plane" } }
 		{ id: "11D0F376F131BAAC", item: { count: 1, id: "ae2:storage_bus" } }
-		{ id: "4799D10E38D743CB", item: { count: 1, id: "ae2:import_bus" } }
-		{ id: "4288F542CEB50887", item: { count: 1, id: "ae2:export_bus" } }
 		{
 			count: 16
 			id: "450D081D091309BB"
@@ -35,8 +24,6 @@
 			}
 			weight: 2.0f
 		}
-		{ id: "5C2B3D65B80D4241", item: { count: 1, id: "ae2:fuzzy_card" } }
-		{ id: "37570D6CF134EAD6", item: { count: 1, id: "ae2:inverter_card" } }
 		{ id: "48566A1080BB7F1B", item: { count: 1, id: "ae2:crafting_card" } }
 		{
 			count: 8
@@ -64,14 +51,11 @@
 			}
 			weight: 1.8f
 		}
-		{ id: "4DB531A18B228383", item: { count: 1, id: "ae2:equal_distribution_card" } }
-		{ id: "40B8B7A81A9EC372", item: { count: 1, id: "ae2:energy_card" } }
 		{ id: "0D428803D27704AD", item: { count: 1, id: "ae2:speed_card" } }
 		{ id: "4B10CBC825C1668B", item: { count: 1, id: "ae2:4k_crafting_storage" } }
 		{ id: "434063893077C098", item: { count: 1, id: "ae2:interface" } }
 		{ id: "6E624BABC6918FF2", item: { count: 1, id: "ae2:pattern_provider" } }
 		{ id: "7BDB0D74CE564BB8", item: { count: 1, id: "appflux:flux_accessor" } }
-		{ id: "767A8DA49F73FCE6", item: { count: 1, id: "appliedcreate:andesite_pattern_provider" } }
 		{ id: "7F44562FA9B50A5C", item: { count: 1, id: "ae2:molecular_assembler" } }
 		{
 			count: 8
@@ -135,74 +119,12 @@
 			weight: 0.8f
 		}
 		{
-			count: 8
-			id: "30F5DFEBE2161EDC"
-			item: {
-				count: 1
-				id: "minecraft:iron_ingot"
-			}
-			weight: 1.2f
-		}
-		{
-			count: 8
-			id: "4342F2A7CD6D07A0"
-			item: {
-				count: 1
-				id: "minecraft:redstone"
-			}
-			weight: 1.2f
-		}
-		{
-			count: 8
-			id: "2E444D72D2E7E275"
-			item: {
-				count: 1
-				id: "fluxnetworks:flux_dust"
-			}
-			weight: 1.2f
-		}
-		{
-			count: 8
-			id: "0055CC045ECB6F4B"
-			item: {
-				count: 1
-				id: "minecraft:emerald"
-			}
-			weight: 1.2f
-		}
-		{
 			id: "2F01952D680AF169"
 			item: {
 				count: 1
 				id: "mysticalagriculture:prudentium_essence"
 			}
 			weight: 0.1f
-		}
-		{
-			count: 8
-			id: "35573E34D6AA757B"
-			item: {
-				count: 1
-				id: "minecraft:copper_ingot"
-			}
-			weight: 1.2f
-		}
-		{
-			count: 8
-			id: "359949F7BF09DAF6"
-			item: {
-				count: 1
-				id: "mekanism:ingot_osmium"
-			}
-			weight: 1.2f
-		}
-		{
-			count: 8
-			id: "6996A268A2820A5A"
-			item: {
-				count: 1
-				id: "minecraft:gold_ingot"
-			}
 		}
 		{
 			count: 4
@@ -253,5 +175,45 @@
 			}
 			weight: 0.01f
 		}
+		{
+			id: "65AED6215A562A8F"
+			item: {
+				components: {
+					"titanium:augments": {
+						Looting: 3.0f
+					}
+				}
+				count: 1
+				id: "ifs:fortune_addon_tier_2"
+			}
+			weight: 0.05f
+		}
+		{
+			id: "274A008F7BC77B6A"
+			item: {
+				components: {
+					"titanium:augments": {
+						Looting: 2.0f
+					}
+				}
+				count: 1
+				id: "ifs:fortune_addon_tier_1"
+			}
+			weight: 0.08f
+		}
+		{
+			id: "3636F83F9CCB4FE8"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 0.2f
+		}
+		{ id: "368AA3D4073CCADA", item: { count: 1, id: "cdp2:supreme_hopper_botany_pot" } }
+		{ id: "21E22962821762C2", item: { count: 1, id: "ae2lt:advanced_wireless_overloaded_controller" } }
+		{ id: "7C5445658B1A2787", item: { count: 1, id: "apothicenchantingaddition:flux_spawner" } }
+		{ id: "51165EEF1156EBAB", item: { count: 1, id: "cdp2:quantum" } }
+		{ id: "572BE17D732CFEE0", item: { count: 1, id: "cdp2:assembler_matrix" } }
+		{ id: "5F330C254C61FC8C", item: { count: 1, id: "minecraft:nether_star" } }
 	]
 }

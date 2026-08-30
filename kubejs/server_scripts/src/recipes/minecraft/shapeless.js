@@ -182,6 +182,14 @@ ServerEvents.recipes(event =>{
                 "cdp2:cosmic_essence"
             ],
             "infinity_lightning_cell"
+        ],
+        [
+            "ae2lt:inactive_firmament_spirit_core",
+            [
+                "ae2cs:blank_print_press",
+                "ae2lt:firmament_alloy_ingot"
+            ],
+            "inactive_firmament_spirit_core"
         ]
     ]
     

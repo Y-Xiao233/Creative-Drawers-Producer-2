@@ -28,5 +28,8 @@
 		{ id: "0E53A31D16EA308A", item: { count: 1, id: "avaritia:side_config_card" } }
 		{ id: "2DB4E1D49D3381C7", item: { count: 1, id: "functionalstorage:configuration_tool" } }
 		{ id: "242EF19AC118E247", item: { count: 1, id: "functionalstorage:linking_tool" } }
+		{ id: "48565B0F111A3722", item: { count: 1, id: "ae2lt:overloaded_wireless_connect_tool" } }
+		{ id: "56FBED650C7325EA", item: { count: 1, id: "ae2lt:overloaded_frequency_card" } }
+		{ id: "51E57AA3AE507607", item: { count: 1, id: "ae2lt:overload_pattern_encoder" } }
 	]
 }
