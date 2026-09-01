@@ -188,7 +188,6 @@ ServerEvents.recipes(event =>{
         'arseng:source_cell_housing',
         "ars_nouveau:dominion_wand",
         "ars_nouveau:relay_splitter",
-        'ae2:network_tool',
         'ae2lt:damaged_budding_overload_crystal',
         'ae2lt:cracked_budding_overload_crystal',
         'ae2lt:flawed_budding_overload_crystal',
@@ -646,7 +645,8 @@ ServerEvents.recipes(event =>{
         "mekmm:reaction/empty_crystal",
         "mekanism:sawing/torch",
         "industrialforegoing:dissolution_chamber/xp_bottles",
-        "extendedae_plus:assembler/ex_pattern_provider"
+        "extendedae_plus:assembler/ex_pattern_provider",
+        "mekmm:large_wind_generator"
     ]
 
     const by_type = [

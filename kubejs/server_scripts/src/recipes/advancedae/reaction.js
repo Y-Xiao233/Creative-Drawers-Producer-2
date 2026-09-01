@@ -49,32 +49,33 @@ ServerEvents.recipes(event =>{
         }
     }).id(prefix + "quantum_infusion_source")
 
-    // recipes.forEach(recipe =>{
-    //     const [input_amount, input_id] = recipe.fluid.split('x').map(s => s.trim())
-    //     const [output_type, output_amount, output_id] = recipe.output.match(/[^*x]+/g).map(s => s.trim())
-    //     let input_item = parseItem(recipe.item)
-    //     event.custom({
-    //         "type": "advanced_ae:reaction",
-    //         "input_energy": recipe.energy,
-    //         "input_fluid": {
-    //             "amount": input_amount,
-    //             "ingredient": {
-    //             "fluid": input_id
-    //             }
-    //         },
-    //         "input_items": [
-    //             {
-    //                 "amount":input_item.getCount(),
-    //                 "ingredient": {
-    //                     "item": input_item.getId()
-    //                 }
-    //             }
-    //         ],
-    //         "output": {
-    //             "#": output_amount,
-    //             "#t": `ae2:${output_type}`,
-    //             "id": output_id
-    //         }
-    //     }).id(prefix + recipe.id)
-    // })
+    event.custom({
+        "type": "advanced_ae:reaction",
+        "input_energy": 200000,
+        "input_fluid": {
+            "amount": 500,
+            "ingredient": {
+            "fluid": "minecraft:water"
+            }
+        },
+        "input_items": [
+            {
+                "amount":32,
+                "ingredient": {
+                    "item": 'naturesaura:infused_iron'
+                }
+            },
+            {
+                "amount":32,
+                "ingredient": {
+                    "item": 'ae2:fluix_crystal'
+                }
+            }
+        ],
+        "output": {
+            "#": 64,
+            "#t": "ae2:i",
+            "id": 'extendedae:entro_crystal'
+        }
+    }).id(prefix + "entro_crystal")
 })
