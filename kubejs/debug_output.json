@@ -1,8 +1,24 @@
-[
-	"ae2lt:inactive_firmament_spirit_core",
-	[
-		"ae2cs:blank_print_press",
-		"ae2lt:firmament_alloy_ingot"
+{
+	"output": "forbidden_arcanus:quantum_injector",
+	"count": 1,
+	"input": "forbidden_arcanus:mundabitur_dust",
+	"inputs": [
+		"advanced_ae:quantum_alloy",
+		"forbidden_arcanus:quantum_core",
+		"advanced_ae:quantum_alloy",
+		"forbidden_arcanus:quantum_core",
+		"advanced_ae:quantum_alloy",
+		"forbidden_arcanus:quantum_core",
+		"advanced_ae:quantum_alloy",
+		"forbidden_arcanus:quantum_core"
 	],
-	"inactive_firmament_spirit_core"
-]
+	"duration": 2.0,
+	"essence": [
+		0.0,
+		0.0,
+		0.0,
+		0.0
+	],
+	"tier": "3",
+	"id": "quantum_injector"
+}

@@ -148,3 +148,19 @@ Beta v1.6
 4.添加了一个恩特罗水晶的配方
 
 5.解禁了网络工具
+
+
+
+Beta v1.7
+
+1.调整了随机奖励的概率
+
+2.修改核心模组文件结构(cdp2/assets/structure/xxx -> cdp2/data/ritual_structure/xxx)
+
+3.禁忌与奥秘所有必要配方(量子注入器配方)调整至无需经验，删除无限精华元件中的经验
+
+4.添加了Pattern Checker
+
+5.更新了部分模组
+
+6.回退了Torchmaster的版本(导致了新建存档的崩溃bug)

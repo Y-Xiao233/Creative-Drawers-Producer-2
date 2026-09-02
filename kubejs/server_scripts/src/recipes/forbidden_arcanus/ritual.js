@@ -766,6 +766,30 @@ ServerEvents.recipes(event =>{
             ],
             "tier": "5",
             "id": "tesseract"
+        },
+        {
+            "output": "forbidden_arcanus:quantum_injector",
+            "count": 1,
+            "input": "forbidden_arcanus:mundabitur_dust",
+            "inputs": [
+                "advanced_ae:quantum_alloy",
+                "forbidden_arcanus:quantum_core",
+                "advanced_ae:quantum_alloy",
+                "forbidden_arcanus:quantum_core",
+                "advanced_ae:quantum_alloy",
+                "forbidden_arcanus:quantum_core",
+                "advanced_ae:quantum_alloy",
+                "forbidden_arcanus:quantum_core"
+            ],
+            "duration": 2.0,
+            "essence": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "tier": "3",
+            "id": "quantum_injector"
         }
     ]
     

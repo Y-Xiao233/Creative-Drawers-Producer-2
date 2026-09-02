@@ -2,7 +2,6 @@ const $LightningKey = Java.loadClass("com.moakiee.ae2lt.me.key.LightningKey")
 
 StartupEvents.registry("item", event =>{
     event.create("infinity_essence","meinfinitycell:infinities_cell").setName(Text.translatable("infinities_cell.kubejs.essence")).setKeys(KeyList.create().adds(key =>{
-        key.add(AEKeyHelper.fluid("packaged_faa:fluid_experience"))
         key.add(AEKeyHelper.fluid("packaged_faa:fluid_aureal"))
         key.add(AEKeyHelper.fluid("packaged_faa:fluid_blood"))
         key.add(AEKeyHelper.fluid("packaged_faa:fluid_souls"))

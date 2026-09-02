@@ -646,7 +646,8 @@ ServerEvents.recipes(event =>{
         "mekanism:sawing/torch",
         "industrialforegoing:dissolution_chamber/xp_bottles",
         "extendedae_plus:assembler/ex_pattern_provider",
-        "mekmm:large_wind_generator"
+        "mekmm:large_wind_generator",
+        "forbidden_arcanus:ritual/quantum_injector"
     ]
 
     const by_type = [

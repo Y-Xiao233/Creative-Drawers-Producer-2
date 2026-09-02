@@ -194,3 +194,4 @@
 * [Botany Pots Tiers (by Ultramegaaa)](https://www.curseforge.com/minecraft/mc-mods/botany-pots-tiers)
 * [Controlling (by Jaredlll08)](https://www.curseforge.com/minecraft/mc-mods/controlling)
 * [Prickle (by DarkhaxDev)](https://www.curseforge.com/minecraft/mc-mods/prickle)
+* [Pattern Checker(by 3QQQ)](https://www.curseforge.com/minecraft/mc-mods/pattern-checker)

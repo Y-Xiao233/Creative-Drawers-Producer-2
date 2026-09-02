@@ -209,11 +209,46 @@
 			}
 			weight: 0.2f
 		}
-		{ id: "368AA3D4073CCADA", item: { count: 1, id: "cdp2:supreme_hopper_botany_pot" } }
-		{ id: "21E22962821762C2", item: { count: 1, id: "ae2lt:advanced_wireless_overloaded_controller" } }
-		{ id: "7C5445658B1A2787", item: { count: 1, id: "apothicenchantingaddition:flux_spawner" } }
-		{ id: "51165EEF1156EBAB", item: { count: 1, id: "cdp2:quantum" } }
-		{ id: "572BE17D732CFEE0", item: { count: 1, id: "cdp2:assembler_matrix" } }
+		{
+			id: "368AA3D4073CCADA"
+			item: {
+				count: 1
+				id: "cdp2:supreme_hopper_botany_pot"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "21E22962821762C2"
+			item: {
+				count: 1
+				id: "ae2lt:advanced_wireless_overloaded_controller"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "7C5445658B1A2787"
+			item: {
+				count: 1
+				id: "apothicenchantingaddition:flux_spawner"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "51165EEF1156EBAB"
+			item: {
+				count: 1
+				id: "cdp2:quantum"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "572BE17D732CFEE0"
+			item: {
+				count: 1
+				id: "cdp2:assembler_matrix"
+			}
+			weight: 0.2f
+		}
 		{ id: "5F330C254C61FC8C", item: { count: 1, id: "minecraft:nether_star" } }
 	]
 }
