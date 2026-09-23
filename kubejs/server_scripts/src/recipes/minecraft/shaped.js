@@ -1486,20 +1486,6 @@ ServerEvents.recipes(event =>{
             "id": "infinity_catalyst_creative_drawer"
         },
         {
-            "output": 'cell4:infinity_item_cell[custom_data={cell4item:"avaritia:infinity_catalyst"}]',
-            "pattern": [
-                "ABA",
-                "BCB",
-                "ABA"
-            ],
-            "key": {
-                "A": "kubejs:infinity_lightning_cell",
-                "B": "cdp2:infinity_catalyst_creative_drawer",
-                "C": "avaritia:tesseract"
-            },
-            "id": "infinity_item_cell/infinity_catalyst"
-        },
-        {
             "output": "16x mekanism_extras:enriched_spectrum",
             "pattern": [
                 "ABA",
@@ -1574,6 +1560,46 @@ ServerEvents.recipes(event =>{
                 "B": "minecraft:stick"
             },
             "id": "chisel"
+        },
+        {
+            "output": "ae2ltpp:packaged_pattern_provider",
+            "pattern": [
+                "AAA",
+                "BCD",
+                "AAA"
+            ],
+            "key": {
+                "A": "forbidden_arcanus:mundabitur_dust",
+                "B": "packagedauto:packaging_provider",
+                "C": "packagedauto:package_component",
+                "D": "packagedauto:encoder"
+            },
+            "id": "packaged_pattern_provider"
+        },
+        {
+            "output": "minecraft:hopper",
+            "pattern": [
+                "ABA",
+                "ABA",
+                " A "
+            ],
+            "key": {
+                "A": "minecraft:iron_ingot",
+                "B": '#minecraft:logs'
+            },
+            "id": "hopper"
+        },
+        {
+            "output": "4x minecraft:chest",
+            "pattern": [
+                "AAA",
+                "A A",
+                "AAA"
+            ],
+            "key": {
+                "A": '#minecraft:logs'
+            },
+            "id": "chest"
         }
     ]
     

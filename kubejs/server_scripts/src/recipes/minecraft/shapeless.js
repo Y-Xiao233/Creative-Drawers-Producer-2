@@ -190,6 +190,14 @@ ServerEvents.recipes(event =>{
                 "ae2lt:firmament_alloy_ingot"
             ],
             "inactive_firmament_spirit_core"
+        ],
+        [
+            "cdp2:hephaestus_forge_packaged_core",
+            [
+                "forbidden_arcanus:hephaestus_forge_tier_1",
+                "packagedauto:package_component"
+            ],
+            "hephaestus_forge_packaged_core"
         ]
     ]
     

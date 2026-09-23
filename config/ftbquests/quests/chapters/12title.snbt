@@ -380,12 +380,7 @@
 		{
 			dependencies: ["553B2CBB890F3728"]
 			id: "432B4E42BAE50664"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4E0EBC51C1B7F0D7"
-				table_id: 169688080237336880L
-				type: "random"
-			}]
+			optional: true
 			tasks: [
 				{
 					id: "7B46CB643EE98D1C"
@@ -399,7 +394,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
@@ -501,8 +496,11 @@
 				{
 					id: "3921E5BD3483B4FE"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ae2lt:advanced_wireless_overloaded_controller"
+						}
 						count: 1
-						id: "ae2lt:advanced_wireless_overloaded_controller"
+						id: "ftbquests:missing_item"
 					}
 					only_one: true
 					team_reward: true
@@ -511,8 +509,11 @@
 				{
 					id: "380E60AC759030B8"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ae2lt:overloaded_frequency_card"
+						}
 						count: 1
-						id: "ae2lt:overloaded_frequency_card"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -846,6 +847,34 @@
 				type: "item"
 			}]
 			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["376E12F363B03A5F"]
+			id: "7E79E9F55553EDDD"
+			tasks: [{
+				id: "494ECC1C769D14E6"
+				item: { count: 1, id: "ae2ltpp:packaged_pattern_provider" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["553B2CBB890F3728"]
+			id: "38FC694A4F289D0D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E7BE3421C30F261"
+				table_id: 169688080237336880L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03615C68D8370296"
+				item: { count: 1, id: "cdp2:hephaestus_forge_packaged_core" }
+				type: "item"
+			}]
+			x: 5.5d
 			y: 0.5d
 		}
 	]

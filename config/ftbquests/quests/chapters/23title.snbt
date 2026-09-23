@@ -123,7 +123,7 @@
 			dependencies: ["0D40ED6113A2ED6D"]
 			id: "4EB5ACECF33DEC7F"
 			tasks: [{
-				id: "11A70D2C23A4877C"
+				id: "37BB6A7A67A9C97F"
 				item: { count: 1, id: "ae2lt:matter_warping_matrix_casing" }
 				type: "item"
 			}]
@@ -565,7 +565,7 @@
 			shape: "diamond"
 			size: 1.8d
 			tasks: [{
-				id: "3FEC51F15B939653"
+				id: "2D831114E2DA6015"
 				item: { count: 1, id: "kubejs:infinity_lightning_cell" }
 				type: "item"
 			}]

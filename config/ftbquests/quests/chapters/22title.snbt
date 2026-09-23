@@ -500,7 +500,7 @@
 			dependencies: ["085C752E7002603F"]
 			id: "1814A90EDF2B5BFE"
 			tasks: [{
-				id: "488B063FD50DA07D"
+				id: "63A3184EEEA1B0D3"
 				item: { count: 1, id: "ae2lt:firmament_dust" }
 				type: "item"
 			}]
@@ -533,7 +533,7 @@
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
-				id: "60E546FF8E193387"
+				id: "444BA3F24540BB8F"
 				item: { count: 1, id: "ae2lt:firmament_alloy_ingot" }
 				type: "item"
 			}]

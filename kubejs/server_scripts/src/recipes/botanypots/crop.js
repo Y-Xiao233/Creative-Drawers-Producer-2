@@ -1,5 +1,4 @@
 ServerEvents.recipes(event =>{
-    const $BuiltInRegisties = Java.loadClass("net.minecraft.core.registries.BuiltInRegistries")
     const $MysticalSeedsItem = Java.loadClass("com.blakebr0.mysticalagriculture.item.MysticalSeedsItem")
     const prefix = "cdp2:recipes/botanypots/crop/"
 
@@ -21,11 +20,11 @@ ServerEvents.recipes(event =>{
         DropItem.item('forbidden_arcanus:aurum_leaves',0.8)
     ],20 * 180).id(prefix + "aurum_sapling")
 
-    $BuiltInRegisties.ITEM.forEach(item =>{
+    $BuiltInRegistries.ITEM.forEach(item =>{
         if(item instanceof $MysticalSeedsItem){
             let crop = item.getCrop()
             let tier = crop.getTier().getValue()
-            let location = $BuiltInRegisties.ITEM.getKey(item)
+            let location = $BuiltInRegistries.ITEM.getKey(item)
             event.recipes.botanypots.crop(crop.getSeedsItem(),getIngredinetByTier(tier),DisplayState.aging(crop.getCropBlock()),[
                 DropItem.item(crop.getSeedsItem(),0.1),
                 DropItem.item(crop.getEssenceItem(),1),

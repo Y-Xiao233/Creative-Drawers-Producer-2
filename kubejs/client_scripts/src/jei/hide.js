@@ -56,9 +56,9 @@ const hides = [
     'mekmm:large_heat_generator',
     'jdte:advanced_life_extractor',
     'jdte:extended_life_extractor',
-    'ae2lt:damaged_budding_overload_crystal',
-    'ae2lt:cracked_budding_overload_crystal',
-    'ae2lt:flawed_budding_overload_crystal',
+    // 'ae2lt:damaged_budding_overload_crystal',
+    // 'ae2lt:cracked_budding_overload_crystal',
+    // 'ae2lt:flawed_budding_overload_crystal',
     'mekmm:replicator',
     /mekmm:.*_replicator/,
     /mekmm:.*_replicating_factory/,
@@ -69,12 +69,30 @@ const hides = [
     'mob_grinding_utils:gm_chicken_feed',
     'mob_grinding_utils:gm_chicken_feed_cursed',
     'mekmm:large_wind_generator',
-    'industrialforegoing:item_transporter_type'
+    'industrialforegoing:item_transporter_type',
+    'jdte:extended_energy_transmitter'
 ]
 
+const temp = [
+    /enderio:.*/,
+    /enderio_evolution:.*/,
+    /mekanismsun:.*/,
+    /draconicevolution:.*/,
+    /productivebees:.*/,
+    /productivebeesgenesis:.*/,
+    /neoecoae:.*/,
+    /malum:.*/,
+    /elementalcraft:.*/,
+    /cataclysm:.*/
+]
 
 RecipeViewerEvents.removeEntries("item",event =>{
     hides.forEach(hide => event.remove(hide))
+    temp.forEach(hide => event.remove(hide))
+})
+
+RecipeViewerEvents.removeEntries("fluid",event =>{
+    temp.forEach(hide => event.remove(hide))
 })
 
 

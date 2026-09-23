@@ -225,7 +225,9 @@ ServerEvents.recipes(event =>{
         'mob_grinding_utils:gm_chicken_feed',
         'mob_grinding_utils:gm_chicken_feed_cursed',
         'industrialforegoing:item_transporter_type',
-        "rechiseled:chisel"
+        "rechiseled:chisel",
+        "ae2ltpp:packaged_pattern_provider",
+        'jdte:extended_energy_transmitter'
     ]
 
     const by_id = [
@@ -657,6 +659,24 @@ ServerEvents.recipes(event =>{
     const by_input = [
         'occultism:otherrock'
     ]
+
+    const temp = [
+        /enderio:.*/,
+        /enderio_evolution:.*/,
+        /mekanismsun:.*/,
+        /draconicevolution:.*/,
+        /productivebees:.*/,
+        /productivebeesgenesis:.*/,
+        /neoecoae:.*/,
+        /malum:.*/,
+        /elementalcraft:.*/,
+        /cataclysm:.*/
+    ]
+
+
+    temp.forEach(id =>{
+        event.remove({output: id})
+    })
 
     by_id.forEach(id =>{
         event.remove({id: id})

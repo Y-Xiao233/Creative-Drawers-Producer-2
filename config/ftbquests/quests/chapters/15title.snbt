@@ -111,7 +111,7 @@
 			dependencies: ["38FD6FB053B7A33A"]
 			id: "0DB0FCA20A7BEA14"
 			tasks: [{
-				id: "3C3C758E95B0A483"
+				id: "0B9C1C1C037AF43A"
 				item: { count: 1, id: "ae2lt:overload_alloy" }
 				type: "item"
 			}]
@@ -132,18 +132,18 @@
 			}]
 			tasks: [
 				{
-					id: "0C7149DC3A8086D4"
+					id: "315F406B716263AC"
 					item: { count: 1, id: "ae2lt:lightning_collapse_matrix" }
 					type: "item"
 				}
 				{
-					id: "42C3D58B4AC68F9A"
-					item: { count: 1, id: "ae2lt:tesla_coil" }
+					id: "7BA10F71B1E0BEAD"
+					item: { count: 1, id: "ae2lt:lightning_collector" }
 					type: "item"
 				}
 				{
-					id: "44793A2F085C12F3"
-					item: { count: 1, id: "ae2lt:lightning_collector" }
+					id: "7120764160C7B38C"
+					item: { count: 1, id: "ae2lt:tesla_coil" }
 					type: "item"
 				}
 			]
@@ -668,36 +668,36 @@
 			id: "2EF4E8E0464A5108"
 			tasks: [
 				{
-					id: "058AE2C4CFDE2639"
+					id: "5CF75AF27AC3DB7B"
 					item: { count: 1, id: "ae2lt:lightning_item_cell_housing" }
 					type: "item"
 				}
 				{
-					id: "0972AEE9DE069044"
+					id: "2E9E4BFB8A1D085D"
 					item: { count: 1, id: "ae2lt:lightning_cell_component_i" }
 					optional_task: true
 					type: "item"
 				}
 				{
-					id: "6EB98E089F085D54"
+					id: "3DB98A6A5661950D"
 					item: { count: 1, id: "ae2lt:lightning_cell_component_ii" }
 					optional_task: true
 					type: "item"
 				}
 				{
-					id: "324FA8448E0E636B"
+					id: "4F8BC4969D439C1A"
 					item: { count: 1, id: "ae2lt:lightning_cell_component_iii" }
 					optional_task: true
 					type: "item"
 				}
 				{
-					id: "3C225824F7225ED2"
+					id: "581EE15D8A9FC552"
 					item: { count: 1, id: "ae2lt:lightning_cell_component_iv" }
 					optional_task: true
 					type: "item"
 				}
 				{
-					id: "6B53AB6951413B9D"
+					id: "4D2F490DC65A8514"
 					item: { count: 1, id: "ae2lt:lightning_cell_component_v" }
 					optional_task: true
 					type: "item"

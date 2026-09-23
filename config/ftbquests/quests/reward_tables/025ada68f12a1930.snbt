@@ -3,8 +3,22 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ id: "7FF0FE5C5AF484C1", item: { count: 1, id: "appflux:induction_card" } }
-		{ id: "40A2127BB07D976E", item: { count: 1, id: "ae2wtlib:magnet_card" } }
+		{
+			id: "7FF0FE5C5AF484C1"
+			item: {
+				count: 1
+				id: "appflux:induction_card"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "40A2127BB07D976E"
+			item: {
+				count: 1
+				id: "ae2wtlib:magnet_card"
+			}
+			weight: 0.4f
+		}
 		{
 			id: "40CC5B3192A69523"
 			item: {
@@ -13,8 +27,22 @@
 			}
 			weight: 0.2f
 		}
-		{ id: "718F16B81B17209F", item: { count: 1, id: "ae2:capacity_card" } }
-		{ id: "11D0F376F131BAAC", item: { count: 1, id: "ae2:storage_bus" } }
+		{
+			id: "718F16B81B17209F"
+			item: {
+				count: 1
+				id: "ae2:capacity_card"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "11D0F376F131BAAC"
+			item: {
+				count: 1
+				id: "ae2:storage_bus"
+			}
+			weight: 0.4f
+		}
 		{
 			count: 16
 			id: "450D081D091309BB"
@@ -22,9 +50,16 @@
 				count: 1
 				id: "ae2:blank_pattern"
 			}
-			weight: 2.0f
+			weight: 0.4f
 		}
-		{ id: "48566A1080BB7F1B", item: { count: 1, id: "ae2:crafting_card" } }
+		{
+			id: "48566A1080BB7F1B"
+			item: {
+				count: 1
+				id: "ae2:crafting_card"
+			}
+			weight: 0.4f
+		}
 		{
 			count: 8
 			id: "7064909C9A3B513B"
@@ -51,12 +86,55 @@
 			}
 			weight: 1.8f
 		}
-		{ id: "0D428803D27704AD", item: { count: 1, id: "ae2:speed_card" } }
-		{ id: "4B10CBC825C1668B", item: { count: 1, id: "ae2:4k_crafting_storage" } }
-		{ id: "434063893077C098", item: { count: 1, id: "ae2:interface" } }
-		{ id: "6E624BABC6918FF2", item: { count: 1, id: "ae2:pattern_provider" } }
-		{ id: "7BDB0D74CE564BB8", item: { count: 1, id: "appflux:flux_accessor" } }
-		{ id: "7F44562FA9B50A5C", item: { count: 1, id: "ae2:molecular_assembler" } }
+		{
+			count: 16
+			id: "0D428803D27704AD"
+			item: {
+				count: 1
+				id: "ae2:speed_card"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "4B10CBC825C1668B"
+			item: {
+				count: 1
+				id: "ae2:4k_crafting_storage"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "434063893077C098"
+			item: {
+				count: 1
+				id: "ae2:interface"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "6E624BABC6918FF2"
+			item: {
+				count: 1
+				id: "ae2:pattern_provider"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "7BDB0D74CE564BB8"
+			item: {
+				count: 1
+				id: "appflux:flux_accessor"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "7F44562FA9B50A5C"
+			item: {
+				count: 1
+				id: "ae2:molecular_assembler"
+			}
+			weight: 0.4f
+		}
 		{
 			count: 8
 			id: "493D97C576CBDC15"
@@ -64,7 +142,7 @@
 				count: 1
 				id: "forbidden_arcanus:mundabitur_dust"
 			}
-			weight: 0.2f
+			weight: 0.4f
 		}
 		{
 			count: 8
@@ -136,38 +214,6 @@
 			weight: 0.6f
 		}
 		{
-			id: "17DF97A4A390493A"
-			item: {
-				count: 1
-				id: "ae2lt:advanced_wireless_overloaded_controller"
-			}
-			weight: 0.06f
-		}
-		{
-			id: "24810DBB2CFB7FCF"
-			item: {
-				count: 1
-				id: "ae2lt:overloaded_interface"
-			}
-			weight: 0.08f
-		}
-		{
-			id: "4671679630760E89"
-			item: {
-				count: 1
-				id: "ae2lt:extended_overloaded_pattern_provider"
-			}
-			weight: 0.07f
-		}
-		{
-			id: "6CF985C26EB1C5B7"
-			item: {
-				count: 1
-				id: "ae2lt:overloaded_pattern_provider"
-			}
-			weight: 0.08f
-		}
-		{
 			id: "4528E5B9E2E68F8B"
 			item: {
 				count: 1
@@ -202,6 +248,7 @@
 			weight: 0.08f
 		}
 		{
+			count: 16
 			id: "3636F83F9CCB4FE8"
 			item: {
 				count: 1
@@ -214,14 +261,6 @@
 			item: {
 				count: 1
 				id: "cdp2:supreme_hopper_botany_pot"
-			}
-			weight: 0.4f
-		}
-		{
-			id: "21E22962821762C2"
-			item: {
-				count: 1
-				id: "ae2lt:advanced_wireless_overloaded_controller"
 			}
 			weight: 0.4f
 		}
@@ -250,5 +289,72 @@
 			weight: 0.2f
 		}
 		{ id: "5F330C254C61FC8C", item: { count: 1, id: "minecraft:nether_star" } }
+		{
+			id: "0332C0D7593B0E92"
+			item: {
+				count: 1
+				id: "ae2lt:advanced_wireless_overloaded_controller"
+			}
+			weight: 0.06f
+		}
+		{
+			id: "49C19475C1354EA1"
+			item: {
+				count: 1
+				id: "ae2lt:overloaded_interface"
+			}
+			weight: 0.08f
+		}
+		{
+			id: "3AA22F9FB5971569"
+			item: {
+				count: 1
+				id: "ae2lt:extended_overloaded_pattern_provider"
+			}
+			weight: 0.07f
+		}
+		{ id: "00E470F5CB307059", item: { count: 1, id: "ae2lt:overloaded_pattern_provider" } }
+		{
+			count: 4
+			id: "14A7B858E2491FEE"
+			item: {
+				count: 1
+				id: "ae2cs:overload_card"
+			}
+		}
+		{
+			id: "5AC9230A689105A4"
+			item: {
+				count: 1
+				id: "ae2cs:resonating_pattern_provider"
+			}
+			weight: 0.6f
+		}
+		{ id: "59ED35051191299E", item: { count: 1, id: "ae2cs:meteorite_pattern_provider" } }
+		{
+			count: 16
+			id: "728C609AC3355FD1"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "2FF60613FCA5DC5D"
+			item: {
+				count: 1
+				id: "ifeu:dragon_star"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "571A63BC935D2872"
+			item: {
+				count: 1
+				id: "ifeu:creative_addon"
+			}
+			weight: 0.02f
+		}
 	]
 }

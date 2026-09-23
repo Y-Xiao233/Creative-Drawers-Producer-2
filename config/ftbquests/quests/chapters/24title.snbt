@@ -28,7 +28,7 @@
 			dependencies: ["1066C418D56068FF"]
 			id: "26515B7A3892CD4A"
 			tasks: [{
-				id: "628DDC82070CE3C4"
+				id: "6AD3B9D144BD9EF0"
 				item: { count: 1, id: "ae2lt:basic_topological_lattice" }
 				type: "item"
 			}]
@@ -39,24 +39,12 @@
 			dependencies: ["26515B7A3892CD4A"]
 			id: "576B948CE375E010"
 			tasks: [{
-				id: "31D543CED7070DB7"
-				item: { count: 1, id: "ae2lt:hyperdimensional_topological_lattice" }
+				id: "228C3234D17C3BC3"
+				item: { count: 1, id: "ae2lt:dense_topological_lattice" }
 				type: "item"
 			}]
 			x: -1.0d
 			y: 0.5d
-		}
-		{
-			dependencies: ["576B948CE375E010"]
-			id: "669D447DE065479E"
-			tasks: [{
-				id: "03921030A86C0D64"
-				item: { components: { "minecraft:custom_data": { cell4item: "avaritia:infinity_catalyst" } }, count: 1, id: "cell4:infinity_item_cell" }
-				match_components: "fuzzy"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["576B948CE375E010"]
@@ -158,7 +146,7 @@
 			dependencies: ["3DC6557474CF0CB3"]
 			id: "3E643110D4D2EE5A"
 			tasks: [{
-				id: "2ABD3E257DB0CC7D"
+				id: "7955FA17195D27AF"
 				item: { count: 1, id: "ae2lt:pigmee_core" }
 				type: "item"
 			}]
@@ -169,7 +157,7 @@
 			dependencies: ["3E643110D4D2EE5A"]
 			id: "2A32638853D21D9A"
 			tasks: [{
-				id: "79B8B06F3686AB53"
+				id: "5BD8C51013C1C8F2"
 				item: { count: 1, id: "ae2lt:pigmee_fumo" }
 				type: "item"
 			}]
