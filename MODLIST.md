@@ -66,7 +66,6 @@
 * [Malum (by sammysemicolon)](https://www.curseforge.com/minecraft/mc-mods/malum)
 * [Powah! (Rearchitected) (by thetechnici4n)](https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected)
 * [AE2 WCWT (by lhy512103)](https://www.curseforge.com/minecraft/mc-mods/ae2-wcwt)
-* [Trash Cans (by SuperMartijn642)](https://www.curseforge.com/minecraft/mc-mods/trash-cans)
 * [PackagedAvaritia (by TheLMiffy1111)](https://www.curseforge.com/minecraft/mc-mods/packagedavaritia)
 * [ProbeJS (by Amygdaloideae)](https://www.curseforge.com/minecraft/mc-mods/probejs)
 * [PackagedAuto (by TheLMiffy1111)](https://www.curseforge.com/minecraft/mc-mods/packagedauto)
