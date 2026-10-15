@@ -5,12 +5,14 @@ ServerEvents.recipes(event =>{
         {
             "nest":'productivebees:obsidian_nest',
             "item":'create:creative_blaze_cake',
-            "bee":"productivebees:draconic"
+            "bee":"productivebees:draconic",
+            "id":"draconic"
         },
         {
             "nest":'productivebees:coarse_dirt_nest',
             "item":'mysticalagriculture:skeleton_essence',
-            "bee":"productivebees:skeletal"
+            "bee":"productivebees:skeletal",
+            "id":"skeletal"
         }
     ]
 
@@ -27,6 +29,6 @@ ServerEvents.recipes(event =>{
                 recipe.bee
             ],
             "biomes": "#c:is_overworld"
-        }).id(prefix + recipe.bee.indexOf(recipe.bee.indexOf(":") + 1))
+        }).id(prefix + recipe.id)
     })
 })

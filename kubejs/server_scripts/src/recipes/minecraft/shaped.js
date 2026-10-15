@@ -1837,7 +1837,7 @@ ServerEvents.recipes(event =>{
                 "B": "malum:blighted_gunk",
                 "C": "malum:runic_sapball"
             },
-            "id": "arcane_spirit"
+            "id": "arcane_spirit_1"
         },
         {
             "output": "ae2lt:pigmee_fumo",
@@ -2068,7 +2068,7 @@ ServerEvents.recipes(event =>{
             "key": {
                 "A": "kubejs:spirit_shard"
             },
-            "id": "arcane_spirit"
+            "id": "arcane_spirit_2"
         },
         {
             "output": "4x malum:infernal_spirit",
