@@ -31,7 +31,17 @@ ServerEvents.recipes(event =>{
             output:'create:cinder_flour',
             input:'minecraft:netherrack',
             id:"cinder_flour"
-        }
+        },
+        {
+            output:'4x mekanism_extras:alloy_spectrum',
+            input:"#cdp2:can_crush_to_alloy_spectrum",
+            id:"alloy_spectrum"
+        },
+        {
+            output:'cdp2:creative_shard_2',
+            input:"#cdp2:creative_drawer/2",
+            id:"creative_shard_2"
+        },
     ]
 
     recipes.forEach(recipe =>{

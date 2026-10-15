@@ -44,11 +44,6 @@ ServerEvents.recipes(event =>{
             ],
             "cosmic_essence"
         ],
-        hephaestus_packaged(1),
-        hephaestus_packaged(2),
-        hephaestus_packaged(3),
-        hephaestus_packaged(4),
-        hephaestus_packaged(5),
         [
             "ae2:silicon_press",
             [
@@ -198,6 +193,68 @@ ServerEvents.recipes(event =>{
                 "packagedauto:package_component"
             ],
             "hephaestus_forge_packaged_core"
+        ],
+        [
+            "2x malum:strange_crystal",
+            [
+                "malum:large_strange_crystal"
+            ],
+            "strange_crystal"
+        ],
+        [
+            "minecraft:slime_ball",
+            [
+                "malum:blighted_gunk",
+                "malum:strange_crystal"
+            ],
+            "slime_ball"
+        ],
+        [
+            "malum:runic_sapball",
+            [
+                "minecraft:slime_ball",
+                "malum:runic_sap"
+            ],
+            "runic_sapball"
+        ],
+        [
+            "malum:cursed_sapball",
+            [
+                "minecraft:slime_ball",
+                "malum:cursed_sap"
+            ],
+            "cursed_sapball"
+        ],
+        [
+            "cdp2:upgrade_station",
+            [
+                "ae2lt:white_pigmee_framed_building_panel",
+                "mekanism_extras:alloy_spectrum"
+            ],
+            "upgrade_station"
+        ],
+        [
+            "malum:refined_soulstone",
+            [
+                "malum:block_of_soulstone"
+            ],
+            "refined_soulstone"
+        ],
+        [
+            'avaritia:singularity[avaritia:singularity_id="avaritia:electrum"]',
+            [
+                'avaritia:infinity_catalyst'
+            ],
+            "electrum_singularity"
+        ],
+        [
+            "mysticalagriculture:awakened_supremium_ingot",
+            [
+                "kubejs:ingot_better_gold",
+                "mysticalagriculture:awakened_supremium_essence",
+                "mysticalagriculture:awakened_supremium_essence"
+            ],
+            "awakened_supremium_ingot"
         ]
     ]
     
@@ -208,30 +265,6 @@ ServerEvents.recipes(event =>{
     replication_creative("ars_nouveau:creative_source_jar")
     // replication_creative("ae2:creative_energy_cell")
     // replication_creative("create:creative_motor")
-
-
-
-
-    function hephaestus_packaged(level){
-        if(level == 1){
-            return [
-                'packaged_faa:hephaestus_packaged',
-                [
-                    'packagedauto:package_component',
-                    'forbidden_arcanus:hephaestus_forge_tier_1'
-                ],
-                "hephaestus_packaged_1"
-            ]
-        }
-        return [
-            `packaged_faa:hephaestus_packaged[packaged_faa:level_forge={level:${level}}]`,
-            [
-                'packagedauto:package_component',
-                `forbidden_arcanus:hephaestus_forge_tier_${level}`
-            ],
-            `hephaestus_packaged_${level}`
-        ]
-    }
 
     function replication_creative(creative_item){
         event.shapeless("2x " + creative_item,[creative_item,'mekanism_extras:alloy_thermonuclear']).id(prefix + "replication/" + creative_item.substring(creative_item.indexOf(":") + 1))

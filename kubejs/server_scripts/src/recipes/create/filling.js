@@ -5,7 +5,7 @@ ServerEvents.recipes(event =>{
         {
             "output":'minecraft:nether_star',
             "inputs":[
-                'ifeu:empty_nether_star',
+                'industrialforegoingextra:empty_nether_star',
                 Fluid.of("industrialforegoing:ether_gas",1000)
             ],
             "id":"nether_star"

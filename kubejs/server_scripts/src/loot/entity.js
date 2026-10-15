@@ -42,6 +42,10 @@ LootJS.lootTables(event =>{
             condition.randomChance(0.1)
         }).addEntry(LootEntry.of('minecraft:dragon_egg'))
     })
+
+    event.modifyEntityTables("minecraft:bee").createPool(pool =>{
+        pool.addEntry(LootEntry.of('mysticalagriculture:honey_essence').setCount([32,64]))
+    })
 })
 
 
@@ -50,6 +54,10 @@ LootJS.lootTables(event =>{
     event.modifyEntityTables('occultism:wild_hunt_wither_skeleton').removeItem('minecraft:wither_skeleton_skull')
     event.modifyEntityTables('mekanismadditions:baby_wither_skeleton').removeItem('minecraft:wither_skeleton_skull')
     event.modifyEntityTables("minecraft:warden").removeItem('minecraft:sculk_catalyst')
+    event.modifyEntityTables("cataclysm:draugr").removeItem('cataclysm:black_steel_ingot').removeItem('cataclysm:black_steel_nugget')
+    event.modifyEntityTables("cataclysm:royal_draugr").removeItem('cataclysm:black_steel_ingot').removeItem('cataclysm:black_steel_nugget')
+    event.modifyEntityTables("cataclysm:elite_draugr").removeItem('cataclysm:black_steel_ingot').removeItem('cataclysm:black_steel_nugget')
+    event.modifyEntityTables("cataclysm:aptrgangr").removeItem('cataclysm:black_steel_ingot').removeItem('cataclysm:black_steel_nugget')
 })
 
 //禁用打凋零掉落下界之星

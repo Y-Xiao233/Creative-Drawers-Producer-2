@@ -77,12 +77,6 @@
 		{
 			dependencies: ["480C1EEB87690CB7"]
 			id: "09AA0044184FE20D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "78A4B3EFBD1850CE"
-				table_id: 169688080237336880L
-				type: "random"
-			}]
 			tasks: [{
 				id: "6B2C96E6732B90A0"
 				item: { count: 1, id: "actuallyadditions:iron_casing" }
@@ -90,17 +84,6 @@
 			}]
 			x: 1.0d
 			y: 0.5d
-		}
-		{
-			dependencies: ["09AA0044184FE20D"]
-			id: "5BE2C79B199FA1DD"
-			tasks: [{
-				id: "46B5B83B75CE834C"
-				item: { components: { "mekanism:energy": { energy_containers: [L;389120000L] } }, count: 1, id: "mekmm:large_gas_burning_generator" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -0.5d
 		}
 		{
 			dependencies: ["7C5FE655D7F9E2D7"]
@@ -162,12 +145,6 @@
 				"404B43B4B2AA33B9"
 			]
 			id: "715356D265854643"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "571DA065E2F82B1B"
-				table_id: 169688080237336880L
-				type: "random"
-			}]
 			tasks: [{
 				id: "192D4572AA86D3FD"
 				item: { count: 1, id: "actuallyadditions:refined_canola_oil_bucket" }
@@ -201,12 +178,6 @@
 		{
 			dependencies: ["339A73D8E692DA96"]
 			id: "085C752E7002603F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "26513A554F986814"
-				table_id: 169688080237336880L
-				type: "random"
-			}]
 			tasks: [{
 				id: "7BE071390D441C09"
 				item: { count: 1, id: "minecraft:end_portal_frame" }
@@ -232,12 +203,6 @@
 				"09C1805BD01A7B0E"
 			]
 			id: "662062CE2D821A58"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2AB0534EE95EA793"
-				table_id: 169688080237336880L
-				type: "random"
-			}]
 			shape: "diamond"
 			size: 1.8d
 			tasks: [{
@@ -276,12 +241,6 @@
 		{
 			dependencies: ["339A73D8E692DA96"]
 			id: "0A88D98C0D9272EE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7589A50235F5E737"
-				table_id: 169688080237336880L
-				type: "random"
-			}]
 			tasks: [{
 				id: "6EBC87D1B06E8F07"
 				item: { count: 1, id: "jdte:life_synthesis_vat" }
@@ -377,12 +336,6 @@
 				"71866A2E2D6FAA15"
 			]
 			id: "0BE080698160E180"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "06B1B24DFE8C3532"
-				table_id: 169688080237336880L
-				type: "random"
-			}]
 			tasks: [{
 				id: "0DB16F7CBF6C06ED"
 				item: { count: 1, id: "actuallyadditions:empowered_restonia_crystal_block" }
@@ -430,12 +383,6 @@
 		{
 			dependencies: ["47E645397345BF18"]
 			id: "4DA3731527B470EA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "488007E6C113B458"
-				table_id: 169688080237336880L
-				type: "random"
-			}]
 			tasks: [{
 				id: "2826D17A41DB102B"
 				item: { count: 1, id: "mekanism_extras:alloy_thermonuclear" }

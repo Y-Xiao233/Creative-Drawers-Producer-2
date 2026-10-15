@@ -1,4 +1,5 @@
 {
+	chapter.04B328CE7C3FF94C.title: "{3.2.title}"
 	chapter.08FCFEC073FADAE4.title: "{welcome.title}"
 	chapter.32013AE21D255BBB.title: "{2.4.title}"
 	chapter.3ECFE7AAFA60BD02.title: "{2.2.title}"
@@ -18,6 +19,8 @@
 	quest.0974A221BDE512B8.title: "{reward.floor}"
 	quest.11C13E5E021F9296.quest_desc: ["{1.1.1.desc0}"]
 	quest.16839FE4EAD3429A.quest_desc: ["{welcome.3.desc0}"]
+	quest.1B0FD3F7E0C3BFF8.quest_desc: ["{3.1.1.desc0}"]
+	quest.1ECE35740B006A1D.quest_desc: ["{3.1.2.desc0}"]
 	quest.216E7546751CB69E.quest_desc: ["{1.4.1.desc0}"]
 	quest.23AB7A022EE88549.quest_desc: [
 		"{1.4.0.desc0}"
@@ -27,6 +30,7 @@
 	]
 	quest.24489B3F47CD982C.title: "{reward.wrench}"
 	quest.2D115A134B66F55D.title: "{1.1.0.title}"
+	quest.32E3736C92242B7F.quest_desc: ["{3.1.3.desc0}"]
 	quest.358D3F61E4227462.quest_desc: ["{1.1.2.desc0}"]
 	quest.381170C2E05A9994.quest_desc: [
 		"{welcome.0.desc0}"
@@ -68,9 +72,15 @@
 	quest.7C5FE655D7F9E2D7.quest_desc: ["{2.2.1.desc0}"]
 	reward_table.025ADA68F12A1930.title: "{reward.common}"
 	reward_table.333E6EF86F40E236.title: "{reward.wrench}"
+	reward_table.455813CDA1941ACE.title: "{reward.uncommon}"
+	reward_table.610768999DA2900E.title: "{reward.uncommon}"
+	reward_table.628C876B8678B1F1.title: "{reward.epic}"
 	task.14F02AE0782620D1.title: "{welcome.2.title}"
+	task.26605D688AA97559.title: "{1.2.0.task0.title}"
 	task.3A2F0DAF42B8E78D.title: "{welcome.0.title}"
 	task.42AE32E53E522423.title: "{reward.tome}"
+	task.5AD1622EA489523D.title: "{1.2.0.task0.title}"
+	task.5E67D8599F2A5A40.title: "{1.2.0.task0.title}"
 	task.6BA7D5A1935EE818.title: "{welcome.1.title}"
 	task.6C32B854BAC74BA2.title: "{1.2.0.task0.title}"
 	task.7E4CAB1B73136BDE.title: "{welcome.3.title}"

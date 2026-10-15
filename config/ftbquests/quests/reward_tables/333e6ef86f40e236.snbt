@@ -1,7 +1,7 @@
 {
 	id: "333E6EF86F40E236"
 	loot_size: 1
-	order_index: 1
+	order_index: 3
 	rewards: [
 		{ id: "2CA180353069590D", item: { count: 1, id: "entangled:item" } }
 		{ id: "1C21CB92FBB5D543", item: { count: 1, id: "logisticsnetworks:wrench" } }
@@ -18,7 +18,6 @@
 		{ id: "0D16CB07D0B9D713", item: { count: 1, id: "fluxnetworks:admin_configurator" } }
 		{ id: "66B90A9FCE713D8B", item: { count: 1, id: "create:wrench" } }
 		{ id: "4A02F6D13B244881", item: { count: 1, id: "ae2:nether_quartz_wrench" } }
-		{ id: "5270851AB80026DB", item: { count: 1, id: "ifeu:wrench" } }
 		{ id: "720309460587AD97", item: { count: 1, id: "laserio:laser_wrench" } }
 		{ id: "6373CE38F85B758D", item: { count: 1, id: "ars_nouveau:dominion_wand" } }
 		{ id: "1671FD87F452CE64", item: { count: 1, id: "advanced_ae:throughput_monitor_configurator" } }

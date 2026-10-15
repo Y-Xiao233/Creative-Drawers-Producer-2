@@ -10,7 +10,7 @@ ServerEvents.recipes(event =>{
     event.replaceInput({output:'botanypotstiers:ultra_terracotta_hopper_botany_pot'},'minecraft:nether_star','forbidden_arcanus:sea_prism')
     event.replaceInput({output:'mekanism:basic_induction_provider'},'mekanism:dust_lithium','forbidden_arcanus:mundabitur_dust')
     event.replaceInput({output:'mekanism:basic_induction_cell'},'mekanism:dust_lithium','forbidden_arcanus:mundabitur_dust')
-    event.replaceInput({output:'industrialforegoing:mob_slaughter_factory'},'industrialforegoing:gold_gear','ifeu:netherite_gear')
+    event.replaceInput({output:'industrialforegoing:mob_slaughter_factory'},'industrialforegoing:gold_gear','industrialforegoingextra:netherite_gear')
     event.replaceInput({output:'industrialforegoing:material_stonework_factory'},'industrialforegoing:gold_gear','naturesaura:tainted_gold')
 
     event.replaceInput({output:'botanypotstiers:mega_terracotta_hopper_botany_pot'},'minecraft:enchanted_golden_apple','kubejs:nature_prism')
@@ -33,4 +33,9 @@ ServerEvents.recipes(event =>{
     event.replaceInput({output:'extendedae:crystal_assembler'},'ae2:logic_processor','kubejs:arcanus_processor')
     event.replaceInput({output:'extendedae:crystal_assembler'},'extendedae:machine_frame','cdp2:frame')
     event.replaceInput({output:'ae2:io_port'},'ae2:logic_processor','kubejs:arcanus_processor')
+
+    event.replaceInput({output:'productivebees:breeding_chamber'},'minecraft:iron_ingot','cataclysm:black_steel_ingot')
+    event.replaceInput({output:'productivebees:breeding_chamber'},'productivelib:upgrade_child','mysticalagriculture:soulstone_cobble')
+
+    event.replaceInput({output:'ae2_pattern_disk:pattern_disk_4k'},'ae2:calculation_processor','kubejs:arcanus_processor')
 })

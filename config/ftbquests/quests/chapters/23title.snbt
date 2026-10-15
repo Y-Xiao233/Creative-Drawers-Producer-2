@@ -197,9 +197,9 @@
 					type: "item"
 				}
 				{
-					id: "007B9C79CE6949A7"
-					item: { components: { "jdte:mineral_survey": { biome: "minecraft:end_highlands", dimension: "minecraft:the_end", entries: [{ confidence: "data_pack", ore: "mekanism_extras:naquadah_ore", weight: 1L }], index_version: 2992341842116086990L } }, count: 1, id: "jdte:mineral_survey" }
-					match_components: "fuzzy"
+					id: "075FE68069EFD170"
+					item: { components: { "jdte:mineral_survey": { biome: "minecraft:end_highlands", dimension: "minecraft:the_end", entries: [{ confidence: "data_pack", ore: "mekanism_extras:naquadah_ore", weight: 1L }] } }, count: 1, id: "jdte:mineral_survey" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -515,6 +515,9 @@
 		}
 		{
 			dependencies: ["3DD671A7916DA2AF"]
+			icon: {
+				id: "forbidden_arcanus:hephaestus_forge_tier_5"
+			}
 			id: "740394C2F345C149"
 			tasks: [
 				{
@@ -524,11 +527,12 @@
 					type: "item"
 				}
 				{
-					id: "652C8FE26F33E83E"
-					item: { components: { "packaged_faa:level_forge": { level: 5 } }, count: 1, id: "packaged_faa:hephaestus_packaged" }
-					match_components: "fuzzy"
-					optional_task: true
-					type: "item"
+					id: "5E67D8599F2A5A40"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "forbidden_arcanus:hephaestus_forge_tier_5"
+					type: "observation"
 				}
 			]
 			x: 11.5d
@@ -618,6 +622,17 @@
 			]
 			x: 9.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["0D40ED6113A2ED6D"]
+			id: "08A9EDDF34EAFFD5"
+			tasks: [{
+				id: "5BF37F762DAFAC09"
+				item: { count: 1, id: "extendedcompressor:ultimate_compressor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 }

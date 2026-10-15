@@ -8,7 +8,10 @@ ServerEvents.tags("block",event =>{
         "cdp2:the_ultimate_ingot_creative_drawer",
         "cdp2:infinity_catalyst_creative_drawer",
         "cdp2:amethyst_block_shiny_connecting_creative_drawer",
-        "cdp2:iron_block_pipes_connecting_creative_drawer"
+        "cdp2:iron_block_pipes_connecting_creative_drawer",
+        "cdp2:void_matter_creative_drawer_creative_drawer",
+        "cdp2:sea_prism_creative_drawer",
+        "cdp2:electrum_ingot_creative_drawer"
     ]
     event.add("minecraft:mineable/pickaxe",creative_drawers)
 

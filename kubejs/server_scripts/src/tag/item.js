@@ -1,5 +1,6 @@
 ServerEvents.tags("item",event =>{
     event.add("cdp2:creative_drawer/1",['cdp2:apple_creative_drawer','cdp2:void_matter_creative_drawer'])
+    event.add("cdp2:creative_drawer/2",['cdp2:void_matter_creative_drawer_creative_drawer'])
 
     event.add("cdp2:soil/inferium",['mysticalagriculture:inferium_farmland','minecraft:dirt'])
     event.add("cdp2:soil/prudentium",['mysticalagriculture:prudentium_farmland'])
@@ -24,6 +25,9 @@ ServerEvents.tags("item",event =>{
 
     event.add("ae2cs:crystal_seeds",["ae2cs:iron_seed",'ae2cs:amethyst_seed'])
     event.add("ae2cs:pure_crystal",['minecraft:amethyst_shard','ae2cs:purified_fluix_crystal'])
+
+
+    event.add("cdp2:can_crush_to_alloy_spectrum",['mekanism_extras:infinite_smelting_factory','mekanism_extras:infinite_oxidizing_factory','mekanism_extras:infinite_crushing_factory'])
 })
 
 

@@ -4,14 +4,14 @@ ServerEvents.recipes(event =>{
     const recipes = [
         {
             "output":'4x actuallyadditions:black_quartz',
-            "fluid":"1000x ifeu:liquid_dragon_breath",
+            "fluid":"1000x industrialforegoingextra:liquid_dragon_breath",
             "chemical":"1000x mekanism:sodium",
             "item":'actuallyadditions:black_quartz_ore',
             "id":"black_quartz"
         },
         {
             "output":'actuallyadditions:canola_seeds',
-            "fluid":"1000x ifeu:liquid_dragon_breath",
+            "fluid":"1000x industrialforegoingextra:liquid_dragon_breath",
             "chemical":"1000x mekanism:superheated_sodium",
             "item":'minecraft:wheat_seeds',
             "id":"canola_seeds"
@@ -79,6 +79,13 @@ ServerEvents.recipes(event =>{
             "chemical":"100x mekmm:unstable_dimensional_gas",
             "item":'64x mekmm:scrap_box',
             "id":"empty_crystal"
+        },
+        {
+            "output":'avaritia:extreme_smithing_table',
+            "fluid":"1000x neoecoae:cryotheum_solution",
+            "chemical":"1000x mekanismgenerators:fusion_fuel",
+            "item":'64x minecraft:smithing_table',
+            "id":"extreme_smithing_table"
         }
     ]
 

@@ -12,6 +12,10 @@ StartupEvents.registry("fluid",(event) => {
         {
             id:"naquadah_uranium_fuel",
             color:0x817D3A
+        },
+        {
+            id:"unstable_dimensional_fluid",
+            color:0xD9A350
         }
     ]
 

@@ -56,9 +56,9 @@ const hides = [
     'mekmm:large_heat_generator',
     'jdte:advanced_life_extractor',
     'jdte:extended_life_extractor',
-    // 'ae2lt:damaged_budding_overload_crystal',
-    // 'ae2lt:cracked_budding_overload_crystal',
-    // 'ae2lt:flawed_budding_overload_crystal',
+    'ae2lt:damaged_budding_overload_crystal',
+    'ae2lt:cracked_budding_overload_crystal',
+    'ae2lt:flawed_budding_overload_crystal',
     'mekmm:replicator',
     /mekmm:.*_replicator/,
     /mekmm:.*_replicating_factory/,
@@ -70,20 +70,38 @@ const hides = [
     'mob_grinding_utils:gm_chicken_feed_cursed',
     'mekmm:large_wind_generator',
     'industrialforegoing:item_transporter_type',
-    'jdte:extended_energy_transmitter'
+    'jdte:extended_energy_transmitter',
+    'mysticalagriculture:conductive_alloy_seeds',
+    'mysticalagriculture:conductive_alloy_essence',
+    'mysticalagriculture:vibrant_alloy_seeds',
+    'mysticalagriculture:vibrant_alloy_essence',
+    'mysticalagriculture:energetic_alloy_seeds',
+    'mysticalagriculture:energetic_alloy_essence',
+    'mekanismgenerators:gas_burning_generator',
+    'ae2cs:purified_data_crystal',
+    'ae2cs:purified_ember_crystal',
+    'ae2cs:purified_certus_quartz_crystal',
+    'mekanismsun:silver_nugget',
+    'mekanismsun:silver_dust',
+    'mekanismsun:silver_ingot',
+    'mekanismsun:raw_silver',
+    'mekanismsun:deepslate_silver_ore',
+    'mekanismsun:silver_ore',
+    'mysticalagriculture:electrum_seeds',
+    'mekanismsun:alloyer'
 ]
 
 const temp = [
-    /enderio:.*/,
-    /enderio_evolution:.*/,
-    /mekanismsun:.*/,
-    /draconicevolution:.*/,
-    /productivebees:.*/,
-    /productivebeesgenesis:.*/,
-    /neoecoae:.*/,
-    /malum:.*/,
-    /elementalcraft:.*/,
-    /cataclysm:.*/
+    // /enderio:.*/,
+    // /enderio_evolution:.*/,
+    // /mekanismsun:.*/,
+    // /draconicevolution:.*/,
+    // /productivebees:.*/,
+    // /productivebeesgenesis:.*/,
+    // /neoecoae:.*/,
+    // /malum:.*/,
+    // /elementalcraft:.*/,
+    // /cataclysm:.*/
 ]
 
 RecipeViewerEvents.removeEntries("item",event =>{

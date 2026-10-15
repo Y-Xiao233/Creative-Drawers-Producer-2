@@ -610,19 +610,6 @@ ServerEvents.recipes(event =>{
             "id": "drive"
         },
         {
-            "output": "8x packaged_faa:pedestal_packaged",
-            "pattern": [
-                "AAA",
-                "ABA",
-                "AAA"
-            ],
-            "key": {
-                "A": "forbidden_arcanus:darkstone_pedestal",
-                "B": "packagedauto:package_component"
-            },
-            "id": "pedestal_packaged"
-        },
-        {
             "output": "merequester:requester",
             "pattern": [
                 "ABA",
@@ -943,7 +930,7 @@ ServerEvents.recipes(event =>{
             "key": {
                 "A": "jdte:time_fluid_catalyst",
                 "B": "mysticalagradditions:insanium_ingot",
-                "C": "ifeu:dragon_star"
+                "C": "industrialforegoingextra:dragon_star"
             },
             "id": "creative_goo"
         },
@@ -960,7 +947,7 @@ ServerEvents.recipes(event =>{
                 "C": "kubejs:quantum_prism",
                 "D": "industrialforegoing:machine_frame_supreme",
                 "E": "mysticalagradditions:insanium_ingot",
-                "F": "ifeu:dragon_star"
+                "F": "industrialforegoingextra:dragon_star"
             },
             "id": "flux_infusion_enchantment_factory"
         },
@@ -1227,7 +1214,7 @@ ServerEvents.recipes(event =>{
             "key": {
                 "A": "industrialforegoing:pink_slime_ingot",
                 "B": "create:blaze_cake",
-                "C": "ifeu:creative_chance_addon"
+                "C": 'create:blaze_cake'
             },
             "id": "creative_blaze_cake"
         },
@@ -1382,7 +1369,7 @@ ServerEvents.recipes(event =>{
                 "D": "ae2lt:matter_warping_matrix_casing",
                 "E": "extendedcrafting:black_iron_slate"
             },
-            "id": "crafting_core"
+            "id": "ec_crafting_core"
         },
         {
             "output": "4x mekanism_extras:enriched_shining",
@@ -1536,19 +1523,6 @@ ServerEvents.recipes(event =>{
             "id": "creative_casing"
         },
         {
-            "output": "cdp2:cozy_home",
-            "pattern": [
-                "AAA",
-                "ABA",
-                "AAA"
-            ],
-            "key": {
-                "A": "kubejs:cosmic_origin_topological_lattice",
-                "B": "createmoremachines:creative_casing"
-            },
-            "id": "cozy_home"
-        },
-        {
             "output": "rechiseled:chisel",
             "pattern": [
                 " A ",
@@ -1600,6 +1574,649 @@ ServerEvents.recipes(event =>{
                 "A": '#minecraft:logs'
             },
             "id": "chest"
+        },
+        {
+            "output": "minecraft:waxed_copper_block",
+            "pattern": [
+                "AAA",
+                "ABA",
+                "AAA"
+            ],
+            "key": {
+                "A": "mysticalagriculture:honey_essence",
+                "B": "minecraft:copper_block"
+            },
+            "id": "waxed_copper_block"
+        },
+        {
+            "output": "minecraft:rose_bush",
+            "pattern": [
+                "AA ",
+                "AA ",
+                "AA "
+            ],
+            "key": {
+                "A": "minecraft:poppy"
+            },
+            "id": "rose_bush"
+        },
+        {
+            "output": "productivebeesgenesis:mek_apiary",
+            "pattern": [
+                "ABA",
+                "CDC",
+                "ABA"
+            ],
+            "key": {
+                "A": "forbidden_arcanus:mundabitur_dust",
+                "B": "mekanism:ultimate_control_circuit",
+                "C": 'cataclysm:black_steel_ingot',
+                "D": '#productivebees:advanced_beehives'
+            },
+            "id": "mek_apiary"
+        },
+        {
+            "output": "cdp2:breeding_chamber",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "productivelib:upgrade_productivity",
+                "B": "productivebees:breeding_chamber",
+                "C": "industrialforegoing:machine_frame_advanced"
+            },
+            "id": "breeding_chamber"
+        },
+        {
+            "output": "productivebeesgenesis:mek_centrifuge",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "productivelib:upgrade_productivity",
+                "B": "productivebees:heated_centrifuge",
+                "C": "industrialforegoing:machine_frame_advanced"
+            },
+            "id": "mek_centrifuge"
+        },
+        {
+            "output": "cdp2:bee_converter",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "productivelib:upgrade_productivity",
+                "B": "justdirethings:clickert1",
+                "C": "industrialforegoing:machine_frame_advanced"
+            },
+            "id": "bee_converter"
+        },
+        {
+            "output": "cdp2:bee_fishing_device",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "productivelib:upgrade_productivity",
+                "B": "mysticalagriculture:tertium_fishing_rod",
+                "C": "industrialforegoing:machine_frame_advanced"
+            },
+            "id": "bee_fishing_device"
+        },
+        {
+            "output": "cdp2:bee_spawner",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "productivelib:upgrade_productivity",
+                "B": "productivebees:obsidian_nest",
+                "C": "industrialforegoing:machine_frame_advanced"
+            },
+            "id": "bee_spawner"
+        },
+        {
+            "output": "enderio:photovoltaic_composite",
+            "pattern": [
+                "ABA",
+                "CDC",
+                "ABA"
+            ],
+            "key": {
+                "A": "enderio:grains_of_infinity",
+                "B": "neoecoae:energized_crystal_dust",
+                "C": "enderio:vibrant_powder",
+                "D": "enderio_evolution:melodic_alloy_nugget"
+            },
+            "id": "photovoltaic_composite"
+        },
+        {
+            "output": "8x neoecoae:energized_crystal",
+            "pattern": [
+                "ABA",
+                "CAD",
+                "AEA"
+            ],
+            "key": {
+                "A": "ae2lt:dense_topological_lattice",
+                "B": "extendedae:entro_crystal",
+                "C": "extendedae_plus:lattra_crystal",
+                "D": "ae2lt:overload_crystal",
+                "E": "ae2:fluix_crystal"
+            },
+            "id": "energized_crystal"
+        },
+        {
+            "output": "enderio:alloy_smelter",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "DED"
+            ],
+            "key": {
+                "A": "industrialforegoing:iron_gear",
+                "B": "avaritia:neutron_collector",
+                "C": "industrialforegoing:machine_frame_simple",
+                "D": "create:brass_ingot",
+                "E": "enderio:void_chassis"
+            },
+            "id": "alloy_smelter"
+        },
+        {
+            "output": "mekanismgenerators:solar_panel",
+            "pattern": [
+                "ABA",
+                "CAC",
+                "ABA"
+            ],
+            "key": {
+                "A": "mekanism_extras:alloy_shining",
+                "B": "enderio:photovoltaic_plate",
+                "C": "powah:photoelectric_pane"
+            },
+            "id": "solar_panel"
+        },
+        {
+            "output": "productivelib:upgrade_block",
+            "pattern": [
+                "ABA",
+                "CDC",
+                "ABA"
+            ],
+            "key": {
+                "A": "productivebees:draconic_chunk",
+                "B": 'productivebees:configurable_comb[productivebees:bee_type="productivebees:tainted_gold"]',
+                "C": "minecraft:item_frame",
+                "D": "productivelib:upgrade_productivity_2"
+            },
+            "id": "upgrade_block"
+        },
+        {
+            "output": "mekanism:solar_neutron_activator",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "mekanismgenerators:advanced_solar_generator",
+                "B": "naturesaura:depth_ingot",
+                "C": "ae2lt:matter_warping_matrix_casing"
+            },
+            "id": "solar_neutron_activator"
+        },
+        {
+            "output": "avaritia:upgrade_smithing_template",
+            "pattern": [
+                "ABC",
+                "DEF",
+                "CGH"
+            ],
+            "key": {
+                "A": "forbidden_arcanus:apply_modifier_smithing_template",
+                "B": "minecraft:netherite_upgrade_smithing_template",
+                "C": "forbidden_arcanus:eternal_stella",
+                "D": "cataclysm:cursium_upgrade_smithing_template",
+                "E": "enderio:photovoltaic_composite",
+                "F": "neoecoae:aluminum_alloy_upgrade_smithing_template",
+                "G": "neoecoae:black_tungsten_alloy_upgrade_smithing_template",
+                "H": "cataclysm:ignitium_upgrade_smithing_template"
+            },
+            "id": "upgrade_smithing_template"
+        },
+        {
+            "output": "kubejs:infinity_bucket_cell",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "DED"
+            ],
+            "key": {
+                "A": "occultism:iesnium_ingot",
+                "B": "minecraft:bucket",
+                "C": "ae2:cell_component_256k",
+                "D": "minecraft:nether_star",
+                "E": "ae2:item_cell_housing"
+            },
+            "id": "infinity_bucket_cell"
+        },
+        {
+            "output": "malum:spirit_altar",
+            "pattern": [
+                "ABA",
+                "CAD",
+                "AAA"
+            ],
+            "key": {
+                "A": '#malum:runewood_planks',
+                "B": "malum:block_of_cthonic_gold",
+                "C": "malum:runic_sapball",
+                "D": "malum:cursed_sapball"
+            },
+            "id": "spirit_altar"
+        },
+        {
+            "output": "8x malum:arcane_spirit",
+            "pattern": [
+                "   ",
+                "ABC",
+                "   "
+            ],
+            "key": {
+                "A": "malum:cursed_sapball",
+                "B": "malum:blighted_gunk",
+                "C": "malum:runic_sapball"
+            },
+            "id": "arcane_spirit"
+        },
+        {
+            "output": "ae2lt:pigmee_fumo",
+            "pattern": [
+                "AAA",
+                "ABA",
+                "AAA"
+            ],
+            "key": {
+                "A": "mekanism_extras:alloy_spectrum",
+                "B": "malum:twisted_rock"
+            },
+            "id": "pigmee_fumo_2"
+        },
+        {
+            "output": "minecraft:stonecutter",
+            "pattern": [
+                "   ",
+                " A ",
+                "BBB"
+            ],
+            "key": {
+                "A": "malum:cthonic_gold_fragment",
+                "B": "malum:twisted_rock"
+            },
+            "id": "stonecutter"
+        },
+        {
+            "output": "explorerscompass:explorerscompass",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "malum:runic_sapball",
+                "B": "malum:cursed_sapball",
+                "C": "ae2lt:white_pigmee_framed_building_panel"
+            },
+            "id": "explorerscompass"
+        },
+        {
+            "output": "minecraft:shears",
+            "pattern": [
+                " A ",
+                "A  ",
+                "   "
+            ],
+            "key": {
+                "A": "ae2lt:white_pigmee_framed_building_panel"
+            },
+            "id": "shears"
+        },
+        {
+            "output": "ae2:wireless_receiver",
+            "pattern": [
+                " A ",
+                "BCB",
+                " B "
+            ],
+            "key": {
+                "A": "kubejs:alloy_hypercharged",
+                "B": "malum:soul_stained_steel_ingot",
+                "C": 'ae2:dense_energy_cell'
+            },
+            "id": "wireless_receiver"
+        },
+        {
+            "output": "ae2:dense_energy_cell",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "malum:rotting_essence",
+                "B": "kubejs:alloy_hypercharged",
+                "C": "ae2:quartz_fiber"
+            },
+            "id": "dense_energy_cell"
+        },
+        {
+            "output": "malum:rotting_essence",
+            "pattern": [
+                " A ",
+                "ABA",
+                " A "
+            ],
+            "key": {
+                "A": "malum:raw_brilliance",
+                "B": "malum:blighted_gunk"
+            },
+            "id": "rotting_essence"
+        },
+        {
+            "output": "cdp2:void_matter_creative_drawer_creative_drawer",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "draconicevolution:draconium_dust",
+                "B": "kubejs:dao_ze_origin_topological_lattice",
+                "C": "cdp2:void_matter_creative_drawer"
+            },
+            "id": "void_matter_creative_drawer_creative_drawer"
+        },
+        {
+            "output": "4x ae2lt:floating_matter",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "draconicevolution:draconium_dust",
+                "B": "minecraft:shulker_shell",
+                "C": "malum:runic_sapball"
+            },
+            "id": "floating_matter"
+        },
+        {
+            "output": "minecraft:elytra",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "A A"
+            ],
+            "key": {
+                "A": "minecraft:phantom_membrane",
+                "B": "ae2lt:floating_matter",
+                "C": "mekanism:hdpe_sheet"
+            },
+            "id": "elytra"
+        },
+        {
+            "output": "8x draconicevolution:draconium_ingot",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "draconicevolution:draconium_dust",
+                "B": "malum:sacred_spirit",
+                "C": "cataclysm:ignitium_ingot"
+            },
+            "id": "draconium_ingot"
+        },
+        {
+            "output": "8x avaritia:record_fragment",
+            "pattern": [
+                " A ",
+                "ABA",
+                " A "
+            ],
+            "key": {
+                "A": "cdp2:creative_shard_2",
+                "B": "cataclysm:music_disc_ignis"
+            },
+            "id": "record_fragment"
+        },
+        {
+            "output": "4x malum:hallowed_gold_ingot",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "cataclysm:ignitium_ingot",
+                "B": "malum:cthonic_gold_fragment",
+                "C": "minecraft:gold_ingot"
+            },
+            "id": "hallowed_gold_ingot"
+        },
+        {
+            "output": "4x draconicevolution:draconium_core",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "draconicevolution:draconium_ingot",
+                "B": "malum:hallowed_gold_ingot",
+                "C": "avaritia:record_fragment"
+            },
+            "id": "draconium_core"
+        },
+        {
+            "output": "draconicevolution:basic_crafting_injector",
+            "pattern": [
+                "ABA",
+                "CDC",
+                "CCC"
+            ],
+            "key": {
+                "A": 'malum:soul_stained_steel_ingot',
+                "B": "draconicevolution:draconium_core",
+                "C": "ae2lt:white_pigmee_framed_building_panel",
+                "D": "malum:block_of_brilliance"
+            },
+            "id": "basic_crafting_injector"
+        },
+        {
+            "output": "draconicevolution:crafting_core",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "ae2lt:white_pigmee_framed_building_panel",
+                "B": 'malum:soul_stained_steel_ingot',
+                "C": "draconicevolution:draconium_core"
+            },
+            "id": "de_crafting_core"
+        },
+        {
+            "output": "4x malum:arcane_spirit",
+            "pattern": [
+                "  A",
+                " A ",
+                "A  "
+            ],
+            "key": {
+                "A": "kubejs:spirit_shard"
+            },
+            "id": "arcane_spirit"
+        },
+        {
+            "output": "4x malum:infernal_spirit",
+            "pattern": [
+                "A  ",
+                " A ",
+                "  A"
+            ],
+            "key": {
+                "A": "kubejs:spirit_shard"
+            },
+            "id": "infernal_spirit"
+        },
+        {
+            "output": "4x malum:earthen_spirit",
+            "pattern": [
+                "   ",
+                "AAA",
+                "   "
+            ],
+            "key": {
+                "A": "kubejs:spirit_shard"
+            },
+            "id": "earthen_spirit"
+        },
+        {
+            "output": "4x malum:sacred_spirit",
+            "pattern": [
+                " A ",
+                " A ",
+                " A "
+            ],
+            "key": {
+                "A": "kubejs:spirit_shard"
+            },
+            "id": "sacred_spirit"
+        },
+        {
+            "output": "4x neoecoae:energized_superconductive_ingot",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "neoecoae:energized_fluix_crystal",
+                "B": "neoecoae:aluminum_ingot",
+                "C": "neoecoae:crystal_ingot"
+            },
+            "id": "energized_superconductive_ingot"
+        },
+        {
+            "output": "4x neoecoae:black_tungsten_alloy_ingot",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "justdirethings:eclipsealloy_ingot",
+                "B": "neoecoae:aluminum_ingot",
+                "C": "neoecoae:energized_superconductive_ingot"
+            },
+            "id": "black_tungsten_alloy_ingot"
+        },
+        {
+            "output": "minecraft:bucket",
+            "pattern": [
+                "   ",
+                "ABA",
+                " A "
+            ],
+            "key": {
+                "A": "malum:twisted_rock",
+                "B": "cdp2:void_matter"
+            },
+            "id": "bucket"
+        },
+        {
+            "output": "4x kubejs:overclocked_control_circuit",
+            "pattern": [
+                "ABA",
+                "CDC",
+                "AEA"
+            ],
+            "key": {
+                "A": "mekanism_extras:infinite_control_circuit",
+                "B": "laserio:overclocker_node",
+                "C": "kubejs:alloy_hypercharged",
+                "D": "ae2lt:energy_module_t3",
+                "E": "laserio:overclocker_card"
+            },
+            "id": "overclocked_control_circuit"
+        },
+        {
+            "output": "draconicevolution:chaos_shard",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "occultism:dragonyst_dust",
+                "B": "occultism:cruelty_essence",
+                "C": "avaritia:star_fuel"
+            },
+            "id": "chaos_shard"
+        },
+        {
+            "output": "kubejs:dense_control_circuit",
+            "pattern": [
+                "   ",
+                "ABA",
+                "   "
+            ],
+            "key": {
+                "A": "kubejs:alloy_singular",
+                "B": "avaritia:star_fuel"
+            },
+            "id": "dense_control_circuit"
+        },
+        {
+            "output": "4x mekanismsun:artificial_sun_casing",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "kubejs:ingot_better_gold",
+                "B": "kubejs:alloy_singular",
+                "C": "draconicevolution:chaotic_core"
+            },
+            "id": "artificial_sun_casing"
+        },
+        {
+            "output": "mekanismsun:artificial_sun_port",
+            "pattern": [
+                "ABA",
+                "BCB",
+                "ABA"
+            ],
+            "key": {
+                "A": "kubejs:dense_control_circuit",
+                "B": "mekanismsun:artificial_sun_casing",
+                "C": "kubejs:infinity_antimatter_cell"
+            },
+            "id": "artificial_sun_port"
         }
     ]
     
@@ -1622,7 +2239,20 @@ ServerEvents.recipes(event =>{
             "A": "mekanism_extras:alloy_spectrum",
             "B": "ae2lt:pigmee_core"
 	    }
-    ).keepIngredient("ae2lt:pigmee_core").id(prefix + "pigmee_fumo")
+    ).keepIngredient("ae2lt:pigmee_core").id(prefix + "pigmee_fumo_1")
+
+    event.shaped(
+	    "8x ae2lt:pigmee_building_block",
+	    [
+            "AAA",
+            "ABA",
+            "AAA"
+	    ],
+	    {
+            "A": "malum:twisted_rock",
+            "B": "ae2lt:rainbow_pigmee_fumo"
+	    }
+    ).keepIngredient("ae2lt:rainbow_pigmee_fumo").id(prefix + "pigmee_building_block")
 
 
 

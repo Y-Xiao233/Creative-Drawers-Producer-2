@@ -5,7 +5,9 @@ const occultism_rituals = [
     "animal_spawner",
     "birth_spirit",
     "miner_foliot_unspecialized",
-    "storage_stabilizer_tier4"
+    "storage_stabilizer_tier4",
+    "dragonyst_dust",
+    "witherite_dust"
 ]
 
 const ars_nouveau_occultism_rituals = [
@@ -28,7 +30,8 @@ const other_rituals = [
 const fluids = [
     ["molten_lumin","熔融流明","Molten Lumin"],
     ["molten_firmament","熔融苍穹","Molten Firmament"],
-    ["naquadah_uranium_fuel","液态硅岩铀燃料","Liquid Naquadah Uranium Fuel"]
+    ["naquadah_uranium_fuel","液态硅岩铀燃料","Liquid Naquadah Uranium Fuel"],
+    ["unstable_dimensional_fluid","不稳定维度流体","Unstable Dimensional Fluid"]
 ]
 
 ClientEvents.lang("zh_cn",event =>{

@@ -4,11 +4,18 @@ ServerEvents.recipes(event =>{
 
     const recipes = [
         {
-            "output":"8x industrialforegoing:latex",
-            "input":'ifeu:rubber_log',
+            "output":"16x industrialforegoing:latex",
+            "input":'mekanismadditions:white_plastic',
             "breakChance":0.01,
             "result":AIR,
             "id":"latex"
+        },
+        {
+            "output":"16x industrialforegoingextra:dragon_star_essence_source",
+            "input":'industrialforegoingextra:dragon_star_block',
+            "breakChance":0.01,
+            "result":AIR,
+            "id":"dragon_star_essence"
         }
     ]
 

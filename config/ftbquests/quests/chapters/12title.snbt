@@ -378,26 +378,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["553B2CBB890F3728"]
-			id: "432B4E42BAE50664"
-			optional: true
-			tasks: [
-				{
-					id: "7B46CB643EE98D1C"
-					item: { count: 1, id: "packaged_faa:hephaestus_packaged" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "7086F893D6B8DB30"
-					item: { count: 1, id: "packaged_faa:pedestal_packaged" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 0.5d
-		}
-		{
 			dependencies: ["4295F84F0664C909"]
 			id: "72DC7DD006D3543E"
 			tasks: [{
@@ -494,26 +474,18 @@
 					type: "random"
 				}
 				{
-					id: "3921E5BD3483B4FE"
+					id: "5A9E159960A2A5D5"
 					item: {
-						components: {
-							"ftbquests:missing_item": "ae2lt:advanced_wireless_overloaded_controller"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "ae2lt:advanced_wireless_overloaded_controller"
 					}
-					only_one: true
-					team_reward: true
 					type: "item"
 				}
 				{
-					id: "380E60AC759030B8"
+					id: "7DD1039C06B6379A"
 					item: {
-						components: {
-							"ftbquests:missing_item": "ae2lt:overloaded_frequency_card"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "ae2lt:overloaded_frequency_card"
 					}
 					type: "item"
 				}
@@ -707,6 +679,9 @@
 		}
 		{
 			dependencies: ["168A2726C0A8F291"]
+			icon: {
+				id: "mekanismgenerators:gas_burning_generator"
+			}
 			id: "444C50C106340A66"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -716,14 +691,50 @@
 			}]
 			tasks: [
 				{
-					id: "63906EEF284F6D94"
-					item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
+					id: "3B927A2109F0CB48"
+					item: { count: 1, id: "mekmm:large_gas_burning_generator" }
 					type: "item"
 				}
 				{
 					id: "2DD4750E71665CB6"
 					item: { count: 1, id: "mekanism:chemical_oxidizer" }
 					type: "item"
+				}
+				{
+					chemical: {
+						amount: 1L
+						id: "kubejs:whirlwind"
+					}
+					id: "2231AEAE4D7BCEE9"
+					optional_task: true
+					type: "cdp2:chemical"
+				}
+				{
+					chemical: {
+						amount: 1L
+						id: "kubejs:sea"
+					}
+					id: "77098E43FA0488AE"
+					optional_task: true
+					type: "cdp2:chemical"
+				}
+				{
+					chemical: {
+						amount: 1L
+						id: "kubejs:nature"
+					}
+					id: "40D084A244CA15A6"
+					optional_task: true
+					type: "cdp2:chemical"
+				}
+				{
+					chemical: {
+						amount: 1L
+						id: "kubejs:quantum"
+					}
+					id: "21CE9B3D4A70E3A4"
+					optional_task: true
+					type: "cdp2:chemical"
 				}
 			]
 			x: 7.5d

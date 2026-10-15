@@ -7,6 +7,12 @@ ServerEvents.recipes(event =>{
             "input":'forbidden_arcanus:aurum_leaves',
             "chance":0.8,
             "id":"from_aurum_leaves"
+        },
+        {
+            "output":'64x mekmm:scrap',
+            "input":'malum:twisted_rock',
+            "chance":1,
+            "id":"from_twisted_rock"
         }
     ]
 

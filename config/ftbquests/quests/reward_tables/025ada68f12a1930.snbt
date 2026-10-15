@@ -12,22 +12,6 @@
 			weight: 0.4f
 		}
 		{
-			id: "40A2127BB07D976E"
-			item: {
-				count: 1
-				id: "ae2wtlib:magnet_card"
-			}
-			weight: 0.4f
-		}
-		{
-			id: "40CC5B3192A69523"
-			item: {
-				count: 1
-				id: "ae2wtlib:quantum_bridge_card"
-			}
-			weight: 0.2f
-		}
-		{
 			id: "718F16B81B17209F"
 			item: {
 				count: 1
@@ -222,32 +206,6 @@
 			weight: 0.01f
 		}
 		{
-			id: "65AED6215A562A8F"
-			item: {
-				components: {
-					"titanium:augments": {
-						Looting: 3.0f
-					}
-				}
-				count: 1
-				id: "ifs:fortune_addon_tier_2"
-			}
-			weight: 0.05f
-		}
-		{
-			id: "274A008F7BC77B6A"
-			item: {
-				components: {
-					"titanium:augments": {
-						Looting: 2.0f
-					}
-				}
-				count: 1
-				id: "ifs:fortune_addon_tier_1"
-			}
-			weight: 0.08f
-		}
-		{
 			count: 16
 			id: "3636F83F9CCB4FE8"
 			item: {
@@ -341,20 +299,67 @@
 			weight: 0.2f
 		}
 		{
-			id: "2FF60613FCA5DC5D"
+			id: "47D6FD53EE8C0600"
 			item: {
+				components: {
+					"titanium:augments": {
+						Creative: 1.0f
+					}
+				}
 				count: 1
-				id: "ifeu:dragon_star"
-			}
-			weight: 0.1f
-		}
-		{
-			id: "571A63BC935D2872"
-			item: {
-				count: 1
-				id: "ifeu:creative_addon"
+				id: "industrialforegoingextra:creative_addon"
 			}
 			weight: 0.02f
+		}
+		{
+			id: "79027E9C007C3CF8"
+			item: {
+				count: 1
+				id: "industrialforegoingextra:dragon_star"
+			}
+			weight: 0.08f
+		}
+		{
+			id: "0F2BF56D28D8307B"
+			item: {
+				components: {
+					"titanium:augments": {
+						Fortune: 2.0f
+					}
+				}
+				count: 1
+				id: "industrialforegoingextra:fortune_addon_1"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "2A5D5287B5C522EA"
+			item: {
+				components: {
+					"titanium:augments": {
+						Fortune: 3.0f
+					}
+				}
+				count: 1
+				id: "industrialforegoingextra:fortune_addon_2"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "04F1481F923A3372"
+			item: {
+				count: 1
+				id: "ae2wtlib:quantum_bridge_card"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "44EE61ACE09B92ED"
+			item: {
+				count: 1
+				id: "ae2wtlib:magnet_card"
+			}
+			weight: 0.4f
 		}
 	]
 }

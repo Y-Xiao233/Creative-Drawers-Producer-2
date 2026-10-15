@@ -14,14 +14,14 @@ ServerEvents.recipes(event =>{
         },
         {
             "outputs":[
-                Fluid.of("ifeu:liquid_malic_acid",200)
+                Fluid.of("industrialforegoingextra:liquid_malic_acid_source",200)
             ],
             "inputs":[
                 '16x minecraft:apple',
                 Fluid.of("industrialforegoing:ether_gas",16),
                 Fluid.of("industrialforegoing:pink_slime",120)
             ],
-            "id":"liquid_malic_acid"
+            "id":"liquid_malic_acid_source"
         },
         {
             "outputs":[

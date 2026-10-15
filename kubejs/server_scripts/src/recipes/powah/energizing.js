@@ -27,7 +27,7 @@ ServerEvents.recipes(event =>{
                 "forbidden_arcanus:eternal_stella",
                 "jdte:time_fluid_catalyst",
                 "avaritia:blaze_cube",
-                "ifeu:dragon_star"
+                "industrialforegoingextra:dragon_star"
             ],
             "energy": 10000.0,
             "id": "ritual_uphyxes"

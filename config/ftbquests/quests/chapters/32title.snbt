@@ -1,0 +1,360 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "32title"
+	group: "1C2A470856957F12"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "mekanismsun:artificial_sun_casing"
+	}
+	id: "04B328CE7C3FF94C"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["631CEBF585BFC8E5"]
+			id: "714B3FFCA26AA9EF"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "58363C69D2914A7D"
+				item: { count: 1, id: "cdp2:electrum_ingot_creative_drawer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["714B3FFCA26AA9EF"]
+			id: "1C884C29EA992BB0"
+			tasks: [{
+				id: "4D0E6DA48B4589EA"
+				item: { count: 1, id: "mekanismsun:supernova_alloy" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C884C29EA992BB0"]
+			id: "66D0EE56C1307B64"
+			tasks: [{
+				id: "3CAFF8A263274DFC"
+				item: { count: 1, id: "mekanismsun:assembler" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C884C29EA992BB0"]
+			id: "02BD68321EE8C5FA"
+			tasks: [{
+				id: "6F849461043F1B53"
+				item: { count: 1, id: "occultism:dragonyst_dust" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"66D0EE56C1307B64"
+				"02BD68321EE8C5FA"
+			]
+			id: "6005ADFE46F68CEF"
+			tasks: [{
+				id: "3943B87150C1C343"
+				item: { count: 1, id: "draconicevolution:wyvern_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6005ADFE46F68CEF"]
+			id: "7AB9F737D374742A"
+			tasks: [{
+				id: "5F3536FC565D0267"
+				item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"66D0EE56C1307B64"
+				"02BD68321EE8C5FA"
+			]
+			id: "0CE197D917AF9C32"
+			tasks: [{
+				id: "6F71715DA6863109"
+				item: { count: 1, id: "kubejs:ingot_better_gold" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0CE197D917AF9C32"]
+			id: "49A085FA6F09954A"
+			tasks: [{
+				id: "4F0B00887FEBC6CA"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"49A085FA6F09954A"
+				"6005ADFE46F68CEF"
+			]
+			id: "5BBA1EFB4954E753"
+			tasks: [{
+				id: "364DAD883EA5F00B"
+				item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5BBA1EFB4954E753"]
+			id: "763C9C82EAD15B3C"
+			tasks: [{
+				id: "019B4B6078778371"
+				item: { count: 1, id: "draconicevolution:awakened_crafting_injector" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["763C9C82EAD15B3C"]
+			id: "2806510C11A5695C"
+			tasks: [{
+				id: "4AB2C88FDE55534C"
+				item: { count: 1, id: "kubejs:alloy_subatomic" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["714B3FFCA26AA9EF"]
+			hide_dependency_lines: true
+			id: "305F212F6334D447"
+			tasks: [{
+				id: "52B4D6D03FF7B9B2"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2806510C11A5695C"
+				"305F212F6334D447"
+			]
+			id: "171B567B74654EDA"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "44006D98169F096C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["171B567B74654EDA"]
+			id: "08B71F9F25381FF6"
+			tasks: [
+				{
+					id: "47178D2F67813F1A"
+					item: { count: 1, id: "cataclysm:witherite_block" }
+					type: "item"
+				}
+				{
+					id: "21D93F98F071B7EC"
+					item: { count: 1, id: "malum:eldritch_spirit" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2806510C11A5695C"
+				"08B71F9F25381FF6"
+			]
+			id: "6B045EE89E528FFF"
+			tasks: [{
+				id: "7231230B279CD0FA"
+				item: { count: 1, id: "kubejs:quantum_control_circuit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B045EE89E528FFF"]
+			id: "62C884F644B1F155"
+			tasks: [{
+				id: "28ED80327AB9CC2E"
+				item: { count: 1, id: "cataclysm:the_harbinger_spawn_egg" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B045EE89E528FFF"]
+			id: "2BDDB23FB7D53D56"
+			tasks: [{
+				id: "6E1D537A9F7591D2"
+				item: { count: 1, id: "occultism:cruelty_essence" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["08B71F9F25381FF6"]
+			id: "20CF275F50FD5369"
+			tasks: [{
+				id: "792CA3CDFD2502AE"
+				item: { count: 1, id: "occultism:witherite_dust" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["20CF275F50FD5369"]
+			id: "78729B679F398226"
+			tasks: [{
+				id: "721302C85A0BCC3C"
+				item: { count: 1, id: "avaritia:star_fuel" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2BDDB23FB7D53D56"
+				"78729B679F398226"
+			]
+			id: "4B456550EC5147FE"
+			tasks: [{
+				id: "696E26B6C814933E"
+				item: { count: 1, id: "draconicevolution:chaos_shard" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B456550EC5147FE"]
+			id: "3263A8365D4CFFAA"
+			tasks: [{
+				id: "4790D686D15312AC"
+				item: { count: 1, id: "draconicevolution:chaotic_crafting_injector" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3263A8365D4CFFAA"]
+			id: "6B30F63B3B41B45B"
+			tasks: [{
+				id: "69EA7A085FA3F81C"
+				item: { count: 1, id: "kubejs:alloy_singular" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6B30F63B3B41B45B"
+				"78729B679F398226"
+			]
+			id: "4D3145DB942E403C"
+			tasks: [{
+				id: "09303698FEACA75D"
+				item: { count: 1, id: "kubejs:dense_control_circuit" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6B30F63B3B41B45B"
+				"4D3145DB942E403C"
+			]
+			id: "6BD91F2EEE8B284E"
+			tasks: [
+				{
+					id: "54EAD3A634441EA8"
+					item: { count: 1, id: "mekanismsun:artificial_sun_casing" }
+					type: "item"
+				}
+				{
+					id: "599D10DD0EC794EF"
+					item: { count: 1, id: "mekanismsun:artificial_sun_port" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BD91F2EEE8B284E"]
+			id: "6DA01C8E4EF695EB"
+			tasks: [{
+				chemical: {
+					amount: 1L
+					id: "mekanismsun:helium"
+				}
+				id: "4515A714B9C59DF7"
+				type: "cdp2:chemical"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DA01C8E4EF695EB"]
+			id: "3221CBE9DCD6A5B0"
+			tasks: [{
+				id: "13003A309CB6F58A"
+				item: { components: { "mekanism:owner": [I; 1710060491, 1244414724, -1706817341, 1439410764 ] }, count: 1, id: "mekanismsun:transmutator" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3221CBE9DCD6A5B0"]
+			id: "4771CCC7A73C728C"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "093DEB709C4CDBA4"
+				item: { count: 1, id: "cdp2:cozy_home" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+	]
+}

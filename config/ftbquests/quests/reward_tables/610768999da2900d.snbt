@@ -1,0 +1,188 @@
+{
+	id: "455813CDA1941ACE"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "4B10CBC825C1668B", item: { count: 1, id: "ae2:4k_crafting_storage" } }
+		{ id: "2C8FB6DBC6D24AA9", item: { count: 1, id: "ae2:cell_component_4k" } }
+		{
+			id: "2F01952D680AF169"
+			item: {
+				count: 1
+				id: "mysticalagriculture:prudentium_essence"
+			}
+			weight: 1.2f
+		}
+		{
+			id: "4528E5B9E2E68F8B"
+			item: {
+				count: 1
+				id: "extendedae_plus:infinity_core"
+			}
+			weight: 0.01f
+		}
+		{
+			count: 16
+			id: "3636F83F9CCB4FE8"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 0.45f
+		}
+		{
+			id: "368AA3D4073CCADA"
+			item: {
+				count: 1
+				id: "cdp2:supreme_hopper_botany_pot"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "7C5445658B1A2787"
+			item: {
+				count: 1
+				id: "apothicenchantingaddition:flux_spawner"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "51165EEF1156EBAB"
+			item: {
+				count: 1
+				id: "cdp2:quantum"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "572BE17D732CFEE0"
+			item: {
+				count: 1
+				id: "cdp2:assembler_matrix"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "5F330C254C61FC8C"
+			item: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "0332C0D7593B0E92"
+			item: {
+				count: 1
+				id: "ae2lt:advanced_wireless_overloaded_controller"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "49C19475C1354EA1"
+			item: {
+				count: 1
+				id: "ae2lt:overloaded_interface"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "3AA22F9FB5971569"
+			item: {
+				count: 1
+				id: "ae2lt:extended_overloaded_pattern_provider"
+			}
+			weight: 0.2f
+		}
+		{ id: "00E470F5CB307059", item: { count: 1, id: "ae2lt:overloaded_pattern_provider" } }
+		{
+			count: 4
+			id: "14A7B858E2491FEE"
+			item: {
+				count: 1
+				id: "ae2cs:overload_card"
+			}
+		}
+		{
+			id: "5AC9230A689105A4"
+			item: {
+				count: 1
+				id: "ae2cs:resonating_pattern_provider"
+			}
+			weight: 0.6f
+		}
+		{ id: "59ED35051191299E", item: { count: 1, id: "ae2cs:meteorite_pattern_provider" } }
+		{
+			count: 16
+			id: "728C609AC3355FD1"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "47D6FD53EE8C0600"
+			item: {
+				components: {
+					"titanium:augments": {
+						Creative: 1.0f
+					}
+				}
+				count: 1
+				id: "industrialforegoingextra:creative_addon"
+			}
+			weight: 0.01f
+		}
+		{
+			id: "79027E9C007C3CF8"
+			item: {
+				count: 1
+				id: "industrialforegoingextra:dragon_star"
+			}
+			weight: 0.09f
+		}
+		{
+			id: "0F2BF56D28D8307B"
+			item: {
+				components: {
+					"titanium:augments": {
+						Fortune: 2.0f
+					}
+				}
+				count: 1
+				id: "industrialforegoingextra:fortune_addon_1"
+			}
+			weight: 0.8f
+		}
+		{
+			id: "2A5D5287B5C522EA"
+			item: {
+				components: {
+					"titanium:augments": {
+						Fortune: 3.0f
+					}
+				}
+				count: 1
+				id: "industrialforegoingextra:fortune_addon_2"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "2250924B3C7D9C48"
+			item: {
+				count: 1
+				id: "ae2_pattern_disk:meteorite_pattern_provider"
+			}
+			weight: 0.8f
+		}
+		{
+			id: "4690C0D94AC01FD0"
+			item: {
+				count: 1
+				id: "ae2_pattern_disk:pattern_disk_256k"
+			}
+			weight: 0.6f
+		}
+	]
+}

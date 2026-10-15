@@ -70,7 +70,7 @@ ServerEvents.recipes(event =>{
                 "C": "minecraft:netherrack",
                 "D": "avaritia:double_compressed_crafting_table",
                 "E": "mysticalagradditions:insanium_ingot",
-                "F": "ifeu:dragon_star"
+                "F": "industrialforegoingextra:dragon_star"
             },
             "id": "nether_crafting_table"
         }

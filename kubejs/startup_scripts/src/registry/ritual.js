@@ -8,4 +8,5 @@ CDPRegistryEvents.item(event =>{
     event.createStructureRitual("ritual_uphyxes","ritual_uphyxes",-9,0,-9)
     event.createStructureRitual("firmament_starship","firmament_starship",-30,0,-30)
     event.createStructureRitual("cozy_home","cozy_home",0,0,0)
+    event.createStructureRitual("unknown_portal","unknown_portal",-6,0,-6)
 })

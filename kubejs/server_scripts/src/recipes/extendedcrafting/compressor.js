@@ -33,9 +33,16 @@ ServerEvents.recipes(event =>{
         {
             "output":'kubejs:ultra4_hyperdimensional_topological_lattice',
             "input":'ae2lt:hyperdimensional_topological_lattice',
-            "count":10240,
+            "count":1000,
             "catalyst":'avaritia:infinity_ingot',
             "id":"ultra4_hyperdimensional_topological_lattice"
+        },
+        {
+            "output":'mekmm:large_solar_neutron_activator',
+            "input":'mekanism:solar_neutron_activator',
+            "count":16,
+            "catalyst":'kubejs:quantum_prism',
+            "id":"large_solar_neutron_activator"
         }
     ]
 

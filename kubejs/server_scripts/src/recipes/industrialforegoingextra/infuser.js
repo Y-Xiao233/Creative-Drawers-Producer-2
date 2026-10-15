@@ -1,5 +1,5 @@
 ServerEvents.recipes(event =>{
-    const prefix = "cdp2:recipes/ifeu/infuser/"
+    const prefix = "cdp2:recipes/industrialforegoingextra/infuser/"
 
 
     const recipes = [
@@ -12,6 +12,6 @@ ServerEvents.recipes(event =>{
     ]
 
     recipes.forEach(recipe =>{
-        event.recipes.ifeu.infuser(recipe.output,recipe.item,recipe.fluid,100).id(prefix + recipe.id)
+        event.recipes.industrialforegoingextra.infuser(recipe.output,recipe.item,recipe.fluid,100).id(prefix + recipe.id)
     })
 })

@@ -123,14 +123,14 @@
 					type: "item"
 				}
 				{
-					id: "7A5066D5E48AC861"
-					item: { components: { "titanium:augments": { Looting: 2.0f } }, count: 1, id: "ifs:fortune_addon_tier_1" }
+					id: "4D88C6E94BC45E72"
+					item: { components: { "titanium:augments": { Fortune: 2.0f } }, count: 1, id: "industrialforegoingextra:fortune_addon_1" }
 					optional_task: true
 					type: "item"
 				}
 				{
-					id: "5192DA4CBBF75E7C"
-					item: { components: { "titanium:augments": { Looting: 3.0f } }, count: 1, id: "ifs:fortune_addon_tier_2" }
+					id: "79F18EB595B20F81"
+					item: { components: { "titanium:augments": { Fortune: 3.0f } }, count: 1, id: "industrialforegoingextra:fortune_addon_2" }
 					optional_task: true
 					type: "item"
 				}

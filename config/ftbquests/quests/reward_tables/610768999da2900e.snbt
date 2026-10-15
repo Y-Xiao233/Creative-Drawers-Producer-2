@@ -1,0 +1,44 @@
+{
+	id: "628C876B8678B1F1"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			id: "4528E5B9E2E68F8B"
+			item: {
+				count: 1
+				id: "extendedae_plus:infinity_core"
+			}
+			weight: 0.01f
+		}
+		{
+			id: "368AA3D4073CCADA"
+			item: {
+				count: 1
+				id: "cdp2:supreme_hopper_botany_pot"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "7C5445658B1A2787"
+			item: {
+				count: 1
+				id: "apothicenchantingaddition:flux_spawner"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "47D6FD53EE8C0600"
+			item: {
+				components: {
+					"titanium:augments": {
+						Creative: 1.0f
+					}
+				}
+				count: 1
+				id: "industrialforegoingextra:creative_addon"
+			}
+			weight: 1.0E-5f
+		}
+	]
+}

@@ -4,7 +4,7 @@ ServerEvents.recipes(event =>{
     event.custom({
         "type": "industrialforegoing:laser_drill_fluid",
         "catalyst": {
-            "item": "ifeu:laser_lens_dragon"
+            "item": "industrialforegoingextra:laser_lens_dragon"
         },
         "entity_data": {
             "data": {},
@@ -15,7 +15,7 @@ ServerEvents.recipes(event =>{
         },
         "output": {
             "amount": 10,
-            "fluid": "ifeu:liquid_dragon_breath"
+            "fluid": "industrialforegoingextra:liquid_dragon_breath"
         },
         "rarity": [
             {

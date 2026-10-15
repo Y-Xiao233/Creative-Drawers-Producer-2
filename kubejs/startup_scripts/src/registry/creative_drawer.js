@@ -8,4 +8,7 @@ CDPRegistryEvents.block(event =>{
     event.createCreativeDrawer("infinity_catalyst_creative_drawer",'avaritia:infinity_catalyst')
     event.createCreativeDrawer("amethyst_block_shiny_connecting_creative_drawer",'rechiseled:amethyst_block_shiny_connecting')
     event.createCreativeDrawer("iron_block_pipes_connecting_creative_drawer",'rechiseled:iron_block_pipes_connecting')
+    event.createCreativeDrawer("void_matter_creative_drawer_creative_drawer",'cdp2:void_matter_creative_drawer')
+    event.createCreativeDrawer("sea_prism_creative_drawer",'forbidden_arcanus:sea_prism')
+    event.createCreativeDrawer("electrum_ingot_creative_drawer",'mekanismsun:electrum_ingot')
 })

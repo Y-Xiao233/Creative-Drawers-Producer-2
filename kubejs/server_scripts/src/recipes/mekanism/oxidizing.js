@@ -18,7 +18,7 @@ ServerEvents.recipes(event =>{
             "nature"
         ],
         [
-            "1000x kubejs:quantum",
+            "4000x kubejs:quantum",
             'kubejs:quantum_prism',
             "quantum"
         ],

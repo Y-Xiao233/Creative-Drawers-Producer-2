@@ -1,12 +1,14 @@
 {
-	"output": "4x minecraft:chest",
+	"output": "mekanismsun:artificial_sun_port",
 	"pattern": [
-		"AAA",
-		"A A",
-		"AAA"
+		"ABA",
+		"BCB",
+		"ABA"
 	],
 	"key": {
-		"A": "minecraft:oak_log"
+		"A": "kubejs:dense_control_circuit",
+		"B": "mekanismsun:artificial_sun_casing",
+		"C": "kubejs:infinity_antimatter_cell"
 	},
-	"id": "chest"
+	"id": "artificial_sun_port"
 }

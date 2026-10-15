@@ -75,7 +75,7 @@ ServerEvents.recipes(event =>{
                 'packagedauto:package_component',
                 'packagedauto:package_component'
             ],
-            "power":1000000,
+            "power":100000,
             "id":"ec_combination_packaged_core"
         },
         {
@@ -87,18 +87,17 @@ ServerEvents.recipes(event =>{
                 'naturesaura:sky_ingot_block',
                 'ae2lt:dense_topological_lattice'
             ],
-            "power":1000000,
+            "power":100000,
             "id":"neutron_compressor"
         },
         {
             "output":'avaritia:infinity_ingot',
-            "core_input":'avaritia:infinity_catalyst',
+            "core_input":'avaritia:infinity_clock',
             "inputs":[
                 'ars_nouveau:creative_source_jar',
                 'create:creative_blaze_cake',
                 'create:creative_motor',
                 'appliedcreate:creative_stress_cell',
-                'ifeu:creative_chance_addon',
                 'ae2:creative_energy_cell',
                 'mysticalagradditions:creative_essence',
                 'createmoremachines:creative_casing'
@@ -126,7 +125,7 @@ ServerEvents.recipes(event =>{
                 'createmoremachines:end_alloy',
                 'createmoremachines:beyond_alloy'
             ],
-            "power":1000000,
+            "power":100000000,
             "id":"cosmic_origin_topological_lattice"
         }
     ]

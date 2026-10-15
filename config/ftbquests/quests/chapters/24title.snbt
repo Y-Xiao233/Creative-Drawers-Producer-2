@@ -66,6 +66,7 @@
 			tasks: [{
 				id: "58E4097BA068623E"
 				item: { count: 1, id: "avaritia:densest_neutron_compressor" }
+				optional_task: true
 				type: "item"
 			}]
 			x: 1.0d
@@ -228,15 +229,18 @@
 			shape: "diamond"
 			size: 1.8d
 			tasks: [{
-				id: "7A80EC519D22EABA"
-				item: { count: 1, id: "mekanism:creative_chemical_tank" }
+				id: "411009ED8B659A2C"
+				item: { count: 1, id: "kubejs:infinity_antimatter_cell" }
 				type: "item"
 			}]
 			x: 9.0d
 			y: 4.5d
 		}
 		{
-			dependencies: ["2504A746E1107493"]
+			dependencies: [
+				"2504A746E1107493"
+				"1F988DA2E86B5CEA"
+			]
 			id: "50162078E8FF57D2"
 			tasks: [{
 				id: "05F7D771F7A5F455"
@@ -244,7 +248,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7E85075413CE65CA"]
@@ -260,6 +264,36 @@
 		{
 			dependencies: ["450A28B3A9C82BFD"]
 			id: "62FFAAF2E000627D"
+			rewards: [
+				{
+					id: "591C467749FEBBF0"
+					item: {
+						count: 1
+						id: "cdp2:void_matter_creative_drawer_creative_drawer"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3D69706E0BAC8BFA"
+					item: {
+						count: 1
+						id: "cdp2:sea_prism_creative_drawer"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3370E4AEE0E70A89"
+					item: {
+						count: 1
+						id: "cdp2:unknown_portal"
+					}
+					only_one: true
+					team_reward: true
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -269,6 +303,152 @@
 			}]
 			x: 4.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["576B948CE375E010"]
+			id: "223DF5310BCAC578"
+			tasks: [{
+				id: "71D6283C01DDCDBA"
+				item: { count: 1, id: "neoecoae:energized_crystal" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["223DF5310BCAC578"]
+			id: "0FF05CDDCCC79F63"
+			tasks: [{
+				id: "2176865BD5602F88"
+				item: { count: 1, id: "enderio:photovoltaic_composite" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FF05CDDCCC79F63"]
+			id: "6CF6D1EE82D938FA"
+			tasks: [{
+				id: "086BB1482DA8A797"
+				item: { count: 1, id: "mekanismgenerators:solar_panel" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6CF6D1EE82D938FA"]
+			id: "27F42A18A3FD0D82"
+			tasks: [{
+				id: "3E47703A330EC94E"
+				item: { count: 1, id: "mekanism:solar_neutron_activator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27F42A18A3FD0D82"]
+			id: "2775F54F66BDD5B5"
+			tasks: [{
+				chemical: {
+					amount: 1L
+					id: "mekanismgenerators:tritium"
+				}
+				id: "46969ED3F4D38595"
+				type: "cdp2:chemical"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2775F54F66BDD5B5"]
+			id: "452CBD3E7E4B195A"
+			tasks: [{
+				chemical: {
+					amount: 1L
+					id: "mekanismgenerators:fusion_fuel"
+				}
+				id: "7F6F20C2D29DBA0C"
+				optional_task: true
+				type: "cdp2:chemical"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["452CBD3E7E4B195A"]
+			id: "72F08A341BF899C4"
+			tasks: [
+				{
+					id: "29E6A246CC0BD5C5"
+					item: { count: 1, id: "avaritia:extreme_smithing_table" }
+					type: "item"
+				}
+				{
+					id: "1BAD305505192281"
+					item: { count: 1, id: "ae2ltpp:avaritia_extreme_smithing_packaged_core" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2A32638853D21D9A"
+				"370934A6B64335F3"
+			]
+			id: "7B198BCE5A0C1220"
+			tasks: [{
+				id: "63780334A0731E42"
+				item: { count: 1, id: "avaritia:enhancement_core" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"72F08A341BF899C4"
+				"7B198BCE5A0C1220"
+				"06E280B5C6D143C6"
+			]
+			id: "1F988DA2E86B5CEA"
+			tasks: [{
+				id: "3BC0F36120062B9B"
+				item: { components: { "minecraft:custom_data": { mode: { } } }, count: 1, id: "avaritia:infinity_clock" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0FF05CDDCCC79F63"
+				"3F0A70AE2F26085A"
+			]
+			id: "06E280B5C6D143C6"
+			tasks: [{
+				id: "6C93729F76BD222B"
+				item: { count: 1, id: "avaritia:upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["576B948CE375E010"]
+			id: "3F0A70AE2F26085A"
+			tasks: [{
+				id: "5C2B0E69BACA82B7"
+				item: { count: 1, id: "neoecoae:tungsten_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
 		}
 	]
 }

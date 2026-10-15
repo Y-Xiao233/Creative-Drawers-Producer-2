@@ -26,6 +26,16 @@ ServerEvents.recipes(event =>{
             output:'mysticalagriculture:soulium_dust',
             input:'4x mysticalagriculture:soul_dust',
             id:"soulium_dust"
+        },
+        {
+            output:'4x draconicevolution:draconium_dust',
+            input:'draconicevolution:overworld_draconium_ore',
+            id:"draconium_dust"
+        },
+        {
+            output:'malum:exposed_runewood_log',
+            input:'malum:exposed_soulwood_log',
+            id:"exposed_runewood_log"
         }
     ]
 

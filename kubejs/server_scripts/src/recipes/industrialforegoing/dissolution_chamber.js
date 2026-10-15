@@ -66,8 +66,8 @@ ServerEvents.recipes(event =>{
                 'apothic_enchanting:infused_breath','apothic_enchanting:infused_breath',
                 'apothic_enchanting:infused_breath','apothic_enchanting:infused_breath','apothic_enchanting:infused_breath'
             ],
-            "fluid":Fluid.of("ifeu:liquid_sculk_matter",1000),
-            "output_fluid":Fluid.of("ifeu:liquid_dragon_breath",500),
+            "fluid":Fluid.of("industrialforegoingextra:liquid_sculk_matter",1000),
+            "output_fluid":Fluid.of("industrialforegoingextra:liquid_dragon_breath",500),
             "time":100,
             "id":"liquid_dragon_breath"
         },
@@ -78,31 +78,31 @@ ServerEvents.recipes(event =>{
                 'mysticalagradditions:insanium_ingot','mysticalagradditions:insanium_ingot',
                 'industrialforegoing:diamond_gear','justdynathings:creative_goo','industrialforegoing:diamond_gear'
             ],
-            "fluid":Fluid.of("ifeu:liquid_dragon_breath",100),
+            "fluid":Fluid.of("industrialforegoingextra:liquid_dragon_breath",100),
             "output_fluid":Fluid.empty,
             "time":100,
             "id":"machine_frame_supreme"
         },
         {
-            "output":'4x ifeu:empty_nether_star',
+            "output":'4x industrialforegoingextra:empty_nether_star',
             "inputs":[
                 'minecraft:netherite_ingot','industrialforegoing:plastic','minecraft:netherite_ingot',
                 'industrialforegoing:plastic','industrialforegoing:plastic',
                 'minecraft:netherite_ingot','industrialforegoing:plastic','minecraft:netherite_ingot'
             ],
-            "fluid":Fluid.of("ifeu:liquid_malic_acid",400),
+            "fluid":Fluid.of("industrialforegoingextra:liquid_malic_acid_source",400),
             "output_fluid":Fluid.empty,
             "time":100,
             "id":"empty_nether_star_1"
         },
         {
-            "output":'36x ifeu:empty_nether_star',
+            "output":'36x industrialforegoingextra:empty_nether_star',
             "inputs":[
                 'minecraft:netherite_block','mekanismadditions:white_plastic','minecraft:netherite_block',
                 'mekanismadditions:white_plastic','mekanismadditions:white_plastic',
                 'minecraft:netherite_block','mekanismadditions:white_plastic','minecraft:netherite_block'
             ],
-            "fluid":Fluid.of("ifeu:liquid_malic_acid",3600),
+            "fluid":Fluid.of("industrialforegoingextra:liquid_malic_acid_source",3600),
             "output_fluid":Fluid.empty,
             "time":100,
             "id":"empty_nether_star_2"

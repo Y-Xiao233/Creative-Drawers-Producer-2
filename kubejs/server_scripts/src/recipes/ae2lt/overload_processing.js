@@ -122,7 +122,7 @@ ServerEvents.recipes(event =>{
                 'forbidden_arcanus:dark_nether_star',
                 'appliedsoul:ender_star',
                 'minecraft:nether_star',
-                'ifeu:dragon_star'
+                'industrialforegoingextra:dragon_star'
             ],
             "id":"colorful_star"
         },
@@ -136,7 +136,7 @@ ServerEvents.recipes(event =>{
                 '4x minecraft:lapis_lazuli',
                 '4x minecraft:glowstone_dust',
                 '4x minecraft:redstone',
-                '2000x avaritia:infinity_catalyst'
+                '512x avaritia:infinity_catalyst'
             ],
             "inputFluid":"100x minecraft:lava",
             "id":"basic_topological_lattice"
@@ -169,6 +169,72 @@ ServerEvents.recipes(event =>{
                 '4x kubejs:nature_prism'
             ],
             "id":"sky_ingot_block"
+        },
+        {
+            "output": "16x powah:charged_snowball",
+            "cost":16,
+            "mode":1,
+            "inputs": [
+                "16x minecraft:snowball"
+            ],
+            "id": "charged_snowball"
+        },
+        {
+            "output": 'malum:runic_sap',
+            "cost":16,
+            "mode":1,
+            "inputs": [
+                'malum:exposed_runewood_log',
+                'minecraft:glass_bottle'
+            ],
+            "inputFluid":"cdp2:liquid_unknown",
+            "id": "runic_sap"
+        },
+        {
+            "output": 'malum:cursed_sap',
+            "cost":16,
+            "mode":1,
+            "inputs": [
+                'malum:exposed_soulwood_log',
+                'minecraft:glass_bottle'
+            ],
+            "inputFluid":"cdp2:liquid_unknown",
+            "id": "cursed_sap"
+        },
+        {
+            "output": '16x neoecoae:crystal_ingot',
+            "cost":16,
+            "mode":1,
+            "inputs": [
+                '4x ae2:certus_quartz_dust',
+                '4x ae2:fluix_dust',
+                'avaritia:blaze_cube',
+                'mekanism_extras:alloy_radiance'
+            ],
+            "inputFluid":"minecraft:lava",
+            "id": "crystal_ingot"
+        },
+        {
+            "output": '8x neoecoae:energized_fluix_crystal',
+            "cost":16,
+            "mode":1,
+            "inputs": [
+                'createmoremachines:beyond_alloy',
+                'justdirethings:time_crystal',
+                'ae2:charged_certus_quartz_crystal',
+                'ae2:fluix_dust'
+            ],
+            "id": "energized_fluix_crystal"
+        },
+        {
+            "output": '1024x malum:eldritch_spirit',
+            "cost":16,
+            "mode":1,
+            "inputs": [
+                '1024x kubejs:spirit_shard',
+                'kubejs:quantum_control_circuit'
+            ],
+            "id": "eldritch_spirit"
         }
     ]
 
@@ -253,4 +319,118 @@ ServerEvents.recipes(event =>{
         "lightningCost": 1,
         "lightningTier": "high_voltage"
     }).id(prefix + "quantum_infusion_source")
+
+    event.custom({
+        "type": "ae2lt:overload_processing",
+        "priority": 0,
+        "inputs": [
+            {
+                "ingredient": {
+                    "item": 'neoecoae:cryotheum_crystal'
+                },
+                "count": 16
+            },
+            {
+                "ingredient": {
+                    "item": 'neoecoae:energized_crystal_dust'
+                },
+                "count": 16
+            },
+            {
+                "ingredient": {
+                    "item": 'minecraft:redstone'
+                },
+                "count": 16
+            }
+        ],
+        "inputFluid": {
+            "id": "minecraft:water",
+            "amount": 16000
+        },
+        "resultFluid": {
+            "id": "neoecoae:cryotheum_solution",
+            "amount": 16000
+        },
+        "totalEnergy": 20000,
+        "lightningCost": 1,
+        "lightningTier": "high_voltage"
+    }).id(prefix + "cryotheum_solution")
+
+    event.custom({
+        "type": "ae2lt:overload_processing",
+        "priority": 0,
+        "inputs": [
+            {
+                "ingredient": {
+                    "item": 'kubejs:spirit_shard'
+                },
+                "count": 4
+            },
+            {
+                "ingredient": {
+                    "item": 'malum:twisted_rock'
+                },
+                "count": 4
+            }
+        ],
+        "inputFluid": {
+            "id": "minecraft:water",
+            "amount": 102400
+        },
+        "resultFluid": {
+            "id": "cdp2:liquid_unknown",
+            "amount": 102400
+        },
+        "totalEnergy": 20000,
+        "lightningCost": 1,
+        "lightningTier": "high_voltage"
+    }).id(prefix + "liquid_unknown")
+
+    event.custom({
+        "type": "ae2lt:overload_processing",
+        "priority": 0,
+        "inputs": [
+            {
+                "ingredient": {
+                    "item": 'mekmm:ambient_gas_collector'
+                },
+                "count": 1
+            },
+            {
+                "ingredient": {
+                    "item": 'mekanism_extras:infinite_tier_installer'
+                },
+                "count": 1
+            },
+            {
+                "ingredient": {
+                    "item": 'cdp2:upgrade_station'
+                },
+                "count": 1
+            },
+            {
+                "ingredient": {
+                    "item": 'malum:blighted_gunk'
+                },
+                "count": 1
+            },
+            {
+                "ingredient": {
+                    "item": 'cdp2:creative_shard_1'
+                },
+                "count": 64
+            }
+        ],
+        "inputFluid": {
+            "id": "cdp2:liquid_unknown",
+            "amount": 10240
+        },
+        "resultFluid": {
+            "id": "kubejs:unstable_dimensional_fluid",
+            "amount": 102400
+        },
+        "totalEnergy": 2000000,
+        "lightningCost": 1,
+        "lightningTier": "high_voltage"
+    }).id(prefix + "unstable_dimensional_fluid")
 })

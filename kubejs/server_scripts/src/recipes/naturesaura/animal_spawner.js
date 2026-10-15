@@ -61,7 +61,7 @@ ServerEvents.recipes(event =>{
             "entity":'minecraft:ender_dragon',
             "inputs":[
                 'naturesaura:birth_spirit',
-                'ifeu:dragon_star_block'
+                'industrialforegoingextra:dragon_star_block'
             ],
             "aura":90000,
             "time":100,
@@ -108,6 +108,28 @@ ServerEvents.recipes(event =>{
             "aura":90000,
             "time":100,
             "id":"pig"
+        },
+        {
+            "entity":"minecraft:bee",
+            "inputs":[
+                'naturesaura:birth_spirit',
+                'minecraft:honey_block'
+            ],
+            "aura":0,
+            "time":100,
+            "id":"bee"
+        },
+        {
+            "entity":'occultism:possessed_witch',
+            "inputs":[
+                'naturesaura:birth_spirit',
+                'ars_nouveau:manipulation_essence',
+                'minecraft:redstone_block',
+                'minecraft:sugar'
+            ],
+            "aura":0,
+            "time":100,
+            "id":"possessed_witch"
         }
     ]
 

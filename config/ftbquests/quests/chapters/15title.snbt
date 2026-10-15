@@ -38,12 +38,6 @@
 		{
 			dependencies: ["612F1D36B2CBA6D4"]
 			id: "6A1A2C81C8728855"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0E24BF0F8F0C375E"
-				table_id: 169688080237336880L
-				type: "random"
-			}]
 			tasks: [{
 				id: "771C0154D301A86D"
 				item: { count: 1, id: "forbidden_arcanus:quantum_core" }
@@ -55,6 +49,12 @@
 		{
 			dependencies: ["6A1A2C81C8728855"]
 			id: "71D16B5C442FD92E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41FBAF3D1601D2BD"
+				table_id: 4996765560467626702L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3894F39C2D12B7DF"
 				item: { count: 1, id: "avaritia:sculk_crafting_table" }
@@ -105,18 +105,24 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["38FD6FB053B7A33A"]
 			id: "0DB0FCA20A7BEA14"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "714E1B5068A384A7"
+				table_id: 4996765560467626702L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0B9C1C1C037AF43A"
 				item: { count: 1, id: "ae2lt:overload_alloy" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -124,12 +130,6 @@
 				"0DB0FCA20A7BEA14"
 			]
 			id: "5E48F37AC51237CA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "542613B1E47C45BE"
-				table_id: 169688080237336880L
-				type: "random"
-			}]
 			tasks: [
 				{
 					id: "315F406B716263AC"
@@ -148,7 +148,7 @@
 				}
 			]
 			x: 3.0d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["612F1D36B2CBA6D4"]
@@ -211,6 +211,12 @@
 		{
 			dependencies: ["13D2BA0A800CC726"]
 			id: "0F84549708CE6477"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DE0ADFBFDAE79C3"
+				table_id: 4996765560467626702L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6A5BA009574695EF"
 				item: { count: 1, id: "minecraft:crying_obsidian" }
@@ -222,12 +228,6 @@
 		{
 			dependencies: ["0F84549708CE6477"]
 			id: "16E166D4B3270BA7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6687FBBA3A3D3037"
-				table_id: 169688080237336880L
-				type: "random"
-			}]
 			tasks: [{
 				id: "38D9C8F6387CB5EE"
 				item: { count: 1, id: "entangled:block" }
@@ -239,12 +239,6 @@
 		{
 			dependencies: ["0F84549708CE6477"]
 			id: "49F0B67AC966E4E0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2A31A780D24186D8"
-				table_id: 169688080237336880L
-				type: "random"
-			}]
 			tasks: [{
 				id: "221D59A560E79605"
 				item: { count: 1, id: "logisticsnetworks:dimensional_upgrade" }
@@ -267,12 +261,6 @@
 		{
 			dependencies: ["7CDAC78827509114"]
 			id: "1DFB2B5ACE45B594"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "23FB85C47F2C519C"
-				table_id: 169688080237336880L
-				type: "random"
-			}]
 			tasks: [{
 				id: "6B768BF5B5AC3630"
 				item: { count: 1, id: "apothicenchantingaddition:flux_stats_bookshelf_tier_4" }
@@ -301,8 +289,8 @@
 			id: "41722737A5941884"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "1EB5EF54F1842CA6"
-				table_id: 169688080237336880L
+				id: "36F1DF8FD720BB9C"
+				table_id: 4996765560467626702L
 				type: "random"
 			}]
 			tasks: [{
@@ -314,7 +302,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["41722737A5941884"]
+			dependencies: [
+				"41722737A5941884"
+				"7508C1B4D527A5D6"
+			]
 			id: "60C5991BCD4C053A"
 			tasks: [{
 				id: "5316704D2D24BB8D"
@@ -329,7 +320,7 @@
 			id: "342533FAB1D6D19F"
 			rewards: [{
 				count: 16
-				id: "2EF31582D8A79813"
+				id: "36E0FB17FB92337C"
 				item: {
 					count: 1
 					id: "justdirethings:time_crystal"
@@ -369,12 +360,6 @@
 		{
 			dependencies: ["225B7ABBC14CA788"]
 			id: "6C825ADC2A146657"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0F8702AA13253BB2"
-				table_id: 169688080237336880L
-				type: "random"
-			}]
 			tasks: [
 				{
 					id: "079585AC8FD50901"
@@ -396,11 +381,14 @@
 				"60C5991BCD4C053A"
 				"1F54935B1F8468C0"
 			]
+			icon: {
+				id: "forbidden_arcanus:hephaestus_forge_tier_4"
+			}
 			id: "4AF498F8C07EA09A"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "1CAAA26A29E0A449"
-				table_id: 169688080237336880L
+				id: "04555E5881A0330D"
+				table_id: 4996765560467626702L
 				type: "random"
 			}]
 			tasks: [
@@ -411,11 +399,12 @@
 					type: "item"
 				}
 				{
-					id: "40190BAD70C04C01"
-					item: { components: { "packaged_faa:level_forge": { level: 4 } }, count: 1, id: "packaged_faa:hephaestus_packaged" }
-					match_components: "fuzzy"
-					optional_task: true
-					type: "item"
+					id: "29EB013236F2A404"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "forbidden_arcanus:hephaestus_forge_tier_4"
+					type: "observation"
 				}
 			]
 			x: 7.5d
@@ -425,8 +414,8 @@
 			dependencies: ["4AF498F8C07EA09A"]
 			id: "0EE0BF0A28AE1780"
 			tasks: [{
-				id: "5E4A27F68D58173B"
-				item: { count: 1, id: "ifeu:laser_lens_sculk" }
+				id: "2CFB19F168165F18"
+				item: { count: 1, id: "industrialforegoingextra:laser_lens_sculk" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -436,8 +425,8 @@
 			dependencies: ["0EE0BF0A28AE1780"]
 			id: "2C86C2D94C264EFE"
 			tasks: [{
-				id: "264E41D0B69F003E"
-				item: { count: 1, id: "ifeu:liquid_sculk_matter_bucket" }
+				id: "24D18182AC72DE88"
+				item: { count: 1, id: "industrialforegoingextra:liquid_sculk_matter_bucket" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -450,8 +439,8 @@
 			]
 			id: "3AF4550349BA7DA6"
 			tasks: [{
-				id: "6235CECEFE8731F1"
-				item: { count: 1, id: "ifeu:liquid_dragon_breath_bucket" }
+				id: "084A7706434A03A5"
+				item: { count: 1, id: "industrialforegoingextra:liquid_dragon_breath_bucket" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -461,8 +450,8 @@
 			dependencies: ["4AF498F8C07EA09A"]
 			id: "3523F92481785557"
 			tasks: [{
-				id: "47E0B1E03FC67C01"
-				item: { count: 1, id: "ifeu:infuser" }
+				id: "649CA5E02FF81EDF"
+				item: { count: 1, id: "industrialforegoingextra:infuser" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -475,8 +464,8 @@
 			]
 			id: "7B94C03B346999B9"
 			tasks: [{
-				id: "2A412A12BC4D98EE"
-				item: { count: 1, id: "ifeu:dragon_star" }
+				id: "22F87E91789B2171"
+				item: { count: 1, id: "industrialforegoingextra:dragon_star" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -562,8 +551,8 @@
 			id: "1ABFE41A33FE5ACA"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "4606930932C704F5"
-				table_id: 169688080237336880L
+				id: "2BAE081C1E687857"
+				table_id: 4996765560467626702L
 				type: "random"
 			}]
 			tasks: [
@@ -604,12 +593,6 @@
 		{
 			dependencies: ["5DAC20E27C29D805"]
 			id: "77F226D1877E086E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3160F5360D40176C"
-				table_id: 169688080237336880L
-				type: "random"
-			}]
 			tasks: [{
 				id: "1BF2E35104A81877"
 				item: { count: 1, id: "kubejs:quantum_prism" }
@@ -703,8 +686,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 2.5d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0DB0FCA20A7BEA14"]
@@ -717,7 +700,18 @@
 				item: { count: 1, id: "ars_nouveau:creative_source_jar" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0DB0FCA20A7BEA14"]
+			id: "7508C1B4D527A5D6"
+			tasks: [{
+				id: "5536FB18A8D7B4FC"
+				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
 			y: 4.5d
 		}
 	]

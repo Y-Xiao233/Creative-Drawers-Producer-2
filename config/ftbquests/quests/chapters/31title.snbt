@@ -3,27 +3,961 @@
 	default_quest_shape: ""
 	filename: "31title"
 	group: "1C2A470856957F12"
+	hide_quest_until_deps_complete: true
 	icon: {
-		id: "ae2:creative_storage_cell"
+		id: "malum:twisted_rock"
 	}
 	id: "5DE9749E9E947246"
 	images: [ ]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["62FFAAF2E000627D"]
-		icon: {
-			id: "ae2:creative_storage_cell"
+	quests: [
+		{
+			dependencies: ["6CD00614C850A897"]
+			id: "1B0FD3F7E0C3BFF8"
+			tasks: [{
+				dimension: "cdp2:unknown"
+				id: "2F33F2A5C9FD4E07"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 4.0d
 		}
-		id: "65D7DA1F9544CDED"
-		shape: "gear"
-		size: 8.0d
-		tasks: [{
-			id: "2357988FEC708DF6"
-			item: { count: 1, id: "cdp2:cozy_home" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+		{
+			dependencies: ["1B0FD3F7E0C3BFF8"]
+			icon: {
+				id: "malum:exposed_soulwood_log"
+			}
+			id: "63322AE2DBABC2C6"
+			tasks: [
+				{
+					id: "5F3CDF6C5CF73B09"
+					item: { count: 1, id: "malum:exposed_soulwood_log" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "476809003E5848B7"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "malum:exposed_soulwood_log"
+					type: "observation"
+				}
+			]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1B0FD3F7E0C3BFF8"]
+			icon: {
+				id: "malum:exposed_runewood_log"
+			}
+			id: "59A66CF9CAFB33CE"
+			tasks: [
+				{
+					id: "4C352C4BF096690D"
+					item: { count: 1, id: "malum:exposed_runewood_log" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "61C700DE8DC8CF3A"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "malum:exposed_runewood_log"
+					type: "observation"
+				}
+			]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"63322AE2DBABC2C6"
+				"224B5A72DE120BDD"
+			]
+			id: "4A1D23642AA8B1FF"
+			tasks: [{
+				id: "1887A837E00C04AF"
+				item: { count: 1, id: "malum:cursed_sap" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"59A66CF9CAFB33CE"
+				"224B5A72DE120BDD"
+			]
+			id: "1E6F94A884EDBB0E"
+			tasks: [{
+				id: "0C47126D51A7D994"
+				item: { count: 1, id: "malum:runic_sap" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6CF34D92BFC69572"]
+			id: "08365D7A0648B055"
+			tasks: [{
+				id: "5F13646B3B8EE916"
+				item: { count: 1, id: "minecraft:sand" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1B0FD3F7E0C3BFF8"]
+			icon: {
+				components: {
+					"ftbquests:icon": "cdp2:block/fluids/liquid_unknown_still"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6CF34D92BFC69572"
+			tasks: [{
+				id: "3E850D65657CC9C9"
+				item: { count: 1, id: "cdp2:liquid_unknown_bucket" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"08365D7A0648B055"
+				"13517392E2678377"
+			]
+			id: "224B5A72DE120BDD"
+			tasks: [{
+				id: "4D25A47B64F0D063"
+				item: { count: 1, id: "minecraft:glass" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B0FD3F7E0C3BFF8"]
+			id: "2728706BF2AEBFFC"
+			tasks: [{
+				id: "07CFEDC6812EC6C6"
+				item: { count: 1, id: "malum:twisted_rock" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2728706BF2AEBFFC"]
+			id: "13517392E2678377"
+			tasks: [
+				{
+					id: "4F6EF9618A45C2CB"
+					item: { count: 1, id: "mekanism_extras:infinite_smelting_factory" }
+					type: "item"
+				}
+				{
+					id: "3B6481804F3D7222"
+					item: { count: 1, id: "mekanism_extras:infinite_oxidizing_factory" }
+					type: "item"
+				}
+				{
+					id: "03B75A5F1911404A"
+					item: { count: 1, id: "mekanism_extras:infinite_crushing_factory" }
+					type: "item"
+				}
+				{
+					id: "3C5AE897E0B17C97"
+					item: { count: 1, id: "mekmm:large_gas_burning_generator" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62FFAAF2E000627D"]
+			icon: {
+				id: "cdp2:sea_prism_creative_drawer"
+			}
+			id: "6CD00614C850A897"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1A4EFF2507C08ECC"
+					item: { count: 1, id: "cdp2:sea_prism_creative_drawer" }
+					type: "item"
+				}
+				{
+					id: "3FB92C50AC205067"
+					item: { count: 1, id: "cdp2:void_matter_creative_drawer_creative_drawer" }
+					type: "item"
+				}
+				{
+					id: "35B3BFFA7A500DF9"
+					item: { count: 1, id: "cdp2:unknown_portal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B0FD3F7E0C3BFF8"]
+			icon: {
+				id: "malum:blighted_gunk"
+			}
+			id: "2D0FD01DC5941197"
+			tasks: [
+				{
+					id: "4039719E43EA6B78"
+					item: { count: 1, id: "malum:blighted_gunk" }
+					type: "item"
+				}
+				{
+					id: "47EDB0CDEAAF645F"
+					item: { count: 1, id: "malum:strange_crystal" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D0FD01DC5941197"]
+			id: "45313BEC1B0BA086"
+			tasks: [{
+				id: "3F0F65CFE0CD3128"
+				item: { count: 1, id: "minecraft:slime_ball" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1E6F94A884EDBB0E"
+				"45313BEC1B0BA086"
+			]
+			id: "1F4082039117175C"
+			tasks: [{
+				id: "0C04F0A088D8A765"
+				item: { count: 1, id: "malum:runic_sapball" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4A1D23642AA8B1FF"
+				"45313BEC1B0BA086"
+			]
+			id: "004FD4FEAA7C0DE7"
+			tasks: [{
+				id: "683C9CE2165BDA39"
+				item: { count: 1, id: "malum:cursed_sapball" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"1F4082039117175C"
+				"004FD4FEAA7C0DE7"
+				"28FE3F6435A703DC"
+			]
+			icon: {
+				id: "malum:spirit_altar"
+			}
+			id: "698F138684208B1B"
+			tasks: [
+				{
+					id: "00249C7D742A87BF"
+					item: { count: 1, id: "malum:spirit_altar" }
+					type: "item"
+				}
+				{
+					id: "513B369B32427D1C"
+					item: { count: 1, id: "malum:runewood_item_pedestal" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1638ADA99DB76A39"
+					item: { count: 1, id: "malum:arcane_spirit" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1B0FD3F7E0C3BFF8"]
+			icon: {
+				id: "cdp2:twisted_cthonic_gold_ore"
+			}
+			id: "156E36B09E6B3699"
+			tasks: [
+				{
+					id: "4B2ED3CD6EB3670E"
+					item: { count: 1, id: "cdp2:twisted_cthonic_gold_ore" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C1C895D36C949BD"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "cdp2:twisted_cthonic_gold_ore"
+					type: "observation"
+				}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["156E36B09E6B3699"]
+			id: "6F988C8385EB5681"
+			tasks: [{
+				id: "4867C598795B19D9"
+				item: { count: 1, id: "malum:cthonic_gold_fragment" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6F988C8385EB5681"]
+			id: "28FE3F6435A703DC"
+			tasks: [{
+				id: "2F45080B84D37250"
+				item: { count: 1, id: "malum:block_of_cthonic_gold" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["698F138684208B1B"]
+			id: "0AE72277758AC352"
+			tasks: [{
+				id: "5608B6264BABDB17"
+				item: { count: 1, id: "malum:runic_workbench" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0AE72277758AC352"]
+			id: "0F0A66CBA3F6AB6E"
+			tasks: [{
+				id: "08BE2FC2C3E17108"
+				item: { count: 1, id: "malum:infernal_spirit" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0F0A66CBA3F6AB6E"]
+			id: "34D1B629D2FAA29A"
+			tasks: [{
+				id: "10544F89BFECA855"
+				item: { count: 1, id: "ae2lt:rainbow_pigmee_fumo" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6F988C8385EB5681"]
+			id: "460AAA1F73CBFF5B"
+			tasks: [{
+				id: "215EE0CDC88E2659"
+				item: { count: 1, id: "minecraft:stonecutter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["34D1B629D2FAA29A"]
+			id: "14E78615B9577F36"
+			tasks: [{
+				id: "32F4F5141F3A276B"
+				item: { count: 1, id: "ae2lt:pigmee_building_block" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"14E78615B9577F36"
+				"460AAA1F73CBFF5B"
+			]
+			id: "6D286330EDDB87D7"
+			tasks: [{
+				id: "44EAB4759DFD146A"
+				item: { count: 1, id: "ae2lt:white_pigmee_framed_building_panel" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6D286330EDDB87D7"]
+			id: "14984D877C82162E"
+			tasks: [{
+				id: "6687267F16D8F599"
+				item: { count: 1, id: "cdp2:upgrade_station" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1B0FD3F7E0C3BFF8"]
+			icon: {
+				id: "cdp2:twisted_soulstone_ore"
+			}
+			id: "414ADDA8E1A4D80E"
+			tasks: [
+				{
+					id: "3AAB8667909EE0ED"
+					item: { count: 1, id: "cdp2:twisted_soulstone_ore" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "094DE398155DEA0D"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "cdp2:twisted_soulstone_ore"
+					type: "observation"
+				}
+			]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["414ADDA8E1A4D80E"]
+			id: "0CF30975C71EE1BE"
+			tasks: [{
+				id: "6D937DD443E61C64"
+				item: { count: 1, id: "malum:raw_soulstone" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["590A958846738775"]
+			id: "2123E297687B29C0"
+			tasks: [{
+				id: "1189654E7DD8BF84"
+				structure: "malum:weeping_well"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6D286330EDDB87D7"]
+			id: "590A958846738775"
+			tasks: [{
+				id: "35932EA6CF0049C3"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"0CF30975C71EE1BE"
+				"2123E297687B29C0"
+			]
+			id: "2EA546127EC22C1E"
+			tasks: [{
+				id: "252EA17A07B7CEC9"
+				item: { count: 1, id: "malum:refined_soulstone" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6D286330EDDB87D7"]
+			id: "141A50C5F4AE4D65"
+			tasks: [{
+				id: "3AE06E89ED7FFA4D"
+				item: { count: 1, id: "minecraft:shears" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["141A50C5F4AE4D65"]
+			id: "29A7C3B657F51CEA"
+			tasks: [{
+				id: "2135D94C5F3DCB04"
+				item: { count: 1, id: "malum:soulwood_leaves" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"2EA546127EC22C1E"
+				"29A7C3B657F51CEA"
+			]
+			id: "120501FEFB277051"
+			tasks: [{
+				id: "3C0F4B0E29D1D98A"
+				item: { count: 1, id: "malum:soul_stained_steel_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["120501FEFB277051"]
+			id: "63AF17A6DFEFA4E2"
+			tasks: [{
+				id: "2386D5E600F266E8"
+				item: { count: 1, id: "malum:soul_stained_steel_sword" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["54B29CB1B9CBD815"]
+			id: "1ECE35740B006A1D"
+			tasks: [{
+				id: "54707739E7365FEA"
+				item: { count: 1, id: "malum:earthen_spirit" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1ECE35740B006A1D"]
+			id: "17C97ACE101D486E"
+			tasks: [{
+				id: "201D0A50BA3304E1"
+				item: { count: 1, id: "kubejs:alloy_hypercharged" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1B0FD3F7E0C3BFF8"]
+			icon: {
+				id: "cdp2:twisted_brilliant_stone"
+			}
+			id: "5074EADEEB90CAB2"
+			tasks: [
+				{
+					id: "2D35F3BCE7015DC0"
+					item: { count: 1, id: "cdp2:twisted_brilliant_stone" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "52E0BD199DC4F78A"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "cdp2:twisted_brilliant_stone"
+					type: "observation"
+				}
+			]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5074EADEEB90CAB2"]
+			id: "4DA110D1D17FD0C4"
+			tasks: [{
+				id: "26120A0A38A3F3BF"
+				item: { count: 1, id: "malum:raw_brilliance" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2D0FD01DC5941197"
+				"4DA110D1D17FD0C4"
+			]
+			id: "7CD62E68F7E6A645"
+			tasks: [{
+				id: "59A9BCD030C531FE"
+				item: { count: 1, id: "malum:rotting_essence" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"17C97ACE101D486E"
+				"7CD62E68F7E6A645"
+			]
+			id: "32E3736C92242B7F"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "736E3769FD397785"
+				item: { count: 1, id: "ae2:wireless_receiver" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["32E3736C92242B7F"]
+			id: "2034E9F75C806742"
+			tasks: [{
+				id: "7F30366288869A72"
+				item: { components: { "jdte:mineral_survey": { biome: "cdp2:quorveth", dimension: "cdp2:unknown", entries: [ { max_y: 32, min_y: -64, ore: "cdp2:twisted_brilliant_stone", vein_size: 9, weight: 36000000L }, { max_y: 32, min_y: -64, ore: "cdp2:twisted_cthonic_gold_ore", vein_size: 9, weight: 36000000L }, { max_y: 32, min_y: -64, ore: "cdp2:twisted_soulstone_ore", vein_size: 9, weight: 36000000L } ], index_version: 1637743239302874698L } }, count: 1, id: "jdte:mineral_survey" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["32E3736C92242B7F"]
+			id: "6416A6F78F8F5747"
+			tasks: [{
+				id: "7C86F827AD89A7B5"
+				item: { count: 1, id: "ae2ltpp:malum_spirit_infusion_packaged_core" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17C97ACE101D486E"]
+			id: "432A1974BF8D19A2"
+			tasks: [{
+				id: "2E5096A68704C4DB"
+				item: { count: 1, id: "kubejs:dao_ze_origin_topological_lattice" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17C97ACE101D486E"]
+			id: "7FD2EBEC77492838"
+			tasks: [{
+				id: "08BEF3ADAE50315C"
+				item: { count: 1, id: "draconicevolution:overworld_draconium_ore" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7FD2EBEC77492838"]
+			id: "214B5CE1FFDBEC11"
+			tasks: [{
+				id: "1723F918CB5C05C9"
+				item: { count: 1, id: "draconicevolution:draconium_dust" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["432A1974BF8D19A2"]
+			id: "327B10C38D54A1E0"
+			tasks: [{
+				id: "2391F9B75C9157FA"
+				item: { count: 1, id: "cdp2:void_matter_creative_drawer_creative_drawer" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["214B5CE1FFDBEC11"]
+			id: "56DB3FAE82C43D57"
+			tasks: [{
+				id: "4A2821CD1E92DE6B"
+				item: { count: 1, id: "ae2lt:floating_matter" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["432A1974BF8D19A2"]
+			id: "5A9ED93C1EE02B96"
+			tasks: [{
+				id: "0429AA45AF373C0B"
+				item: { count: 1, id: "ae2lt:electromagnetic_railgun" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A9ED93C1EE02B96"]
+			id: "12D4ED2B76D5AEA0"
+			tasks: [{
+				id: "1B2D63CB98594DB0"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(ae2lt:railgun_module_core)item(ae2lt:railgun_module_compute)item(ae2lt:railgun_module_acceleration)item(ae2lt:railgun_module_range)item(ae2lt:railgun_module_ehv_beam)item(ae2lt:railgun_module_overload_execution)item(ae2lt:energy_module_t1)item(ae2lt:energy_module_t2)item(ae2lt:energy_module_t3))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1F09036551FD2DC1"
+				"5A9ED93C1EE02B96"
+			]
+			id: "41BB8F07EB577C39"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "73951225AC2714E0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["590A958846738775"]
+			hide_dependency_lines: true
+			id: "1F09036551FD2DC1"
+			tasks: [{
+				id: "0C01153956CA9489"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41BB8F07EB577C39"]
+			id: "6B884A0C1A091D8F"
+			tasks: [{
+				id: "1FBCBBF1C8F1BAA2"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"214B5CE1FFDBEC11"
+				"6B884A0C1A091D8F"
+				"5299B8FBB087ACE1"
+			]
+			id: "075D65F529D15872"
+			tasks: [{
+				id: "1E7516499F1C2094"
+				item: { count: 1, id: "draconicevolution:draconium_ingot" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["326F61944396BC75"]
+			id: "5299B8FBB087ACE1"
+			tasks: [{
+				id: "264B6BC034C242CD"
+				item: { count: 1, id: "malum:sacred_spirit" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["590A958846738775"]
+			hide_dependency_lines: true
+			id: "4D0107516E225BEA"
+			tasks: [{
+				id: "29383F40BE7EE479"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			x: 17.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4D0107516E225BEA"]
+			id: "326F61944396BC75"
+			tasks: [{
+				entity: "cataclysm:the_watcher"
+				id: "033769A1293D3026"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["63AF17A6DFEFA4E2"]
+			id: "54B29CB1B9CBD815"
+			tasks: [{
+				entity: "cataclysm:urchinkin"
+				id: "111B75E977CEDCFC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["41BB8F07EB577C39"]
+			id: "0C9F6EDB53172E01"
+			tasks: [{
+				id: "282E078FDE7EBF12"
+				item: { count: 1, id: "cataclysm:music_disc_ignis" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0C9F6EDB53172E01"
+				"688F58FD896BBC97"
+			]
+			id: "18E098CFF07FF7FD"
+			tasks: [{
+				id: "2CDA98AEB04E94A6"
+				item: { count: 1, id: "avaritia:record_fragment" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B884A0C1A091D8F"]
+			id: "1A0B203E4FB2053B"
+			tasks: [{
+				id: "2BDC65145C624F7A"
+				item: { count: 1, id: "malum:hallowed_gold_ingot" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"075D65F529D15872"
+				"1A0B203E4FB2053B"
+				"18E098CFF07FF7FD"
+			]
+			id: "74D6DB7CDEF561EF"
+			tasks: [{
+				id: "3E2F70E1CBEC67B3"
+				item: { count: 1, id: "draconicevolution:draconium_core" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74D6DB7CDEF561EF"]
+			id: "024A24684601E4CF"
+			tasks: [
+				{
+					id: "02A4625DE7AB2B9D"
+					item: { count: 1, id: "draconicevolution:crafting_core" }
+					type: "item"
+				}
+				{
+					id: "0F8ED51E10126B4B"
+					item: { count: 1, id: "draconicevolution:basic_crafting_injector" }
+					type: "item"
+				}
+			]
+			x: 20.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["024A24684601E4CF"]
+			id: "58B45A47BA413125"
+			tasks: [{
+				id: "4D9B210FE124F036"
+				item: { count: 1, id: "ae2ltpp:de_fusion_packaged_core" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["024A24684601E4CF"]
+			id: "631CEBF585BFC8E5"
+			rewards: [{
+				id: "1A21F8697F183716"
+				item: {
+					count: 1
+					id: "cdp2:electrum_ingot_creative_drawer"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "708596FC532F7931"
+				item: { count: 1, id: "kubejs:spirit_shard" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["327B10C38D54A1E0"]
+			hide_dependency_lines: true
+			id: "688F58FD896BBC97"
+			tasks: [{
+				id: "681ABD84476C30D6"
+				item: { count: 1, id: "cdp2:creative_shard_2" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["631CEBF585BFC8E5"]
+			id: "62927D3E6027AD34"
+			tasks: [{
+				id: "7F83575C3C11BF4F"
+				item: { count: 1, id: "cataclysm:ignis_spawn_egg" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 8.5d
+		}
+	]
 }

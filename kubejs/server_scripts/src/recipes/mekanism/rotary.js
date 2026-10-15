@@ -11,6 +11,11 @@ ServerEvents.recipes(event =>{
             chemical:"1x mekanism_extras:naquadah_uranium_fuel",
             fluid:"1x kubejs:naquadah_uranium_fuel",
             id:"naquadah_uranium_fuel"
+        },
+        {
+            chemical:"1x mekmm:unstable_dimensional_gas",
+            fluid:"1x kubejs:unstable_dimensional_fluid",
+            id:"unstable_dimensional"
         }
     ]
 

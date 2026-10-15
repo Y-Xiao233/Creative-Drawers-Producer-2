@@ -114,7 +114,7 @@ ServerEvents.recipes(event =>{
             "output":'occultism:storage_stabilizer_tier4',
             "inputs":[
                 'occultism:iesnium_block',
-                'ifeu:dragon_star',
+                'industrialforegoingextra:dragon_star',
                 'occultism:spirit_attuned_crystal',
                 'forbidden_arcanus:eternal_stella',
                 'minecraft:beacon',
@@ -126,6 +126,35 @@ ServerEvents.recipes(event =>{
             "pentacleId":"occultism:craft_marid",
             "duration":2,
             "id":"storage_stabilizer_tier4"
+        },
+        {
+            "output":'occultism:dragonyst_dust',
+            "inputs":[
+                'industrialforegoingextra:dragon_star',
+                'productivebees:draconic_chunk',
+                'minecraft:dragon_head',
+                'minecraft:dragon_egg',
+                'minecraft:end_crystal',
+                'minecraft:dragon_breath'
+            ],
+            "active":'mekanismsun:supernova_alloy',
+            "pentacleId":"occultism:craft_marid",
+            "duration":2,
+            "id":"dragonyst_dust"
+        },
+        {
+            "output":'4x occultism:witherite_dust',
+            "inputs":[
+                'minecraft:wither_skeleton_skull',
+                'minecraft:wither_rose',
+                'cataclysm:witherite_ingot',
+                'productivebees:wither_skull_chip',
+                'mysticalagriculture:wither_skeleton_essence'
+            ],
+            "active":'mekanism:dust_netherite',
+            "pentacleId":"occultism:craft_marid",
+            "duration":2,
+            "id":"witherite_dust"
         }
     ]
 

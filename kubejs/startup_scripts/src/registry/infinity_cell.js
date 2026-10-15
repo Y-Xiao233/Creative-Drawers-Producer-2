@@ -17,4 +17,8 @@ StartupEvents.registry("item", event =>{
     }))
 
     event.create("infinity_time_fluid_cell","meinfinitycell:infinity_cell").fluidType("justdirethings:time_fluid_source")
+
+    event.create("infinity_antimatter_cell","meinfinitycell:infinity_cell").type(MekanismKeyHelper.of("mekanism:antimatter"))
+
+    event.create("infinity_bucket_cell","meinfinitycell:infinity_cell").itemType("minecraft:bucket")
 })

@@ -120,7 +120,7 @@ ServerEvents.recipes(event =>{
             "id": "arcanus_print_press"
         },
         {
-            "output": "mekanismgenerators:gas_burning_generator",
+            "output": "mekmm:large_gas_burning_generator",
             "count": 1,
             "input": "mekanism:electrolytic_core",
             "inputs": [
@@ -135,13 +135,13 @@ ServerEvents.recipes(event =>{
             ],
             "duration": 2.0,
             "essence": [
-                1000.0,
+                1000,
                 0.0,
                 0.0,
                 0.0
             ],
-            "tier": 1.0,
-            "id": "gas_burning_generator"
+            "tier": "1",
+            "id": "large_gas_burning_generator"
         },
         {
             "output": "mysticalagriculture:prudentium_seeds",
@@ -456,30 +456,6 @@ ServerEvents.recipes(event =>{
             "id": "machine_frame_advanced"
         },
         {
-            "output": "ifeu:creative_chance_addon",
-            "count": 1,
-            "input": "ifeu:chance_addon_1",
-            "inputs": [
-                "powah:charged_snowball",
-                "ars_nouveau:source_gem",
-                "industrialforegoing:pink_slime_ingot",
-                "ars_nouveau:source_gem",
-                "powah:charged_snowball",
-                "ars_nouveau:source_gem",
-                "industrialforegoing:pink_slime_ingot",
-                "ars_nouveau:source_gem"
-            ],
-            "duration": 2.0,
-            "essence": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-            ],
-            "tier": 3.0,
-            "id": "creative_chance_addon"
-        },
-        {
             "output": "justdirethings:gooblock_tier2",
             "count": 1,
             "input": "justdirethings:gooblock_tier1",
@@ -533,13 +509,13 @@ ServerEvents.recipes(event =>{
             "input": "mysticalagriculture:tertium_seeds",
             "inputs": [
                 "kubejs:nature_prism",
-                "minecraft:nether_star",
+                'productivelib:upgrade_block',
                 "kubejs:nature_prism",
-                "minecraft:nether_star",
+                'productivelib:upgrade_block',
                 "kubejs:nature_prism",
-                "minecraft:nether_star",
+                'productivelib:upgrade_block',
                 "kubejs:nature_prism",
-                "minecraft:nether_star"
+                'productivelib:upgrade_block'
             ],
             "duration": 2.0,
             "essence": [
@@ -576,7 +552,7 @@ ServerEvents.recipes(event =>{
             "id": "quantum_core"
         },
         {
-            "output": "ifeu:laser_lens_sculk",
+            "output": "industrialforegoingextra:laser_lens_sculk",
             "count": 1,
             "input": "justdirethings:celestigem",
             "inputs": [
@@ -600,7 +576,7 @@ ServerEvents.recipes(event =>{
             "id": "laser_lens_sculk"
         },
         {
-            "output": "ifeu:infuser",
+            "output": "industrialforegoingextra:infuser",
             "count": 1,
             "input": "forbidden_arcanus:quantum_core",
             "inputs": [
@@ -724,13 +700,13 @@ ServerEvents.recipes(event =>{
             "count": 1,
             "input": "mysticalagriculture:supremium_seeds",
             "inputs": [
-                "createmoremachines:beyond_alloy",
+                'neoecoae:black_tungsten_alloy_ingot',
                 "cdp2:absolute_essence",
-                "createmoremachines:beyond_alloy",
+                'neoecoae:black_tungsten_alloy_ingot',
                 "cdp2:absolute_essence",
-                "createmoremachines:beyond_alloy",
+                'neoecoae:black_tungsten_alloy_ingot',
                 "cdp2:absolute_essence",
-                "createmoremachines:beyond_alloy",
+                'neoecoae:black_tungsten_alloy_ingot',
                 "cdp2:absolute_essence"
             ],
             "duration": 2.0,
@@ -790,6 +766,78 @@ ServerEvents.recipes(event =>{
             ],
             "tier": "3",
             "id": "quantum_injector"
+        },
+        {
+            "output": "ae2_pattern_disk:pattern_transferer",
+            "count": 1,
+            "input": "ae2:io_port",
+            "inputs": [
+                "ae2:quartz_glass",
+                "forbidden_arcanus:mundabitur_dust",
+                "ae2:quartz_glass",
+                "forbidden_arcanus:mundabitur_dust",
+                "ae2:quartz_glass",
+                "forbidden_arcanus:mundabitur_dust",
+                "ae2:quartz_glass",
+                "forbidden_arcanus:mundabitur_dust"
+            ],
+            "duration": 2.0,
+            "essence": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "tier": "1",
+            "id": "pattern_transferer"
+        },
+        {
+            "output": "kubejs:infinity_antimatter_cell",
+            "count": 1,
+            "input": "allthecompressed:antimatter_block",
+            "inputs": [
+                "kubejs:infinity_lava_cell",
+                "avaritia:infinity_ingot",
+                "kubejs:infinity_lightning_cell",
+                "avaritia:infinity_ingot",
+                "kubejs:infinity_time_fluid_cell",
+                "avaritia:infinity_ingot",
+                "appliedcreate:creative_stress_cell",
+                "avaritia:infinity_ingot"
+            ],
+            "duration": 2.0,
+            "essence": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "tier": "5",
+            "id": "infinity_antimatter_cell"
+        },
+        {
+            "output": "kubejs:dao_ze_origin_topological_lattice",
+            "count": 4,
+            "input": "malum:earthen_spirit",
+            "inputs": [
+                "kubejs:alloy_hypercharged",
+                "kubejs:cosmic_origin_topological_lattice",
+                "kubejs:alloy_hypercharged",
+                "kubejs:cosmic_origin_topological_lattice",
+                "kubejs:alloy_hypercharged",
+                "kubejs:cosmic_origin_topological_lattice",
+                "kubejs:alloy_hypercharged",
+                "kubejs:cosmic_origin_topological_lattice"
+            ],
+            "duration": 2.0,
+            "essence": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "tier": "5",
+            "id": "dao_ze_origin_topological_lattice"
         }
     ]
     

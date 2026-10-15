@@ -27,12 +27,6 @@ ServerEvents.recipes(event =>{
             id:"alloy_reinforced"
         },
         {
-            output:'ifeu:rubber_log',
-            item:'#minecraft:logs',
-            infuse:"20x kubejs:rubber",
-            id:"rubber_log"
-        },
-        {
             output:'minecraft:wither_skeleton_skull',
             item:'naturesaura:infused_stone',
             infuse:"1000x mekanism:carbon",
@@ -55,6 +49,18 @@ ServerEvents.recipes(event =>{
             item:'ae2lt:firmament_alloy_ingot',
             infuse:"80x mekanism:refined_obsidian",
             id:"obsidiansteel_ingot"
+        },
+        {
+            output:'cataclysm:black_steel_ingot',
+            item:'enderio:dark_steel_ingot',
+            infuse:"40x mekanism:carbon",
+            id:"black_steel_ingot"
+        },
+        {
+            output:'mekanismsun:supernova_alloy',
+            item:'kubejs:alloy_hypercharged',
+            infuse:"20x mekanismsun:electrum",
+            id:"supernova_alloy"
         }
     ]
 

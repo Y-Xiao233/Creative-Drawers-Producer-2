@@ -9,7 +9,7 @@ ServerEvents.recipes(event =>{
             0.6
         ],
         [
-            "ifeu:liquid_dragon_breath",
+            "industrialforegoingextra:liquid_dragon_breath",
             8
         ]
     ]
