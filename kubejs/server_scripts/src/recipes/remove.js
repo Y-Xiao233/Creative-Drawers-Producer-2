@@ -782,7 +782,8 @@ ServerEvents.recipes(event =>{
         "occultism:ritual/possess_goat",
         "avaritia:star_fuel",
         "mekanismsun:crafting/artificial_sun_port",
-        "occultism:ritual/craft_witherite_dust"
+        "occultism:ritual/craft_witherite_dust",
+        "ae2lt:pigmee_synthesis_station"
     ]
 
     const by_type = [

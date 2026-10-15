@@ -25,6 +25,12 @@ ServerEvents.recipes(event =>{
             input:'minecraft:sugar_cane',
             chamical:"70x mekmm:nutritional_paste",
             id:"nature_agglomeratio"
+        },
+        {
+            output:'ae2lt:pigmee_synthesis_station',
+            input:'cdp2:void_crafting_table',
+            chamical:"70x mekmm:nutritional_paste",
+            id:"pigmee_synthesis_station"
         }
     ]
 

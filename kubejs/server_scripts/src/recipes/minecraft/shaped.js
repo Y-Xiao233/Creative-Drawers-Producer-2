@@ -34,7 +34,7 @@ ServerEvents.recipes(event =>{
                 "A":"cdp2:frame",
                 "B":"cdp2:void_matter"
             },
-            "id": "bucket"
+            "id": "bucket_1"
         },
         {
             "output": "cdp2:void_sieve",
@@ -2145,7 +2145,7 @@ ServerEvents.recipes(event =>{
                 "A": "malum:twisted_rock",
                 "B": "cdp2:void_matter"
             },
-            "id": "bucket"
+            "id": "bucket_2"
         },
         {
             "output": "4x kubejs:overclocked_control_circuit",

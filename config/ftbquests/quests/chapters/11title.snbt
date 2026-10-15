@@ -691,5 +691,16 @@
 			x: 16.0d
 			y: -3.5d
 		}
+		{
+			dependencies: ["29368B35F142B74B"]
+			id: "5D2ED5487AE91CE3"
+			tasks: [{
+				id: "67E5401FFABD5715"
+				item: { count: 1, id: "ae2lt:pigmee_synthesis_station" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
 	]
 }
