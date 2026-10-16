@@ -1119,21 +1119,6 @@ ServerEvents.recipes(event =>{
             "id": "iron_casing"
         },
         {
-            "output": "mekmm:large_gas_burning_generator",
-            "pattern": [
-                "ABA",
-                "CDC",
-                "ABA"
-            ],
-            "key": {
-                "A": "mekmm:ultimate_max_chemical_tank",
-                "B": "mekmm:advanced_electrolysis_core",
-                "C": "actuallyadditions:iron_casing",
-                "D": "mekanismgenerators:gas_burning_generator"
-            },
-            "id": "large_gas_burning_generator"
-        },
-        {
             "output": "actuallyadditions:display_stand",
             "pattern": [
                 " A ",
@@ -2217,6 +2202,32 @@ ServerEvents.recipes(event =>{
                 "C": "kubejs:infinity_antimatter_cell"
             },
             "id": "artificial_sun_port"
+        },
+        {
+            "output": "industrialforegoingextra:netherite_gear",
+            "pattern": [
+                " A ",
+                "A A",
+                " A "
+            ],
+            "key": {
+                "A": "minecraft:netherite_ingot"
+            },
+            "id": "netherite_gear"
+        },
+        {
+            "output": "enderio_evolution:capacitor_vivid",
+            "pattern": [
+                " A ",
+                "BCB",
+                " A "
+            ],
+            "key": {
+                "A": "enderio_evolution:vivid_alloy_ingot",
+                "B": "enderio:double_layer_capacitor",
+                "C": "minecraft:glowstone"
+            },
+            "id": "capacitor_vivid"
         }
     ]
     

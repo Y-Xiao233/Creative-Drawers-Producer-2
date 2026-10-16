@@ -792,10 +792,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"716E756B6AECF35A"
-				"3B011056F2F5971D"
-			]
+			dependencies: ["716E756B6AECF35A"]
 			id: "53A6F0DAADB7DD8F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -806,17 +803,6 @@
 			tasks: [{
 				id: "66E538FF5CC6C03C"
 				item: { count: 1, id: "justdirethings:ferricore_ingot" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["4314E31AA2545B54"]
-			id: "3B011056F2F5971D"
-			tasks: [{
-				id: "4D3D8CD1C7D1E065"
-				item: { count: 1, id: "enderio:conductive_alloy_block" }
 				type: "item"
 			}]
 			x: 9.5d
@@ -832,6 +818,20 @@
 			}]
 			x: 9.5d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"53A6F0DAADB7DD8F"
+				"4314E31AA2545B54"
+			]
+			id: "3CD2F48F7C2B0F2F"
+			tasks: [{
+				id: "4377303523B4CA5D"
+				item: { count: 1, id: "enderio:conductive_alloy_ingot" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
 		}
 	]
 }

@@ -838,6 +838,26 @@ ServerEvents.recipes(event =>{
             ],
             "tier": "5",
             "id": "dao_ze_origin_topological_lattice"
+        },
+        {
+            "output": "forbidden_arcanus:eternal_stella",
+            "count": 1,
+            "input": "minecraft:diamond",
+            "inputs": [
+                "forbidden_arcanus:xpetrified_orb",
+                "forbidden_arcanus:xpetrified_orb",
+                "forbidden_arcanus:xpetrified_orb",
+                "forbidden_arcanus:stellarite_piece"
+            ],
+            "duration": 2.0,
+            "essence": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "tier": "3",
+            "id": "eternal_stella"
         }
     ]
     

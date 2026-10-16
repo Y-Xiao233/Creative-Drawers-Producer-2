@@ -1,14 +1,14 @@
 {
-	"output": "mekanismsun:artificial_sun_port",
+	"output": "enderio_evolution:capacitor_vivid",
 	"pattern": [
-		"ABA",
+		" A ",
 		"BCB",
-		"ABA"
+		" A "
 	],
 	"key": {
-		"A": "kubejs:dense_control_circuit",
-		"B": "mekanismsun:artificial_sun_casing",
-		"C": "kubejs:infinity_antimatter_cell"
+		"A": "enderio_evolution:vivid_alloy_ingot",
+		"B": "enderio:double_layer_capacitor",
+		"C": "minecraft:glowstone"
 	},
-	"id": "artificial_sun_port"
+	"id": "capacitor_vivid"
 }

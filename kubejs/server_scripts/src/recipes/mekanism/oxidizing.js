@@ -3,7 +3,7 @@ ServerEvents.recipes(event =>{
 
     const recipes = [
         [
-            "200x kubejs:whirlwind",
+            "10000x kubejs:whirlwind",
             'forbidden_arcanus:whirlwind_prism',
             'whirlwind'
         ],

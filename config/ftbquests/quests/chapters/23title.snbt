@@ -634,5 +634,16 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["18CDD0F6135EA80D"]
+			id: "2CA4A3DFA62F1DFA"
+			tasks: [{
+				id: "60760EAA73F315E1"
+				item: { count: 1, id: "enderio_evolution:melodic_alloy_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
 	]
 }

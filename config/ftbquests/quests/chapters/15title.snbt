@@ -707,8 +707,8 @@
 			dependencies: ["0DB0FCA20A7BEA14"]
 			id: "7508C1B4D527A5D6"
 			tasks: [{
-				id: "5536FB18A8D7B4FC"
-				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
+				id: "74DB59A2211ABC9F"
+				item: { count: 1, id: "enderio_evolution:vivid_alloy_ingot" }
 				type: "item"
 			}]
 			x: 6.0d

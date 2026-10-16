@@ -27,20 +27,6 @@ ServerEvents.recipes(event =>{
         "tierRequirement": 4
     }).id(prefix + "rune_block")
 
-
-    event.custom({
-        "type": "justdirethings:goospread",
-        "craftingDuration": 2400,
-        "id": 'justdirethings:raw_ferricore_ore',
-        "input": {
-            "Name": 'enderio:conductive_alloy_block'
-        },
-        "output": {
-            "Name": 'justdirethings:raw_ferricore_ore'
-        },
-        "tierRequirement": 1
-    }).id(prefix + "raw_ferricore_ore")
-
     event.custom({
         "type": "justdirethings:goospread",
         "craftingDuration": 2400,

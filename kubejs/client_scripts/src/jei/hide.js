@@ -88,7 +88,9 @@ const hides = [
     'mekanismsun:deepslate_silver_ore',
     'mekanismsun:silver_ore',
     'mysticalagriculture:electrum_seeds',
-    'mekanismsun:alloyer'
+    'mekanismsun:alloyer',
+    'enderio_evolution:capacitor_silver',
+    'enderio_evolution:capacitor_energetic_silver'
 ]
 
 const temp = [

@@ -232,7 +232,9 @@ ServerEvents.recipes(event =>{
         'draconicevolution:draconium_core',
         'neoecoae:crystal_ingot',
         'mysticalagriculture:electrum_seeds',
-        'mekanismsun:electrum_ingot'
+        'mekanismsun:electrum_ingot',
+        'enderio_evolution:capacitor_silver',
+        'enderio_evolution:capacitor_energetic_silver'
     ]
 
     const by_id = [
@@ -680,7 +682,6 @@ ServerEvents.recipes(event =>{
         "ae2cs:pulverizer/energized_crystal_dust_from_pure_crystal",
         "neoecoae:integrated_working_station/cryotheum_solution",
         "enderio:alloy_smelter",
-        "justdirethings:raw_ferricore_ore-goospread",
         "enderio:alloy_smelting/conductive_alloy_ingot",
         "mysticalagriculture:essence/enderio/copper_alloy_ingot",
         "mysticalagriculture:essence/enderio/conductive_alloy_ingot",
@@ -783,7 +784,26 @@ ServerEvents.recipes(event =>{
         "avaritia:star_fuel",
         "mekanismsun:crafting/artificial_sun_port",
         "occultism:ritual/craft_witherite_dust",
-        "ae2lt:pigmee_synthesis_station"
+        "ae2lt:pigmee_synthesis_station",
+        "forbidden_arcanus:ritual/eternal_stella",
+        "industrialforegoingextra:shaped/netherite_gear",
+        "mysticalagriculture:seed/infusion/diamond",
+        "mysticalagriculture:essence/minecraft/diamond",
+        "mysticalagriculture:essence/minecraft/music_disc_relic",
+        "productivebees:bee_breeding/gems/diamond_bee",
+        "productivebees:centrifuge/gems/honeycomb_diamond",
+        "productivebees:enderio/vivid_alloy_bee",
+        "productivebees:enderio/energetic_silver_bee",
+        "productivebees:centrifuge/enderio_evolution/vivid_alloy",
+        "productivebees:centrifuge/enderio_evolution/energetic_silver",
+        "enderio_evolution:alloy_smelter/crystalline_alloy_ingot",
+        "enderio_evolution:alloy_smelter/crystalline_alloy_ingot_from_vibrant",
+        "productivebees:centrifuge/powah/honeycomb_nitro_crystal",
+        "productivebees:powah/nitro_crystal_bee",
+        "enderio_evolution:alloy_smelter/vivid_alloy_ingot",
+        "productivebees:enderio/crystalline_alloy_bee",
+        "productivebees:centrifuge/enderio_evolution/crystalline_alloy",
+        "enderio_evolution:capacitor/capacitor_vivid"
     ]
 
     const by_type = [

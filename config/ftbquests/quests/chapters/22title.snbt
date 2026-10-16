@@ -511,5 +511,16 @@
 			x: 1.0d
 			y: -3.0d
 		}
+		{
+			dependencies: ["1814A90EDF2B5BFE"]
+			id: "46FAC94B7C2A7BBD"
+			tasks: [{
+				id: "5BEF646F49FA71CD"
+				item: { count: 1, id: "enderio_evolution:crystalline_alloy_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
 	]
 }

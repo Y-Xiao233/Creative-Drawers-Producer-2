@@ -2,8 +2,8 @@
   "replace": false,
   "values": {
     "mekanism:ethene": {
-      "burn_time": 40,
-      "energy": 40
+      "burn_time": 60,
+      "energy": 60
     }
   }
 }

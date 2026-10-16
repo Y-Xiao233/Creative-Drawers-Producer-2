@@ -6,7 +6,8 @@ ServerEvents.recipes(event =>{
             "output":'2x enderio:conductive_alloy_ingot',
             "inputs":[
                 'create:brass_ingot',
-                "powah:charged_snowball"
+                "powah:charged_snowball",
+                'justdirethings:ferricore_ingot'
             ],
             "id":"conductive_alloy_ingot"
         },
@@ -31,7 +32,7 @@ ServerEvents.recipes(event =>{
             "output":'3x enderio_evolution:melodic_alloy_ingot',
             "inputs":[
                 'enderio:vibrant_alloy_ingot',
-                'enderio:end_steel_ingot',
+                'naturesaura:sky_ingot',
                 'enderio_evolution:crystalline_pink_slime_ingot'
             ],
             "id":"melodic_alloy_ingot"
@@ -53,6 +54,23 @@ ServerEvents.recipes(event =>{
                 'occultism:dragonyst_dust'
             ],
             "id":"stellar_alloy_ingot"
+        },
+        {
+            "output":'enderio_evolution:vivid_alloy_ingot',
+            "inputs":[
+                'ae2lt:overload_alloy',
+                'minecraft:ender_pearl'
+            ],
+            "id":"vivid_alloy_ingot"
+        },
+        {
+            "output":'3x enderio_evolution:crystalline_alloy_ingot',
+            "inputs":[
+                'enderio_evolution:vivid_alloy_ingot',
+                'occultism:silver_ingot',
+                'ae2lt:firmament_dust'
+            ],
+            "id":"crystalline_alloy_ingot"
         }
     ]
 
