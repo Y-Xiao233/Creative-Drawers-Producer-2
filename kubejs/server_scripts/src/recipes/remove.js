@@ -234,7 +234,9 @@ ServerEvents.recipes(event =>{
         'mysticalagriculture:electrum_seeds',
         'mekanismsun:electrum_ingot',
         'enderio_evolution:capacitor_silver',
-        'enderio_evolution:capacitor_energetic_silver'
+        'enderio_evolution:capacitor_energetic_silver',
+        'mekmm:ingot_silver',
+        'enderio_evolution:silver_ingot'
     ]
 
     const by_id = [
@@ -803,7 +805,23 @@ ServerEvents.recipes(event =>{
         "enderio_evolution:alloy_smelter/vivid_alloy_ingot",
         "productivebees:enderio/crystalline_alloy_bee",
         "productivebees:centrifuge/enderio_evolution/crystalline_alloy",
-        "enderio_evolution:capacitor/capacitor_vivid"
+        "enderio_evolution:capacitor/capacitor_vivid",
+        "enderio_evolution:blasting/silver_ingot_from_deepslate_ore",
+        "mekmm:processing/silver/ingot/from_ore_blasting",
+        "mekanismsun:processing/silver/ingot/from_ore_blasting",
+        "enderio_evolution:smelting/silver_ingot_from_deepslate_ore",
+        "mekmm:processing/silver/ingot/from_ore_smelting",
+        "mekanismsun:processing/silver/ingot/from_ore_smelting",
+        "mekanismsun:processing/silver/dust/from_ore",
+        "enderio_evolution:sag_milling/silver_ore",
+        "create:crushing/silver_ore",
+        "mekanismsun:processing/silver/ingot/from_dust_blasting",
+        "mekmm:processing/silver/ingot/from_dust_blasting",
+        "mekmm:processing/silver/ingot/from_dust_smelting",
+        "mekanismsun:processing/silver/ingot/from_dust_smelting",
+        "mekmm:enriching/enriched/carbon",
+        "mekmm:processing/silver/ore/from_raw",
+        "mekmm:processing/silver/ore/deepslate_from_raw"
     ]
 
     const by_type = [

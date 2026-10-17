@@ -36,6 +36,11 @@ ServerEvents.recipes(event =>{
             output:'malum:exposed_runewood_log',
             input:'malum:exposed_soulwood_log',
             id:"exposed_runewood_log"
+        },
+        {
+            output:'minecraft:ink_sac',
+            input:'4x minecraft:black_dye',
+            id:"ink_sac"
         }
     ]
 

@@ -90,7 +90,21 @@ const hides = [
     'mysticalagriculture:electrum_seeds',
     'mekanismsun:alloyer',
     'enderio_evolution:capacitor_silver',
-    'enderio_evolution:capacitor_energetic_silver'
+    'enderio_evolution:capacitor_energetic_silver',
+    'mekmm:ingot_silver',
+    'enderio_evolution:silver_ingot',
+    'malum:brilliant_stone',
+    'malum:soulstone_ore',
+    'create:crushed_raw_silver',
+    'mekmm:block_raw_silver',
+    'enderio_evolution:raw_silver_block',
+    'mekmm:raw_silver',
+    'enderio_evolution:raw_silver',
+    'mekmm:silver_ore',
+    'mekmm:deepslate_silver_ore',
+    'occultism:silver_ore_deepslate',
+    'enderio_evolution:silver_ore',
+    'enderio_evolution:deepslate_silver_ore'
 ]
 
 const temp = [

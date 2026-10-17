@@ -16,5 +16,5 @@ ServerEvents.tags("block",event =>{
     event.add("minecraft:mineable/pickaxe",creative_drawers)
 
 
-    event.remove('c:ores_in_ground/stone',['forbidden_arcanus:stella_arcanum'])
+    event.remove('c:ores_in_ground/stone',['forbidden_arcanus:stella_arcanum','malum:soulstone_ore','malum:brilliant_stone'])
 })

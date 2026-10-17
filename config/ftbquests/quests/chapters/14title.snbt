@@ -1112,22 +1112,20 @@
 				id: "productivebees:spawn_egg_configurable_bee"
 			}
 			id: "1E044B3D098D58CB"
-			tasks: [
-				{
-					id: "2AF55144FA676EF9"
-					item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:draconic" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
-					optional_task: true
-					type: "item"
+			rewards: [{
+				id: "28A1379559DB1A1B"
+				item: {
+					count: 1
+					id: "minecraft:dragon_egg"
 				}
-				{
-					id: "4714A36D181DC93E"
-					observation_type: "entity_type"
-					observe_type: 5
-					timer: 0L
-					to_observe: "productivebees:draconic"
-					type: "observation"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AF55144FA676EF9"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:draconic" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				optional_task: true
+				type: "item"
+			}]
 			x: 6.0d
 			y: 5.0d
 		}
@@ -1239,6 +1237,7 @@
 			tasks: [{
 				id: "419309873DBEF8E9"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:tainted_gold" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 7.0d

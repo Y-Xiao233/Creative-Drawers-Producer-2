@@ -36,7 +36,7 @@ ServerEvents.tags("item",event =>{
 
     event.remove('ae2:inscriber_presses','ae2:silicon_press')
 
-    event.remove('c:ores_in_ground/stone',['forbidden_arcanus:stella_arcanum'])
+    event.remove('c:ores_in_ground/stone',['forbidden_arcanus:stella_arcanum','malum:soulstone_ore','malum:brilliant_stone'])
 
     event.add("ae2cs:pure_crystal",['ae2cs:purified_fluix_crystal'])
 })
