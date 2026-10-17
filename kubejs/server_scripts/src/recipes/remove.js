@@ -821,7 +821,16 @@ ServerEvents.recipes(event =>{
         "mekanismsun:processing/silver/ingot/from_dust_smelting",
         "mekmm:enriching/enriched/carbon",
         "mekmm:processing/silver/ore/from_raw",
-        "mekmm:processing/silver/ore/deepslate_from_raw"
+        "mekmm:processing/silver/ore/deepslate_from_raw",
+        "mekanismsun:processing/silver/ingot/from_raw_blasting",
+        "mekanismsun:processing/silver/ingot/from_raw_smelting",
+        "mekanismsun:processing/silver/dust/from_raw_ore",
+        "create:crushing/raw_silver",
+        "enderio_evolution:building/raw_silver_block",
+        "mekmm:processing/silver/raw_storage_blocks/from_raw",
+        "mekmm:processing/silver/raw/from_raw_block",
+        "enderio_evolution:building/raw_silver_from_block",
+        "create:crushing/raw_silver_block"
     ]
 
     const by_type = [

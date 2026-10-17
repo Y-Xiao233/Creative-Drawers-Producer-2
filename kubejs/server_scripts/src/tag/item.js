@@ -36,7 +36,13 @@ ServerEvents.tags("item",event =>{
 
     event.remove('ae2:inscriber_presses','ae2:silicon_press')
 
-    event.remove('c:ores_in_ground/stone',['forbidden_arcanus:stella_arcanum','malum:soulstone_ore','malum:brilliant_stone'])
+    event.remove('c:ores_in_ground/stone',[
+        'forbidden_arcanus:stella_arcanum','malum:soulstone_ore',
+        'malum:brilliant_stone','mekanismsun:deepslate_silver_ore',
+        'mekanismsun:silver_ore','mekmm:silver_ore',
+        'mekmm:deepslate_silver_ore','occultism:silver_ore_deepslate',
+        'enderio_evolution:silver_ore','enderio_evolution:deepslate_silver_ore'
+    ])
 
     event.add("ae2cs:pure_crystal",['ae2cs:purified_fluix_crystal'])
 })

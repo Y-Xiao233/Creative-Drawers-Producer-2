@@ -86,6 +86,14 @@ ServerEvents.recipes(event =>{
             "chemical":"1000x mekanismgenerators:fusion_fuel",
             "item":'64x minecraft:smithing_table',
             "id":"extreme_smithing_table"
+        },
+        {
+            "chemical_output":"10x mekanism:polonium",
+            "output":'minecraft:stone',
+            "fluid":"1000x minecraft:water",
+            "chemical":"100x mekanism:nuclear_waste",
+            "item":'mekanism:fluorite_gem',
+            "id":"polonium"
         }
     ]
 

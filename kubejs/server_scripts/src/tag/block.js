@@ -16,5 +16,11 @@ ServerEvents.tags("block",event =>{
     event.add("minecraft:mineable/pickaxe",creative_drawers)
 
 
-    event.remove('c:ores_in_ground/stone',['forbidden_arcanus:stella_arcanum','malum:soulstone_ore','malum:brilliant_stone'])
+    event.remove('c:ores_in_ground/stone',[
+        'forbidden_arcanus:stella_arcanum','malum:soulstone_ore',
+        'malum:brilliant_stone','mekanismsun:deepslate_silver_ore',
+        'mekanismsun:silver_ore','mekmm:silver_ore',
+        'mekmm:deepslate_silver_ore','occultism:silver_ore_deepslate',
+        'enderio_evolution:silver_ore','enderio_evolution:deepslate_silver_ore'
+    ])
 })
