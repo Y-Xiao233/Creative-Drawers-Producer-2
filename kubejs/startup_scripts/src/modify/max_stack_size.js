@@ -1,6 +1,7 @@
 ItemEvents.modification(event =>{
     const items = [
-        'forbidden_arcanus:eternal_stella'
+        'forbidden_arcanus:eternal_stella',
+        'ae2lt:pigmee_core'
     ]
 
     items.forEach(item =>{

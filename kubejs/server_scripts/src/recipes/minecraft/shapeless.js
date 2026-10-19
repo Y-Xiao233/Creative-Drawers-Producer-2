@@ -255,6 +255,13 @@ ServerEvents.recipes(event =>{
                 "mysticalagriculture:awakened_supremium_essence"
             ],
             "awakened_supremium_ingot"
+        ],
+        [
+            "2x ae2lt:pigmee_core",
+            [
+                "ae2lt:pigmee_core"
+            ],
+            "pigmee_core"
         ]
     ]
     

@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "32title"
 	group: "1C2A470856957F12"
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "mekanismsun:artificial_sun_casing"
 	}

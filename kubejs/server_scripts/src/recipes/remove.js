@@ -830,7 +830,8 @@ ServerEvents.recipes(event =>{
         "mekmm:processing/silver/raw_storage_blocks/from_raw",
         "mekmm:processing/silver/raw/from_raw_block",
         "enderio_evolution:building/raw_silver_from_block",
-        "create:crushing/raw_silver_block"
+        "create:crushing/raw_silver_block",
+        "naturesaura:animal_spawner/llama"
     ]
 
     const by_type = [

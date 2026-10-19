@@ -1,14 +1,14 @@
 {
-	"output": "enderio_evolution:capacitor_vivid",
+	"output": "16x mysticalagriculture:cognizant_dust",
 	"pattern": [
-		" A ",
+		"AAA",
 		"BCB",
-		" A "
+		" B "
 	],
 	"key": {
-		"A": "enderio_evolution:vivid_alloy_ingot",
-		"B": "enderio:double_layer_capacitor",
-		"C": "minecraft:glowstone"
+		"A": "minecraft:wither_skeleton_skull",
+		"B": "minecraft:soul_sand",
+		"C": "mysticalagriculture:supremium_sword"
 	},
-	"id": "capacitor_vivid"
+	"id": "cognizant_dust"
 }

@@ -2228,6 +2228,34 @@ ServerEvents.recipes(event =>{
                 "C": "minecraft:glowstone"
             },
             "id": "capacitor_vivid"
+        },
+        {
+            "output": "avaritia:infinity_chestplate",
+            "pattern": [
+                "A A",
+                "ABA",
+                "ACA"
+            ],
+            "key": {
+                "A": "malum:runic_sapball",
+                "B": "mekanism_extras:alloy_spectrum",
+                "C": "malum:cursed_sapball"
+            },
+            "id": "infinity_chestplate"
+        },
+        {
+            "output": "16x mysticalagriculture:cognizant_dust",
+            "pattern": [
+                "AAA",
+                "BCB",
+                " B "
+            ],
+            "key": {
+                "A": "minecraft:wither_skeleton_skull",
+                "B": "minecraft:soul_sand",
+                "C": "mysticalagriculture:supremium_sword"
+            },
+            "id": "cognizant_dust"
         }
     ]
     

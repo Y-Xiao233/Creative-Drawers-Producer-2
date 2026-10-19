@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "31title"
 	group: "1C2A470856957F12"
-	hide_quest_until_deps_complete: true
 	icon: {
 		id: "malum:twisted_rock"
 	}
@@ -15,6 +14,24 @@
 		{
 			dependencies: ["6CD00614C850A897"]
 			id: "1B0FD3F7E0C3BFF8"
+			rewards: [
+				{
+					id: "27FEB45E48EEBE5C"
+					item: {
+						count: 1
+						id: "cdp2:sea_prism_creative_drawer"
+					}
+					type: "item"
+				}
+				{
+					id: "47FC24AA3934DE5C"
+					item: {
+						count: 1
+						id: "cdp2:void_matter_creative_drawer_creative_drawer"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				dimension: "cdp2:unknown"
 				id: "2F33F2A5C9FD4E07"
@@ -184,29 +201,15 @@
 		}
 		{
 			dependencies: ["62FFAAF2E000627D"]
-			icon: {
-				id: "cdp2:sea_prism_creative_drawer"
-			}
+			hide_until_deps_complete: true
 			id: "6CD00614C850A897"
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "1A4EFF2507C08ECC"
-					item: { count: 1, id: "cdp2:sea_prism_creative_drawer" }
-					type: "item"
-				}
-				{
-					id: "3FB92C50AC205067"
-					item: { count: 1, id: "cdp2:void_matter_creative_drawer_creative_drawer" }
-					type: "item"
-				}
-				{
-					id: "35B3BFFA7A500DF9"
-					item: { count: 1, id: "cdp2:unknown_portal" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "35B3BFFA7A500DF9"
+				item: { count: 1, id: "cdp2:unknown_portal" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 4.0d
 		}
@@ -670,12 +673,26 @@
 		}
 		{
 			dependencies: ["17C97ACE101D486E"]
+			icon: {
+				id: "draconicevolution:overworld_draconium_ore"
+			}
 			id: "7FD2EBEC77492838"
-			tasks: [{
-				id: "08BEF3ADAE50315C"
-				item: { count: 1, id: "draconicevolution:overworld_draconium_ore" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "08BEF3ADAE50315C"
+					item: { count: 1, id: "draconicevolution:overworld_draconium_ore" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "10DA8D6CF833E533"
+					observation_type: "block"
+					observe_type: 0
+					timer: 0L
+					to_observe: "draconicevolution:overworld_draconium_ore"
+					type: "observation"
+				}
+			]
 			x: 14.5d
 			y: 3.5d
 		}
@@ -958,6 +975,20 @@
 			}]
 			x: 19.0d
 			y: 8.5d
+		}
+		{
+			dependencies: [
+				"1F4082039117175C"
+				"004FD4FEAA7C0DE7"
+			]
+			id: "4865184E27EE6B8D"
+			tasks: [{
+				id: "35931C888B287B77"
+				item: { count: 1, id: "avaritia:infinity_chestplate" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
 		}
 	]
 }

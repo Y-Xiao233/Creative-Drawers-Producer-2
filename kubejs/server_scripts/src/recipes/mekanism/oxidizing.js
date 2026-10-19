@@ -76,6 +76,11 @@ ServerEvents.recipes(event =>{
             "1000x mekanism_extras:spectrum",
             'mekanism_extras:enriched_spectrum',
             "spectrum/from_enriched_spectrum"
+        ],
+        [
+            "10x mekanismsun:electrum",
+            'mekanismsun:electrum_dust',
+            "electrum/from_electrum_dust"
         ]
     ]
 

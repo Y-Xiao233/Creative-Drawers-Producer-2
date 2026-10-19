@@ -41,6 +41,10 @@ LootJS.lootTables(event =>{
         pool.when(condition =>{
             condition.randomChance(0.1)
         }).addEntry(LootEntry.of('minecraft:dragon_egg'))
+    }).createPool(pool =>{
+        pool.when(condition =>{
+            condition.randomChance(0.4)
+        }).addEntry(LootEntry.of('draconicevolution:dragon_heart'))
     })
 
     event.modifyEntityTables("minecraft:bee").createPool(pool =>{

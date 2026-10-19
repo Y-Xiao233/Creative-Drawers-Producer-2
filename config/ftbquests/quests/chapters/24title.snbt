@@ -264,36 +264,16 @@
 		{
 			dependencies: ["450A28B3A9C82BFD"]
 			id: "62FFAAF2E000627D"
-			rewards: [
-				{
-					id: "591C467749FEBBF0"
-					item: {
-						count: 1
-						id: "cdp2:void_matter_creative_drawer_creative_drawer"
-					}
-					team_reward: true
-					type: "item"
+			rewards: [{
+				id: "3370E4AEE0E70A89"
+				item: {
+					count: 1
+					id: "cdp2:unknown_portal"
 				}
-				{
-					id: "3D69706E0BAC8BFA"
-					item: {
-						count: 1
-						id: "cdp2:sea_prism_creative_drawer"
-					}
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "3370E4AEE0E70A89"
-					item: {
-						count: 1
-						id: "cdp2:unknown_portal"
-					}
-					only_one: true
-					team_reward: true
-					type: "item"
-				}
-			]
+				only_one: true
+				team_reward: true
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
