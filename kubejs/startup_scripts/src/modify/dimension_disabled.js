@@ -42,6 +42,7 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.EntityTravelToDimensio
             }
             if(!data.contains("need_clear_inveotory")){
                 entity.getInventory().clear()
+                CuriosApi.getCuriosInventory(entity).get().getEquippedCurios().clear()
                 data.putBoolean("need_clear_inveotory",false)
                 data.putBoolean("can_go_to_other_dimensions",false)
             }

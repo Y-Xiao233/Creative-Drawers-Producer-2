@@ -235,6 +235,28 @@ ServerEvents.recipes(event =>{
                 'kubejs:quantum_control_circuit'
             ],
             "id": "eldritch_spirit"
+        },
+        {
+            "output": '64x forbidden_arcanus:mundabitur_dust',
+            "cost":16,
+            "mode":1,
+            "inputs": [
+                '16x ae2:certus_quartz_dust',
+                '16x minecraft:redstone',
+                '16x minecraft:blaze_powder',
+                '16x kubejs:spirit_shard'
+            ],
+            "id": "mundabitur_dust"
+        },
+        {
+            "output": '4x ae2lt:overload_alloy',
+            "cost":16,
+            "mode":1,
+            "inputs": [
+                '4x advanced_ae:quantum_alloy',
+                '4x ae2lt:overload_crystal_dust'
+            ],
+            "id": "overload_alloy"
         }
     ]
 

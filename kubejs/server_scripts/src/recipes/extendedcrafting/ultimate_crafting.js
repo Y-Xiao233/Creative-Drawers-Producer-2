@@ -248,11 +248,7 @@ ServerEvents.recipes(event =>{
                 "item": "cataclysm:witherite_ingot"
                 },
                 "F": {
-                "items": "ironfurnaces:million_furnace",
-                "components": {
-                    "minecraft:custom_name": "{\"extra\":[{\"color\":\"red\",\"text\":\"彩\"},{\"color\":\"green\",\"text\":\"虹\"},{\"color\":\"light_purple\",\"text\":\"熔\"},{\"color\":\"yellow\",\"text\":\"炉\"}],\"text\":\"\"}"
-                },
-                "type": "neoforge:components"
+                "item": "ironfurnaces:million_furnace"
                 },
                 "G": {
                 "item": "kubejs:quantum_control_circuit"

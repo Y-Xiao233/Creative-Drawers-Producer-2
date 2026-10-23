@@ -831,7 +831,8 @@ ServerEvents.recipes(event =>{
         "mekmm:processing/silver/raw/from_raw_block",
         "enderio_evolution:building/raw_silver_from_block",
         "create:crushing/raw_silver_block",
-        "naturesaura:animal_spawner/llama"
+        "naturesaura:animal_spawner/llama",
+        "avaritia:star_fuel_alternate"
     ]
 
     const by_type = [
